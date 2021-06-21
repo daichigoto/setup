@@ -4,12 +4,16 @@
 
 - [Ctrl2Cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)
 
-##### 「Caps Lock」を「Ctrl」へ入れ替える方法
+##### インストール方法
+
+    ZIPファイルを展開
+
+##### 「Caps Lock」を「Ctrl」へ入れ替え
 
     .\ctrl2cap.exe /install
     システムの再起動
 
-##### 「Caps Lock」と「Ctrl」の入れ替えを戻る方法
+##### 元に戻す
 
     .\ctrl2cap.exe /uninstall
     システムの再起動
