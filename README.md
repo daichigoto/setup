@@ -9,5 +9,10 @@
 
 [「Caps Lock」を「Ctrl」へ入れ替える設定](windows10-capslock-ctrl.md)
 
-## Git
+## Mac
 
+[新規購入Mac時 セットアップ]()  
+
+## FreeBSD
+
+[新規インストール時 セットアップ]()  
