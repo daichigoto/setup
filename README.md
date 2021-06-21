@@ -2,9 +2,9 @@
 
 ## Windows 10
 
-[test1](1.md)  
-[英語キーボードを使うときの設定](windows10-keyboard-us.md)  
-[「Caps Lock」を「Ctrl」へ入れ替える方法](windows10-capslock-ctrl.md)
+[新規購入PCセットアップ](windows10-new-pc-setup.md)  
+[英語キーボードを使う設定](windows10-keyboard-us.md)  
+[「Caps Lock」を「Ctrl」へ入れ替える設定](windows10-capslock-ctrl.md)
 
 ## Git
 
