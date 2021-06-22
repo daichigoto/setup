@@ -1,4 +1,4 @@
-# 「Caps Lock」を「Ctrl」にする設定
+# 「Caps Lock」を「Ctrl」へ入れ替える
 
 ## Ctrl2Cap
 
