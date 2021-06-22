@@ -70,7 +70,7 @@
 ## マウスをMacへ寄せる
 
 1. 設定アプリケーション：「デバイス」→「マウス」→「そのほかのマウスオプション」→「ハードウェア」→「対象マウス選択」→「プロパティ」→「詳細」→「ハードウェアID」→値をメモ
-2. レジストリエディタ：「HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device Parameters\FlipFlopWheel」の値を0から1へ変更
+2. レジストリエディタ：「HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\HID\＊\＊\Device Parameters\FlipFlopWheel」の値を0から1へ変更
 3. システムを再起動
 
 ## Windows-Mac間テキスト共有（ユニバーサルクリップボードもどき）
