@@ -20,7 +20,7 @@
 
 [セットアップ](hyperv-nested.md) 
 
-[ネスト仮想化 セットアップ](hyperv-setup-nested.md) 
+[ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
 [ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)
 
 ## Mac
