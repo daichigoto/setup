@@ -2,7 +2,7 @@
 
 ## Windows 11
 
-[WSL2 セットアップ]()
+[WSL2 セットアップ](windows11-setup-wsl2.md)
 
 ## Windows 10
 
@@ -14,7 +14,7 @@
 
 [「Caps Lock」を「Ctrl」へ入れ替え](windows10-capslock-ctrl.md)
 
-[WSL2 セットアップ]()
+[WSL2 セットアップ](windows10-setup-wsl2.md)
 
 ## Hyper-V
 
