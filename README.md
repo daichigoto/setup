@@ -1,5 +1,9 @@
 # Setup
 
+## Windows 11
+
+[WSL2 セットアップ]()
+
 ## Windows 10
 
 [新規購入PC時 セットアップ](windows10-new-pc-setup.md)  
@@ -10,9 +14,17 @@
 
 [「Caps Lock」を「Ctrl」へ入れ替え](windows10-capslock-ctrl.md)
 
+[WSL2 セットアップ]()
+
+## Hyper-V
+
+[WSL2 セットアップ]()
+
 ## Mac
 
 [新規購入M1 Mac時 セットアップ]()  
+[新規購入M1 Mac時 セットアップ (開発者向け)]()  
+[新規購入M1 Mac時 セットアップ (Winユーザ向け)]()  
 
 ## FreeBSD
 
