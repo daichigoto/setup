@@ -18,7 +18,7 @@
 
 ## Hyper-V
 
-[セットアップ](hyperv-nested.md) 
+[セットアップ](hyperv-setup.md) 
 
 [ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
 [ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)
