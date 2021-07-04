@@ -73,3 +73,4 @@
     sudo apt install language-pack-ja
     echo 'export LANG=ja_JP.UTF-8' >> ~/.bashrc
 
+てすと
