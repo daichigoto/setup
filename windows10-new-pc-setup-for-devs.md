@@ -46,7 +46,7 @@
 1. 設定アプリケーション：「アプリ」→「オプション機能」→「Windowsのその他の機能」→「Hyper-V」→「OK」
 2. システムを再起動
 
-### Windows 10 開発環境
+## Windows 10 開発環境
 
 1. Hyper-Vマネージャー：「クイック作成…」→「Windows 10 開発環境」→「仮想マシンの作成」→「接続」→「起動」
 2. 管理者権限：slmgr -rearm
@@ -64,7 +64,7 @@
 2. [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel)から「x64マシン用WSL2 Linuxカーネル更新プログラムパッケージ」をダウンロードおよびインストール
 3. wsl --set-default-version 2
 
-### Ubuntu
+## Ubuntu
 
 1. Microsoft Store：「Ubuntu 20.04 LTS」→「インストール」→「起動」
 
