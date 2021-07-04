@@ -68,6 +68,8 @@
 
 1. Microsoft Store：「Ubuntu 20.04 LTS」→「インストール」→「起動」
 
+てすと
+
     sudo apt update
     sudo apt upgrde
     sudo apt install language-pack-ja
