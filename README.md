@@ -11,10 +11,10 @@
 [新規購入PC時 セットアップ (Macユーザ向け)](windows10-new-pc-setup-for-mac.md)  
 
 [英語キーボードを使う設定](windows10-keyboard-us.md)  
-
 [「Caps Lock」を「Ctrl」へ入れ替え](windows10-capslock-ctrl.md)
 
 [WSL2 セットアップ](windows10-setup-wsl2.md)
+[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)
 
 ## Hyper-V
 
