@@ -15,11 +15,11 @@
 
 ##### ~/.ssh/config
 
-Host ホスト名  
-	Hostname	IPアドレス  
-	User		ユーザ名  
-	IdentityFile	~/.ssh/id_rsa  
-	ForwardAgent	yes  
+    Host ホスト名  
+            Hostname            IPアドレス  
+            User                ユーザ名  
+            IdentityFile        ~/.ssh/id_rsa  
+            ForwardAgent        yes  
 
 6. Github.comへ公開鍵を登録
 
