@@ -11,17 +11,17 @@
 [新規購入PC時 セットアップ (Macユーザ向け)](windows10-new-pc-setup-for-mac.md)  
 
 [英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
-[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)
+[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)  
 
-[WSL2 セットアップ](windows10-setup-wsl2.md)
-[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)
+[WSL2 セットアップ](windows10-setup-wsl2.md)  
+[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
 
 ## Hyper-V
 
-[セットアップ](hyperv-setup.md) 
+[セットアップ](hyperv-setup.md)  
 
 [ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
-[ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)
+[ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)  
 
 ## Mac
 
