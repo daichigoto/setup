@@ -1,31 +1,29 @@
-# 新規購入M1 Mac時 セットアップ (開発者向け)
+# 新規購入M1 Mac時 セットアップ (Winユーザ向け)
 
-1. App Store：「Display Menu」→「入手」
-2. ディスプレイ調整
-3. [AppCleaner](https://freemacsoft.net/appcleaner/)インストール
-4. [Homebrew](https://brew.sh/)インストール
+## MacのキーボードをWindowsへ寄せる
 
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-    eval "$(/opt/homebrew/bin/brew shellenv)"
+- システム環境設定：「キーボード」→「キーボード」→「修飾キー…」で修飾キーの位置をPCへ寄せる
 
-5. システム環境設定：「共有」→「リモートログイン」にチェックを入れSSH経由のログインを許可
+## ショートカットキーをWindowsへ寄せる
 
-    ssh-keygen
+- システム環境設定：「キーボード」→「ショートカット」
 
-##### ~/.ssh/config
+## トラックパッドをタッチパッドへ寄せる
 
-Host ホスト名
-	Hostname	IPアドレス
-	User		ユーザ名
-	IdentityFile	~/.ssh/id_rsa
-	ForwardAgent	yes
+- システム環境設定：「アクセシビリティ」→「ポインタコントロール」→「トラックパッドオプション…」→「ドラッグを有効にする」のチェックを入れて「ドラッグあり」を選択
 
-6. Github.comへ公開鍵を登録
+## マウスをWindowsへ寄せる
 
-    git config --global user.email "メールアドレス"
-    git config --global user.name "ユーザ名"
+- システム環境設定：「マウス」→「マウスの方向：ナチュラル」のチェックを外す
 
-7. [Visual Studio Code](https://code.visualstudio.com/)インストール
+## Mac-Windows間テキスト共有（Windows 10クラウドベースクリップボードもどき）
 
-    brew install visual-studio-code
+1. Google Drive
+
+## Mac-Windows間ファイル共有（近距離共有もどき）
+
+1. OneDrive
+
+## 日本語入力をWindowsへ寄せる
+
+- システム環境設定：「キーボード」→「入力ソース」→「日本語 - ローマ字入力」を選択し、「ライブ変換」のチェックを外して「Windows風のキー操作」にチェックを入れる
