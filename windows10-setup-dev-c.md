@@ -8,9 +8,9 @@
     winget install "Visual Studio Code"
     winget install Git.Git
 
-- 環境変数PATHに「C:\Program Files\LLVM\bin」と「C:\Program Files\Git\bin」を追加。
-- 設定アプリケーション：「アプリ」→「アプリと機能」→「Visual Studio Build Tools 2019」→「変更」→「C++によるデスクトップ環境」にチェックを入れ→「変更」→システムを再起動
-- Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
+1. 環境変数PATHに「C:\Program Files\LLVM\bin」と「C:\Program Files\Git\bin」を追加。
+2. 設定アプリケーション：「アプリ」→「アプリと機能」→「Visual Studio Build Tools 2019」→「変更」→「C++によるデスクトップ環境」にチェックを入れ→「変更」→システムを再起動
+3. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
 
 ##### tasks.json
 
