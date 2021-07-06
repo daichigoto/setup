@@ -25,6 +25,9 @@
 [ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
 [ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)  
 
+[Windows10 拡張セッション セットアップ](hyperv-setup-win10-extsession.md)
+[Windows11 拡張セッション セットアップ](hyperv-setup-win11-extsession.md)
+
 ## Mac
 
 [新規購入M1 Mac時 セットアップ](mac-new-m1-setup.md)  
