@@ -9,6 +9,7 @@
 [新規購入PC時 セットアップ](windows10-new-pc-setup.md)  
 [新規購入PC時 セットアップ (開発者向け)](windows10-new-pc-setup-for-devs.md)  
 [新規購入PC時 セットアップ (Macユーザ向け)](windows10-new-pc-setup-for-mac.md)  
+[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows10-new-pc-setup-for-battery.md)  
 
 [英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
 [「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)  
