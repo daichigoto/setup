@@ -2,6 +2,8 @@
 
 ## Windows 11
 
+[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
+
 [WSL2 セットアップ](windows11-setup-wsl2.md)
 
 ## Windows 10
