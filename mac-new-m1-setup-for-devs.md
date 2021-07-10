@@ -29,3 +29,8 @@
 7. [Visual Studio Code](https://code.visualstudio.com/)インストール
 
     brew install visual-studio-code
+
+8. ターミナル設定
+
+1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)インストール
+2. ターミナル：「環境設定」→「プロファイル」→「Basic」→「テキスト」→「変更…」→「すべてのフォント」→「Cascadia Mono PL」→サイズ「18」
