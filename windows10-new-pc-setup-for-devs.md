@@ -20,6 +20,9 @@
 ## PowerShell
 
     winget install Microsoft.PowerShell
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    ./tools/install-powershell.ps1
 
 ## Git
 
@@ -35,6 +38,15 @@
 ## Vim
 
     winget install vim
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    ./tools/install-vim.ps1
+
+## Commands
+
+    winget install GnuWin32.Grep
+
+    PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin
 
 ## Windowsサンドボックス
 
