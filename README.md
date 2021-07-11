@@ -13,7 +13,7 @@
 [新規購入PC時 セットアップ (Macユーザ向け)](windows10-new-pc-setup-for-mac.md)  
 [新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows10-new-pc-setup-for-battery.md)  
 [新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows10-new-pc-setup-for-home.md)  
-[新規購入PC時 セットアップ (ライティングツール)](windows10-new-pc-setup-for-writing.md)  
+[新規購入PC時 セットアップ (執筆環境)](windows10-new-pc-setup-for-writing.md)  
 
 [WSL2 セットアップ](windows10-setup-wsl2.md)  
 [C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
@@ -40,3 +40,5 @@
 ## FreeBSD
 
 [新規インストール時 セットアップ](freebsd-new-setup.md)  
+[新規インストール時 セットアップ (執筆環境)](freebsd-new-setup-for-writing.md)  
+
