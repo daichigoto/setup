@@ -40,15 +40,15 @@
 
     winget install vim
     
-    git clone git@github.com:daichigoto/config.git
-    cd config
-    ./tools/install-vim.ps1
-    
     mkdir ~\.cache\vim\dein
     cd ~\.cache\vim\dein\
     Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
     ./installer.ps1 .
     del ./installer.ps1
+    
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    ./tools/install-vim.ps1
     
     vim  ← プラグインインストールが完了するまでしばらく待つ
 
