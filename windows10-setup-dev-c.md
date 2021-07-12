@@ -7,6 +7,7 @@
     winget install LLVM
     winget install "Visual Studio Code"
     winget install Git.Git
+    winget install GnuWin32.Make
 
 1. 環境変数PATHに「C:\Program Files\LLVM\bin」と「C:\Program Files\Git\bin」を追加。
 2. 設定アプリケーション：「アプリ」→「アプリと機能」→「Visual Studio Build Tools 2019」→「変更」→「C++によるデスクトップ環境」にチェックを入れ→「変更」→システムを再起動
