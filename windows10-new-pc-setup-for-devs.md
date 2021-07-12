@@ -7,11 +7,12 @@
 ##### 認証鍵の生成
 
     ssh-keygen
+    ~/.ssh/id_rsa.pub をログインするホストの~/.ssh/authorized_keysに登録して回る
 
 ## Winget
 
 1. Microsoft Store：「アプリインストーラー」をインストール
-2. [Releases · microsoft/winget-cli · GitHub](https://github.com/microsoft/winget-cli/releases)からWingetをダウンロードおよびインストール
+2. [Winget](https://github.com/microsoft/winget-cli/releases)をインストール
 
 ## Windows Terminal
 
