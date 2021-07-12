@@ -17,6 +17,9 @@
 
     winget install "Windows Terminal"
 
+1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
+2. Windows Terminalのフォントを「Cascadia Mono PL」へ変更
+
 ## PowerShell
 
     winget install Microsoft.PowerShell
