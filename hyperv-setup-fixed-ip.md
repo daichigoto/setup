@@ -26,7 +26,7 @@
 ##### 実行するコマンド
 
     PS C:\Users\daichi> New-NetNat -Name "192.168.185.0/24" -InternalIPInterfaceAddressPrefix 192.168.185.0/24
-
+    
     Name                             : 192.168.185.0/24
     ExternalIPInterfaceAddressPrefix :
     InternalIPInterfaceAddressPrefix : 192.168.185.0/24
@@ -39,6 +39,6 @@
     UdpInboundRefresh                : False
     Store                            : Local
     Active                           : True
-     
+    
     
     PS C:\Users\daichi>
