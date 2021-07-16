@@ -37,7 +37,7 @@
 
 [新規購入M1 Mac時 セットアップ](mac-new-m1-setup.md)  
 [新規購入M1 Mac時 セットアップ (開発者向け)](mac-new-m1-setup-for-devs.md)  
-[新規購入M1 Mac時 セットアップ (Winユーザ向け)](mac-new-m1-setup-for-win.md)  
+[新規購入M1 Mac時 セットアップ (Windowsユーザ向け)](mac-new-m1-setup-for-win.md)  
 
 ## FreeBSD
 
