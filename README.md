@@ -31,6 +31,8 @@
 [Windows10 拡張セッション セットアップ](hyperv-setup-win10-extsession.md)
 [Windows11 拡張セッション セットアップ](hyperv-setup-win11-extsession.md)
 
+[固定ID セットアップ](hyperv-setup-fixed-ip.md)  
+
 ## Mac
 
 [新規購入M1 Mac時 セットアップ](mac-new-m1-setup.md)  
