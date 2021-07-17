@@ -5,7 +5,9 @@
     # server
     hostname="virt.ongs.co.jp"
     ifconfig_hn0="DHCP"
-    
+    #defaultrouter="192.168.185.1"
+    #ifconfig_hn0="inet 192.168.185.50 netmask 255.255.255.0"
+
     # sshd
     sshd_enable="YES"
     sshd_flags="-oUseDNS=no -oUsePAM=no -oPermitRootLogin=no -oChallengeResponseAuthentication=no -oPasswordAuthentication=no"
@@ -13,13 +15,19 @@
     # nginx
     nginx_enable="YES"
 
+## /etc/recolv.conf
+
+    nameserver 8.8.8.8
+
 ## ssh
 
     ssh-keygen
+    touch ~/.ssh/authorized_keys
+    chmod 600 ~/.ssh/authorized_keys
     ~/.ssh/authorized_keys にログイン元ホストの公開鍵登録
     ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録
 
-## ユーティリティインストール
+## ユーティリティ
 
     pkg install -y sudo
     pkg install -y git
