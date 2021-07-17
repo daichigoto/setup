@@ -4,6 +4,8 @@
 
 - 「拡張機能」→「Chrome ウェブストア」→「Create Link」→「Chrome に追加」
 
+##### Create Link設定
+
     Name    Format                                  Filter
     GLSD    <access ref="%url%">%title%</access>    s/&/&amp;/g
     Title   %title%                                 s/&/&amp;/g
