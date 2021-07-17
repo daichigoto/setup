@@ -15,8 +15,9 @@
 [新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows10-new-pc-setup-for-home.md)  
 [新規購入PC時 セットアップ (執筆環境)](windows10-new-pc-setup-for-writing.md)  
 
-[OpenSSHサーバ セットアップ](windows10-setup-sshd.md)  
 [Macへリモートアクセス セットアップ (Splashtop)](windows10-setup-access-to-mac.md)  
+
+[OpenSSHサーバ セットアップ](windows10-setup-sshd.md)  
 
 [WSL2 セットアップ](windows10-setup-wsl2.md)  
 [C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
