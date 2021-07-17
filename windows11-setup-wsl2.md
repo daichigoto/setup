@@ -2,7 +2,7 @@
 
     wsl --install -d Ubuntu
 
-##### Ubuntu初期セットアップ
+###### Ubuntu初期セットアップ
 
     sudo apt update
     sudo apt upgrde

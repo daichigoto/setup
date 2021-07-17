@@ -4,16 +4,16 @@
 
 - [Ctrl2Cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)
 
-##### インストール方法
+###### インストール方法
 
     ZIPファイルを展開
 
-##### 「Caps Lock」を「Ctrl」へ入れ替え
+###### 「Caps Lock」を「Ctrl」へ入れ替え
 
     .\ctrl2cap.exe /install
     システムの再起動
 
-##### 元に戻す
+###### 元に戻す
 
     .\ctrl2cap.exe /uninstall
     システムの再起動
@@ -22,7 +22,7 @@
 
 - [PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/install)
 
-##### インストール方法
+###### インストール方法
 
     winget install powertoys
 

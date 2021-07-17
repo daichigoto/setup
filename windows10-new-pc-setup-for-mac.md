@@ -4,19 +4,19 @@
 
 - [Ctrl2cap - Windows Sysinternals | Microsoft Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)
 
-##### 「Caps Lock」→「Ctrl」
+###### 「Caps Lock」→「Ctrl」
 
     .\ctrl2cap.exe /install
     システム再起動
 
-##### 元に戻す
+###### 元に戻す
 
     .\ctrl2cap.exe /uninstall
     システム再起動
 
 - [PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/install)
 
-##### インストール方法
+###### インストール方法
 
     winget install powertoys
 
@@ -44,7 +44,7 @@
 |「Win」＋「Shift」＋「}」|「Ctrl」＋「Tab」|すべて|タブを右へ移動|
 |「Win」＋「Shift」＋「{」|「Ctrl」＋「Shift」＋「Tab」|すべて|タブを左へ移動|
 
-##### 備考
+###### 備考
 
 1. Ctrl2Capは優先度が高い
 2. PowerToysは優先度が低い
@@ -59,7 +59,7 @@
 |Google Chrome|場所を開く…|^L|USキーボード向け|
 |Safari|場所を開く…|^L|USキーボード向け|
 
-##### 備考
+###### 備考
 
 1. 「Win」＋「L」はWindows 10ではスクリーンロック。このショートカットキーは変更が難しい。Mac側で「⌘」＋「L」を使わないようにすることでストレスを回避。
 

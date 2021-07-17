@@ -29,7 +29,7 @@
     pkg install -y tree
     pkg install -y bat
 
-##### /usr/local/etc/sudoers
+###### /usr/local/etc/sudoers
 
     --- /usr/local/etc/sudoers.dist 2021-07-01 16:07:41.000000000 +0900
     +++ /usr/local/etc/sudoers      2021-07-11 16:01:17.151297000 +0900
@@ -42,12 +42,12 @@
      ## Uncomment to allow members of group sudo to execute any command
      # %sudo        ALL=(ALL) ALL
 
-##### git
+###### git
 
     git config --global user.email "メールアドレス"
     git config --global user.name "ユーザ名"
 
-##### neovim
+###### neovim
 
     git clone https://github.com/daichigoto/config
     ./config/tools/install-nvim.sh
@@ -60,7 +60,7 @@
 
     nvim
 
-##### fish
+###### fish
 
     sudo pw usermod daichi -s /usr/local/bin/fish
     git clone https://github.com/daichigoto/config

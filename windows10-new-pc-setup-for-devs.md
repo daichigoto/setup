@@ -4,7 +4,7 @@
 
 - 設定アプリケーション：「アプリ」→「アプリと機能」→「オプション機能」→「機能の追加」→「OpenSSHクライアント」→「インストール」
 
-##### 認証鍵の生成
+###### 認証鍵の生成
 
     ssh-keygen
     ~/.ssh/id_rsa.pub をログインするホストの~/.ssh/authorized_keysに登録して回る
@@ -95,7 +95,7 @@
 1. Microsoft Store：「Ubuntu 20.04 LTS」→「インストール」→「起動」
 
 
-##### Ubuntu初期セットアップ
+###### Ubuntu初期セットアップ
 
     sudo apt update
     sudo apt upgrde

@@ -3,11 +3,11 @@
 1. 設定アプリケーション：「アプリ」→「オプション機能」→「機能の追加」→「OpenSSHサーバー」にチェック→「インストール」
 2. 設定ファイルを編集する。管理者権限のWindows Terminal：
 
-##### 設定ファイルを編集
+####### 設定ファイルを編集
 
     notepad C:\ProgramData\ssh\sshd_config
 
-##### 変更内容
+####### 変更内容
 
     C:\ProgramData\ssh>fc /n C:\Windows\System32\OpenSSH\sshd_config_default C:\ProgramData\ssh\sshd_config
     Comparing files C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default and C:\PROGRAMDATA\SSH\SSHD_CONFIG
@@ -25,16 +25,16 @@
 
 3. sshdの起動および自動起動設定を行う。管理者権限のWindows Terminal:
 
-##### sshdを起動する方法と自動起動を設定する方法
+####### sshdを起動する方法と自動起動を設定する方法
 
     Start-Service sshd # sshdを起動
     Set-Service -Name sshd -StartupType 'Automatic' # Windows起動時に自動的に起動
 
-##### sshdを再起動する方法
+####### sshdを再起動する方法
 
     Restart-Service sshd # sshdを再起動
 
-##### ファイアウォールを設置して外部からのアクセスを許可する方法
+####### ファイアウォールを設置して外部からのアクセスを許可する方法
 
     Get-NetFirewallRule -Name *ssh* # ファイウォールルールを確認
     New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22 # 外部からsshdへのアクセスを許可
@@ -43,6 +43,6 @@
 
 4. ユーザのデフォルトシェルをcmdからpwshへ変更する。
 
-###### OpenSSHのデフォルトシェルをpwshへ変更
+####### OpenSSHのデフォルトシェルをpwshへ変更
 
     New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force

@@ -14,7 +14,7 @@
 3. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
 3. Visual Studio Code：「Extensions」→「clangd」→「Install」
 
-##### tasks.json
+###### tasks.json
 
     {
         "version": "2.0.0",
@@ -38,7 +38,7 @@
         ]
     }
 
-##### launch.json
+###### launch.json
 
     {
         "version": "0.2.0",

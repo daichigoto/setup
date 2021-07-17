@@ -13,7 +13,7 @@
 
     ssh-keygen
 
-##### ~/.ssh/config
+###### ~/.ssh/config
 
     Host ホスト名  
             Hostname            IPアドレス  
