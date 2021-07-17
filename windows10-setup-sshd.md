@@ -40,3 +40,9 @@
     New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22 # 外部からsshdへのアクセスを許可
 
 ※ Hyper-Vのゲストからホストのsshdにアクセスする場合には上記ファイアウォールルールは不要。
+
+4. ユーザのデフォルトシェルをcmdからpwshへ変更する。
+
+###### OpenSSHのデフォルトシェルをpwshへ変更
+
+    New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force

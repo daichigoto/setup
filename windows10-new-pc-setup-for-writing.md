@@ -37,6 +37,10 @@
 
     仮想環境の公開鍵を$HOME/.ssh/authorized_keysへ追加
 
+##### シェルをpwshへ変更
+
+    New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force 
+
 ## ユーティリティ
 
 - [Sizer](http://www.brianapps.net/sizer/)
