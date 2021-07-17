@@ -12,9 +12,6 @@
     sshd_enable="YES"
     sshd_flags="-oUseDNS=no -oUsePAM=no -oPermitRootLogin=no -oChallengeResponseAuthentication=no -oPasswordAuthentication=no"
 
-    # nginx
-    nginx_enable="YES"
-
 ## /etc/recolv.conf
 
     nameserver 8.8.8.8
@@ -33,7 +30,6 @@
     pkg install -y git
     pkg install -y neovim
     pkg install -y fish
-    pkg install -y nginx
     pkg install -y tree
     pkg install -y bat
 
