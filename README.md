@@ -15,16 +15,16 @@
 [新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows10-new-pc-setup-for-home.md)  
 [新規購入PC時 セットアップ (執筆環境)](windows10-new-pc-setup-for-writing.md)  
 
-[クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
-
 [OpenSSHサーバ セットアップ](windows10-setup-sshd.md)  
-[Macへリモートアクセス セットアップ](windows10-setup-access-to-mac.md)  
+[Macへリモートアクセス セットアップ (Splashtop)](windows10-setup-access-to-mac.md)  
 
 [WSL2 セットアップ](windows10-setup-wsl2.md)  
 [C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
 
 [英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
 [「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)  
+
+[クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
 
 ## Hyper-V
 
@@ -44,7 +44,7 @@
 [新規購入M1 Mac時 セットアップ (開発者向け)](mac-new-m1-setup-for-devs.md)  
 [新規購入M1 Mac時 セットアップ (Windowsユーザ向け)](mac-new-m1-setup-for-win.md)  
 
-[Windowsへリモートアクセス セットアップ](mac-setup-access-to-win.md)  
+[Windowsへリモートアクセス セットアップ (Remote Desktop)](mac-setup-access-to-win.md)  
 
 ## FreeBSD
 
