@@ -1,6 +1,4 @@
-# 新規購入PC時 セットアップ (ライティングツール)
-
-- [Sizer](http://www.brianapps.net/sizer/)
+# 新規購入PC時 セットアップ (執筆環境)
 
 ## Microsoft Edge
 
@@ -9,3 +7,9 @@
     Name    Format                                  Filter
     GLSD    <access ref="%url%">%title%</access>    s/&/&amp;/g
     Title   %title%                                 s/&/&amp;/g
+
+## OpenSSHサーバ
+
+## ユーティリティ
+
+- [Sizer](http://www.brianapps.net/sizer/)
