@@ -41,6 +41,27 @@
 
     New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force 
 
+## wincmdserver
+
+###### misc
+
+    cd ~
+    mkdir Documents
+    cd Documents
+    git clone git@github.com:daichigoto/misc.git
+
+###### タスクスケジューラ
+
+    タスクスケジューラ：「タスクスケジューラ（ローカル）」→「基本タスクの作成」
+        名前                        wincmdserver
+        トリガー                    ログオン時
+        操作                        プログラムの開始
+        プログラム/スクリプト       "C:\Program Files\PowerShell\7\pwsh.exe"
+        引数の追加(オプション)      -WindowStyle Hidden -Command "C:\Users\daichi\Documents\misc\bin\wincmdserver.ps1"
+        開始(オプション)            C:\Users\daichi
+
+※ wincmdserverが動作していれば、ssh経由でWindows 10にログインしていても~/.wincmdserver_cmdにコマンドを書き込むことでGUIアプリケーションなども実行することができる。
+
 ## ユーティリティ
 
 - [Sizer](http://www.brianapps.net/sizer/)
