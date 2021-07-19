@@ -1,8 +1,31 @@
 # 新規購入PC時 セットアップ (執筆環境)
 
+## OneDrive
+
+###### タスクバー：「OneDrive」→「設定」→「アカウント」→「フォルダーの選択」
+
+    [ ]フォルダーに格納されていないファイル
+    [ ]デスクトップ
+    [ ]ドキュメント
+    [ ]個人用Vault
+    [✓]画像
+    　[✓]スクリーンショット
+
+「OneDrive/画像/スクリーンショット」以外の同期を停止する。
+
 ## Microsoft Edge
 
 - 「拡張機能」→「Chrome ウェブストア」→「Create Link」→「Chrome に追加」
+
+###### chrome-ext
+
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/chrome-ext.git
+
+- 「拡張機能」→「開発者モード」→「ON」
+- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択」
+- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\mncms」→「フォルダーの選択」
+- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\iscms」→「フォルダーの選択」
 
 ###### Create Link設定
 
