@@ -10,11 +10,6 @@
     GLSD    <access ref="%url%">%title%</access>    s/&/&amp;/g
     Title   %title%                                 s/&/&amp;/g
 
-## Screenpresso
-
-    winget uninstall "ペイント 3D"
-    winget install Screenpresso
-
 ## OpenSSHサーバ
 
 - 設定アプリケーション：「アプリ」→「オプション機能」→「機能の追加」→「OpenSSHサーバー」にチェック→「インストール」
@@ -70,6 +65,7 @@
 ## ユーティリティ
 
 - [Sizer](http://www.brianapps.net/sizer/)
+- [PhotoScape X](http://x.photoscape.org/)
 
 ###### ユーティリティコマンドインストール
 
