@@ -26,6 +26,9 @@
 - 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択」
 - 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\mncms」→「フォルダーの選択」
 - 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\iscms」→「フォルダーの選択」
+- アドレスバー右横：「glsdtool」→「メニューへ移動」
+- アドレスバー右横：「mncms」→「メニューへ移動」
+- アドレスバー右横：「iscms」→「メニューへ移動」
 
 ###### Create Link設定
 
