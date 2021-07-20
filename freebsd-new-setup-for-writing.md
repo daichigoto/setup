@@ -25,6 +25,7 @@
 ## ユーティリティ
 
     sudo pkg install zip
+    sudo pkg install gsed
     sudo pkg install GraphicsMagick
     sudo pkg install nginx
 
