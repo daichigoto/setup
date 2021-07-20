@@ -1,41 +1,5 @@
 # 新規購入PC時 セットアップ (執筆環境)
 
-## OneDrive
-
-###### タスクバー：「OneDrive」→「設定」→「アカウント」→「フォルダーの選択」
-
-    [ ]フォルダーに格納されていないファイル
-    [ ]デスクトップ
-    [ ]ドキュメント
-    [ ]個人用Vault
-    [✓]画像
-    　[✓]スクリーンショット
-
-「OneDrive/画像/スクリーンショット」以外の同期を停止する。
-
-## Microsoft Edge
-
-- 「拡張機能」→「Chrome ウェブストア」→「Create Link」→「Chrome に追加」
-
-###### chrome-ext
-
-    cd ~/Documents/
-    git clone git@github.com:daichigoto/chrome-ext.git
-
-- 「拡張機能」→「開発者モード」→「ON」
-- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択」
-- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\mncms」→「フォルダーの選択」
-- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\iscms」→「フォルダーの選択」
-- アドレスバー右横：「glsdtool」→「メニューへ移動」
-- アドレスバー右横：「mncms」→「メニューへ移動」
-- アドレスバー右横：「iscms」→「メニューへ移動」
-
-###### Create Link設定
-
-    Name    Format                                  Filter
-    GLSD    <access ref="%url%">%title%</access>    s/&/&amp;/g
-    Title   %title%                                 s/&/&amp;/g
-
 ## OpenSSHサーバ
 
 - 設定アプリケーション：「アプリ」→「オプション機能」→「機能の追加」→「OpenSSHサーバー」にチェック→「インストール」
@@ -88,6 +52,42 @@
 
 ※ wincmdserverが動作していれば、ssh経由でWindows 10にログインしていても~/.wincmdserver_cmdにコマンドを書き込むことでGUIアプリケーションなども実行することができる。
 
+## OneDrive
+
+###### タスクバー：「OneDrive」→「設定」→「アカウント」→「フォルダーの選択」
+
+    [ ]フォルダーに格納されていないファイル
+    [ ]デスクトップ
+    [ ]ドキュメント
+    [ ]個人用Vault
+    [✓]画像
+    　[✓]スクリーンショット
+
+「OneDrive/画像/スクリーンショット」以外の同期を停止する。
+
+## Microsoft Edge
+
+- 「拡張機能」→「Chrome ウェブストア」→「Create Link」→「Chrome に追加」
+
+###### chrome-ext
+
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/chrome-ext.git
+
+- 「拡張機能」→「開発者モード」→「ON」
+- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択」
+- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\mncms」→「フォルダーの選択」
+- 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\iscms」→「フォルダーの選択」
+- アドレスバー右横：「glsdtool」→「メニューへ移動」
+- アドレスバー右横：「mncms」→「メニューへ移動」
+- アドレスバー右横：「iscms」→「メニューへ移動」
+
+###### Create Link設定
+
+    Name    Format                                  Filter
+    GLSD    <access ref="%url%">%title%</access>    s/&/&amp;/g
+    Title   %title%                                 s/&/&amp;/g
+
 ## ユーティリティ
 
 - [Sizer](http://www.brianapps.net/sizer/)
@@ -104,4 +104,5 @@
 
     PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin 
 
-    送信用アカウントをThunderbirdへ追加
+- Firefox：「ツールバー」→「Customize Toolbar...」→「Screenshot」追加→「done」
+- Thunderbird：送信用アカウント追加
