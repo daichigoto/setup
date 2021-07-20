@@ -36,10 +36,6 @@
     GLSD    <access ref="%url%">%title%</access>    s/&/&amp;/g
     Title   %title%                                 s/&/&amp;/g
 
-## Thunderbird
-
-- 送信用メールアカウントを追加
-
 ## OpenSSHサーバ
 
 - 設定アプリケーション：「アプリ」→「オプション機能」→「機能の追加」→「OpenSSHサーバー」にチェック→「インストール」
@@ -96,9 +92,16 @@
 
 - [Sizer](http://www.brianapps.net/sizer/)
 - [PhotoScape X](http://x.photoscape.org/)
+- Firefox
+- Thunderbird
+- grep
 
-###### ユーティリティコマンドインストール
+###### インストール
 
+    winget install Mozilla.Firefox
+    winget install Mozilla.Thunderbird
     winget install GnuWin32.Grep
 
     PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin 
+
+    送信用アカウントをThunderbirdへ追加
