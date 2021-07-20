@@ -104,5 +104,5 @@
 
     PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin 
 
-- Firefox：「ツールバー」→「Customize Toolbar...」→「Screenshot」追加→「done」
+- Firefox：「ツールバー」→「ツールバーをカスタマイズ」→「スクリーンショット」追加→「完了」
 - Thunderbird：送信用アカウント追加
