@@ -112,7 +112,6 @@
 
 - [Sizer](http://www.brianapps.net/sizer/)
 - [PhotoScape X](http://x.photoscape.org/)
-- Firefox
 - Thunderbird
 - grep
 
