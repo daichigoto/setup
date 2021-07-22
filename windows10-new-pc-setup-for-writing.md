@@ -31,9 +31,7 @@
 
     New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force 
 
-## wincmdserver
-
-###### misc
+## misc
 
     cd ~
     mkdir Documents
@@ -41,6 +39,8 @@
     git clone git@github.com:daichigoto/misc.git
 
 - PATHへ追加 - ${HOME}/Documents/misc/bin
+
+## wincmdserver
 
 ###### タスクスケジューラ
 
@@ -52,6 +52,7 @@
         引数の追加(オプション)      -WindowStyle Hidden -Command "C:\Users\daichi\Documents\misc\bin\wincmdserver.ps1"
         開始(オプション)            C:\Users\daichi
 
+※ miscをインストールしてから作業すること。
 ※ wincmdserverが動作していれば、ssh経由でWindows 10にログインしていても~/.wincmdserver_cmdにコマンドを書き込むことでGUIアプリケーションなども実行することができる。
 
 ## OneDrive
@@ -103,8 +104,8 @@
 
 |Title|Format|
 |:---|:---|
-|GSML|<access ref="{{url}}">{{text.s("&","&amp;")}}</access>|
-|Title|{{text.s("&","&amp;")}}|
+|GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;|
+|Title|{{text.s("&amp;","&amp;amp;")}}|
 
 ## ユーティリティ
 
