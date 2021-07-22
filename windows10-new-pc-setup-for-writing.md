@@ -87,9 +87,10 @@
 
 ###### Create Link設定
 
-    Name    Format                                  Filter
-    GLSD    <access ref="%url%">%title%</access>    s/&/&amp;/g
-    Title   %title%                                 s/&/&amp;/g
+|Name|Format|Filter|
+|:---|:---|:---|
+|GSML|&lt;access ref="%url%"&gt;%title%&lt;/access&gt;|s/&amp;/&amp;amp;/g|
+|Title|%title%|s/&amp;/&amp;amp;/g|
 
 ## Firefox
 
