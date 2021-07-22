@@ -40,6 +40,8 @@
     cd Documents
     git clone git@github.com:daichigoto/misc.git
 
+- PATHへ追加 - ${HOME}/Documents/misc/bin
+
 ###### タスクスケジューラ
 
     タスクスケジューラ：「タスクスケジューラ（ローカル）」→「基本タスクの作成」
@@ -88,6 +90,22 @@
     GLSD    <access ref="%url%">%title%</access>    s/&/&amp;/g
     Title   %title%                                 s/&/&amp;/g
 
+## Firefox
+
+###### インストール
+
+    winget install Mozilla.Firefox
+
+- Firefox：「ツールバー」→「ツールバーをカスタマイズ」→「スクリーンショット」追加→「完了」
+
+1. 「アドオンとテーマ」→「拡張機能」→「他のアドオンを検索」→「Format Link」→「Firefoxへ追加」
+2. 「アドオンとテーマ」→「拡張機能」→「Format Link」→「オプション」
+
+|Title|Format|
+|:---|:---|
+|GSML|<access ref="{{url}}">{{text.s("&","&amp;")}}</access>|
+|Title|{{text.s("&","&amp;")}}|
+
 ## ユーティリティ
 
 - [Sizer](http://www.brianapps.net/sizer/)
@@ -98,11 +116,9 @@
 
 ###### インストール
 
-    winget install Mozilla.Firefox
     winget install Mozilla.Thunderbird
     winget install GnuWin32.Grep
 
-    PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin 
+- PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin 
 
-- Firefox：「ツールバー」→「ツールバーをカスタマイズ」→「スクリーンショット」追加→「完了」
 - Thunderbird：送信用アカウント追加
