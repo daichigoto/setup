@@ -108,18 +108,22 @@
 |GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;|
 |Title|{{text.s("&amp;","&amp;amp;")}}|
 
-## ユーティリティ
-
-- [Sizer](http://www.brianapps.net/sizer/)
-- [PhotoScape X](http://x.photoscape.org/)
-- Thunderbird
-- grep
+## Thunderbird
 
 ###### インストール
 
     winget install Mozilla.Thunderbird
+
+- Thunderbird：送信用アカウント追加
+
+## ユーティリティ
+
+- [Sizer](http://www.brianapps.net/sizer/)
+- [PhotoScape X](http://x.photoscape.org/)
+- grep
+
+###### インストール
+
     winget install GnuWin32.Grep
 
 - PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin 
-
-- Thunderbird：送信用アカウント追加
