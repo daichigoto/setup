@@ -42,15 +42,28 @@
 
 ## wincmdserver
 
-###### タスクスケジューラ
+- タスクスケジューラ：「タスクスケジューラ（ローカル）」→「基本タスクの作成」
 
-    タスクスケジューラ：「タスクスケジューラ（ローカル）」→「基本タスクの作成」
-        名前                        wincmdserver
-        トリガー                    ログオン時
-        操作                        プログラムの開始
-        プログラム/スクリプト       "C:\Program Files\PowerShell\7\pwsh.exe"
-        引数の追加(オプション)      -WindowStyle Hidden -Command "C:\Users\daichi\Documents\misc\bin\wincmdserver.ps1"
-        開始(オプション)            C:\Users\daichi
+###### タスクスケジューラ基本タスクの作成内容　
+
+|項目|内容|
+|:---|:---|
+|名前|wincmdserver|
+|トリガー|ログオン時|
+|操作|プログラムの開始|
+|プログラム/スクリプト|"C:\Program Files\PowerShell\7\pwsh.exe"|
+|引数の追加(オプション)|-WindowStyle Hidden -Command "C:\Users\daichi\Documents\misc\bin\wincmdserver.ps1"|
+|開始(オプション)|C:\Users\daichi|
+
+- タスクスケジューラ：「タスクスケジューラ(ローカル)」→「タスクスケジューラライブラリ」→「wincmdserver」→「プロパティ」
+
+###### wincmdserverのプロパティ
+
+|タブ|内容|
+|:---|:---|
+|条件|コンピュータをAC電源で使用している場合のみタスクを開始する|☐|
+|条件|コンピュータの電源をバッテリに切り替える場合は停止する☐|
+|設定|タスクを停止するまでの時間|☐|
 
 ※ miscをインストールしてから作業すること。
 ※ wincmdserverが動作していれば、ssh経由でWindows 10にログインしていても~/.wincmdserver_cmdにコマンドを書き込むことでGUIアプリケーションなども実行することができる。
