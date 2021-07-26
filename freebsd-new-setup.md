@@ -16,6 +16,10 @@
 
     nameserver 8.8.8.8
 
+## 時刻調整
+
+    service ntpdate onestart
+
 ## ssh
 
     ssh-keygen
