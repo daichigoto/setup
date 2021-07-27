@@ -23,13 +23,19 @@
     Start-Service sshd # sshdを起動
     Set-Service -Name sshd -StartupType 'Automatic' # Windows起動時に自動的に起動
 
-###### $HOME/.ssh/authorized_keys
-
-    仮想環境の公開鍵を$HOME/.ssh/authorized_keysへ追加
-
 ###### シェルをpwshへ変更
 
     New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force 
+
+###### 認証鍵生成
+
+    ssh-keygen
+
+###### $HOME/.ssh/authorized_keys
+
+- ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録
+- リモートアクセスしてくるホストの公開鍵を$HOME/.ssh/authorized_keysへ追加
+- 仮想環境の公開鍵を$HOME/.ssh/authorized_keysへ追加
 
 ## misc
 
