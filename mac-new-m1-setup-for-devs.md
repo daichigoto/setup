@@ -17,7 +17,11 @@
 ###### 認証鍵生成
 
     ssh-keygen
-    ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録
+
+###### $HOME/.ssh/authorized_keys
+
+- ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録
+- リモートアクセスしてくるホストの公開鍵を$HOME/.ssh/authorized_keysへ追加
 
 ###### ~/.ssh/config に追加するアクセス設定
 
