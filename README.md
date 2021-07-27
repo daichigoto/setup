@@ -22,7 +22,7 @@
 [WSL2 セットアップ](windows10-setup-wsl2.md)  
 [C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
 
-［ ］[英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
+［　］[英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)  
 
 [クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
