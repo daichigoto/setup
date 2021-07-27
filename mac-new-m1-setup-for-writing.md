@@ -37,12 +37,56 @@
 
 ※ [Homebrew](https://brew.sh/)に掲載されている最新のインストール方法を参照すること。
 
-
 ## OneDrive
 
 ###### インストール方法
 
     brew install onedrive
+
+## Google Chrome
+
+###### インストール方法
+
+    brew install google-chrome
+
+- 「その他のツール」→「拡張機能」→「Chrome ウェブストアを開きます」→「Create Link」→「Chrome に追加」 
+
+###### Create Link設定
+
+|Name|Format|Filter|
+|:---|:---|:---|
+|GSML|&lt;access ref="%url%"&gt;%title%&lt;/access&gt;|s/&amp;/&amp;amp;/g|
+|Title|%title%|s/&amp;/&amp;amp;/g|
+
+###### chrome-ext
+
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/chrome-ext.git
+
+- 「その他のツール」→「拡張機能」→「デベロッパーモード」→「ON」
+- 「その他のツール」→「拡張機能」→「パッケージ化されていない拡張機能を読み込む」→「書類: chrome-ext＞glsdtool」→「選択」
+- 「その他のツール」→「拡張機能」→「パッケージ化されていない拡張機能を読み込む」→「書類: chrome-ext＞mncms」→「選択」
+- 「その他のツール」→「拡張機能」→「パッケージ化されていない拡張機能を読み込む」→「書類: chrome-ext＞iscms」→「選択」
+- アドレスバー右横：「拡張機能」→「Create Link」→「固定」
+- アドレスバー右横：「拡張機能」→「GLSD Tool」→「固定を解除」
+- アドレスバー右横：「拡張機能」→「Mynavi IT」→「固定を解除」
+- アドレスバー右横：「拡張機能」→「Mynavi Event」→「固定を解除」
+
+## Firefox
+
+###### インストール方法
+
+    brew install firefox
+
+- Firefox：「ツールバー」→「ツールバーをカスタマイズ」→「スクリーンショット」追加→「完了」
+
+1. 「アドオンとテーマ」→「拡張機能」→「他のアドオンを検索」→「Format Link」→「Firefoxへ追加」
+2. 「アドオンとテーマ」→「拡張機能」→「Format Link」→「設定」
+
+|Title|Format|HTML|
+|:---|:---|:---|
+|GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;||
+|Title|{{text.s("&amp;","&amp;amp;")}}||
 
 ## Neovim
 

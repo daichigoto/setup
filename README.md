@@ -46,7 +46,7 @@
 ［　］[新規インストール時 セットアップ](freebsd-new-setup.md)  
 ［　］[新規インストール時 セットアップ (執筆環境)](freebsd-new-setup-for-writing.md)  
 
-## Hyper-V
+## 仮想環境 -  Hyper-V
 
 ［　］[セットアップ](hyperv-setup.md)  
 
@@ -57,3 +57,7 @@
 
 ［✓］[ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
 ［✓］[ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)  
+
+## 仮想環境 - Parallels Desktop
+
+［　］[FreeBSDゲスト セットアップ](parallels-setup-freebsd.md)  
