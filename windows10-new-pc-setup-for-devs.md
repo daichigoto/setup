@@ -49,7 +49,8 @@
     Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
     ./installer.ps1 .
     del ./installer.ps1
-    
+   
+    cd ~/Documents/
     git clone git@github.com:daichigoto/config.git
     cd config
     ./tools/install-vim.ps1

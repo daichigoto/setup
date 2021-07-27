@@ -27,4 +27,49 @@
     git config --global user.email "メールアドレス"
     git config --global user.name "ユーザ名"
 
+## Homebrew
 
+###### インストール方法
+
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile  
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
+※ [Homebrew](https://brew.sh/)に掲載されている最新のインストール方法を参照すること。
+
+
+## OneDrive
+
+###### インストール方法
+
+    brew install onedrive
+
+## Neovim
+
+###### インストール方法
+
+    brew install neovim
+    
+    mkdir -p ~/.cache/nvim/dein
+    cd ~/.cache/nvim/dein/
+    curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+    sh ./installer.sh .
+    rm ./installer.sh
+   
+    mkdir -p ~/Documents
+    cd ~/Documents/ 
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    ./tools/install-nvim.sh
+    
+    nvim  ← プラグインインストールが完了するまでしばらく待つ
+
+## misc
+
+    cd ~
+    mkdir Documents
+    cd Documents
+    git clone git@github.com:daichigoto/misc.git
+    
+    echo 'export PATH="${HOME}/Documents/misc/bin:${PATH}";' >> ~/.zprofile
+    source ~/.zprofile

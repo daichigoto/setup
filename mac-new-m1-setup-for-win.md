@@ -18,11 +18,17 @@
 
 ## Mac-Windows間テキスト共有（Windows 10クラウドベースクリップボードもどき）
 
-1. Google Drive
+- Google Drive
 
 ## Mac-Windows間ファイル共有（近距離共有もどき）
 
-1. OneDrive
+- OneDrive
+
+###### インストール方法
+
+    brew install onedrive
+
+※ homebrewをインストールしていない場合、[新規購入m1 mac時 セットアップ (開発者向け)](mac-new-m1-setup-for-devs.md)などを参考に先にhomebrewをインストールすること。
 
 ## 日本語入力をWindowsへ寄せる
 
