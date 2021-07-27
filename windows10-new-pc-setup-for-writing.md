@@ -91,6 +91,13 @@
 
 - 「拡張機能」→「Chrome ウェブストア」→「Create Link」→「Chrome に追加」
 
+###### Create Link設定
+
+|Name|Format|Filter|
+|:---|:---|:---|
+|GSML|&lt;access ref="%url%"&gt;%title%&lt;/access&gt;|s/&amp;/&amp;amp;/g|
+|Title|%title%|s/&amp;/&amp;amp;/g|
+
 ###### chrome-ext
 
     cd ~/Documents/
@@ -103,13 +110,6 @@
 - アドレスバー右横：「glsdtool」→「メニューへ移動」
 - アドレスバー右横：「mncms」→「メニューへ移動」
 - アドレスバー右横：「iscms」→「メニューへ移動」
-
-###### Create Link設定
-
-|Name|Format|Filter|
-|:---|:---|:---|
-|GSML|&lt;access ref="%url%"&gt;%title%&lt;/access&gt;|s/&amp;/&amp;amp;/g|
-|Title|%title%|s/&amp;/&amp;amp;/g|
 
 ## Firefox
 
