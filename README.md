@@ -27,18 +27,6 @@
 
 [クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
 
-## Hyper-V
-
-[セットアップ](hyperv-setup.md)  
-
-[Windows11 拡張セッション セットアップ](hyperv-setup-win11-extsession.md)  
-[Windows10 拡張セッション セットアップ](hyperv-setup-win10-extsession.md)  
-
-[仮想スイッチ ネットワーク固定IP使用 セットアップ](hyperv-setup-fixed-ip.md)  
-
-[ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
-[ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)  
-
 ## M1 Mac
 
 [新規購入M1 Mac時 セットアップ](mac-new-m1-setup.md)  
@@ -53,3 +41,14 @@
 [新規インストール時 セットアップ](freebsd-new-setup.md)  
 [新規インストール時 セットアップ (執筆環境)](freebsd-new-setup-for-writing.md)  
 
+## Hyper-V
+
+[セットアップ](hyperv-setup.md)  
+
+[Windows11 拡張セッション セットアップ](hyperv-setup-win11-extsession.md)  
+[Windows10 拡張セッション セットアップ](hyperv-setup-win10-extsession.md)  
+
+[仮想スイッチ ネットワーク固定IP使用 セットアップ](hyperv-setup-fixed-ip.md)  
+
+[ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
+[ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)  
