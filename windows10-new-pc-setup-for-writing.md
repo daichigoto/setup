@@ -122,10 +122,10 @@
 1. 「アドオンとテーマ」→「拡張機能」→「他のアドオンを検索」→「Format Link」→「Firefoxへ追加」
 2. 「アドオンとテーマ」→「拡張機能」→「Format Link」→「オプション」
 
-|Title|Format|
-|:---|:---|
-|GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;|
-|Title|{{text.s("&amp;","&amp;amp;")}}|
+|Title|Format|HTML|
+|:---|:---|:---|
+|GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;||
+|Title|{{text.s("&amp;","&amp;amp;")}}||
 
 ## Thunderbird
 
