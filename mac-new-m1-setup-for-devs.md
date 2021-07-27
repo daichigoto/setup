@@ -23,7 +23,7 @@
 - ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録
 - リモートアクセスしてくるホストの公開鍵を$HOME/.ssh/authorized_keysへ追加
 
-###### ~/.ssh/config に追加するアクセス設定
+###### ~/.ssh/config に追加するアクセス先の設定
 
     Host ホスト名  
             Hostname            IPアドレス  
