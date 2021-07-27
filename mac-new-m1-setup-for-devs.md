@@ -2,15 +2,17 @@
 
 ## Homebrew
 
-###### [Homebrew](https://brew.sh/)インストール
+###### インストール方法
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile  
     eval "$(/opt/homebrew/bin/brew shellenv)"
 
+※ [Homebrew](https://brew.sh/)に掲載されている最新のインストール方法を参照すること。
+
 ## OpenSSH
 
-- システム環境設定：「共有」→「リモートログイン」にチェックし、SSH経由のログインを許可
+- システム環境設定：「共有」→「リモートログイン」にチェック（SSH経由のログインを許可）
 
 ###### 認証鍵生成
 
@@ -25,7 +27,7 @@
             IdentityFile        ~/.ssh/id_rsa  
             ForwardAgent        yes  
 
-###### Github.comへ公開鍵を登録してから行うアクセス設定
+###### Github.comへ公開鍵を登録してからアクセス設定を実施
 
     git config --global user.email "メールアドレス"  
     git config --global user.name "ユーザ名"
@@ -39,7 +41,7 @@
 ## Mac Terminal
 
 1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)インストール
-2. ターミナル：「環境設定」→「プロファイル」→「Basic」→「テキスト」→「変更…」→「すべてのフォント」→「Cascadia Mono PL」→書体「エクストラ・ライト」→サイズ「16」
+2. ターミナル：「環境設定」→「プロファイル」→「Basic」→「テキスト」→「変更…」→「すべてのフォント」→「Cascadia Mono PL」→書体「エクストラ・ライト」→サイズ「14」
 
 ## Display Menu
 
