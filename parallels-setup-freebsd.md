@@ -1,4 +1,4 @@
-# Parallels Desktop - FreeBSDゲストセットアップ
+# Parallels Desktop (M1 Mac) - FreeBSDゲストセットアップ
 
 1. FreeBSDインストーラISOイメージ(aarch64版)を[ダウンロード](https://download.freebsd.org/ftp/releases/arm64/aarch64/ISO-IMAGES/)
 2. Parallels Desktop：「ファイル」→「新規」→「続行」→「DVD/イメージファイルからWindows/その他OSをインストール」→「手動で選択する」→ダウンロードしたISOファイルを選択→「続行」→「その他」→「OK」→名前「FreeBSD Virt」→「インストール前に構成をカスタマイズする」にチェック→「作成」
