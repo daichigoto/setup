@@ -58,6 +58,6 @@
 ［✓］[ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
 ［✓］[ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)  
 
-## 仮想環境 - Parallels Desktop
+## 仮想環境 - Parallels Desktop (M1 Mac)
 
 ［　］[FreeBSDゲスト セットアップ](parallels-setup-freebsd.md)  
