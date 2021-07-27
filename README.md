@@ -2,7 +2,7 @@
 
 ## Windows 11
 
-［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)
+［✓］※[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)
 
 ［？］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
 
@@ -11,7 +11,7 @@
 ## Windows 10
 
 ［✓］[新規購入PC時 セットアップ](windows10-new-pc-setup.md)  
-［✓］[新規購入PC時 セットアップ (ビジネスマン向け)](windows10-new-pc-setup-for-biz.md)  
+［✓］※[新規購入PC時 セットアップ (ビジネスマン向け)](windows10-new-pc-setup-for-biz.md)  
 ［✓］[新規購入PC時 セットアップ (開発者向け)](windows10-new-pc-setup-for-devs.md)  
 ［✓］[新規購入PC時 セットアップ (Macユーザ向け)](windows10-new-pc-setup-for-mac.md)  
 ［✓］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows10-new-pc-setup-for-battery.md)  
@@ -33,7 +33,7 @@
 ## M1 Mac
 
 ［✓］[新規購入M1 Mac時 セットアップ](mac-new-m1-setup.md)  
-［✓］[新規購入M1 Mac時 セットアップ (ビジネスマン向け)](mac-new-m1-setup-for-biz.md)  
+［✓］※[新規購入M1 Mac時 セットアップ (ビジネスマン向け)](mac-new-m1-setup-for-biz.md)  
 ［✓］[新規購入M1 Mac時 セットアップ (開発者向け)](mac-new-m1-setup-for-devs.md)  
 ［✓］[新規購入M1 Mac時 セットアップ (Windowsユーザ向け)](mac-new-m1-setup-for-win.md)  
 ［　］[新規購入M1 Mac時 セットアップ (執筆環境)](mac-new-m1-setup-for-writing.md)  
