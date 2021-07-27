@@ -1,19 +1,23 @@
 # 新規購入M1 Mac時 セットアップ (開発者向け)
 
-1. App Store：「Display Menu」→「入手」
-2. ディスプレイ調整
-3. [AppCleaner](https://freemacsoft.net/appcleaner/)インストール
-4. [Homebrew](https://brew.sh/)インストール
+## Homebrew
+
+###### [Homebrew](https://brew.sh/)インストール
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile  
     eval "$(/opt/homebrew/bin/brew shellenv)"
 
-5. システム環境設定：「共有」→「リモートログイン」にチェックを入れSSH経由のログインを許可
+## OpenSSH
+
+- システム環境設定：「共有」→「リモートログイン」にチェックし、SSH経由のログインを許可
+
+###### 認証鍵生成
 
     ssh-keygen
+    ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録
 
-###### ~/.ssh/config
+###### ~/.ssh/config に追加するアクセス設定
 
     Host ホスト名  
             Hostname            IPアドレス  
@@ -21,16 +25,28 @@
             IdentityFile        ~/.ssh/id_rsa  
             ForwardAgent        yes  
 
-6. Github.comへ公開鍵を登録
+###### Github.comへ公開鍵を登録してから行うアクセス設定
 
     git config --global user.email "メールアドレス"  
     git config --global user.name "ユーザ名"
 
-7. [Visual Studio Code](https://code.visualstudio.com/)インストール
+## Visual Studio Code
+
+###### インストール方法
 
     brew install visual-studio-code
 
-8. ターミナル設定
+## Mac Terminal
 
 1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)インストール
-2. ターミナル：「環境設定」→「プロファイル」→「Basic」→「テキスト」→「変更…」→「すべてのフォント」→「Cascadia Mono PL」→サイズ「18」
+2. ターミナル：「環境設定」→「プロファイル」→「Basic」→「テキスト」→「変更…」→「すべてのフォント」→「Cascadia Mono PL」→書体「エクストラ・ライト」→サイズ「16」
+
+## Display Menu
+
+1. App Store：「Display Menu」→「入手」
+2. ディスプレイ調整
+
+## AppCleaner
+
+- [AppCleaner](https://freemacsoft.net/appcleaner/)インストール
+
