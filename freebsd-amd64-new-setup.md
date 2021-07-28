@@ -63,7 +63,7 @@
     sh ./installer.sh .
     rm ./installer.sh
 
-    mkdir ~/Documents
+    mkdir -p ~/Documents
 		cd ~/Documents
     git clone https://github.com/daichigoto/config
     ./config/tools/install-nvim.sh
