@@ -5,6 +5,14 @@
     ~/Documents/tttcmds/bin を追加
     ~/Documents/misc/bin を追加
 
+###### sh系
+
+    export PATH=/Documents/tttcmds/bin:~/Documents/misc/bin:$PATH
+
+###### fish
+
+    set -x PATH ~/Documents/tttcmds/bin ~/Documents/misc/bin $PATH
+
 ## tttcmds
 
     mkdir -p ~/Documents
