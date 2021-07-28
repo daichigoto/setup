@@ -1,4 +1,4 @@
-# FreeBSD新規インストール時 セットアップ
+# FreeBSD新規インストール時(amd64) セットアップ
 
 ## /etc/rc.conf
 

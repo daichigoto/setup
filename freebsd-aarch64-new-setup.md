@@ -1,4 +1,4 @@
-# FreeBSD新規インストール時 セットアップ
+# FreeBSD新規インストール時(aarch64) セットアップ
 
 ## /etc/rc.conf
 
