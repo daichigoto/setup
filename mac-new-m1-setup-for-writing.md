@@ -1,4 +1,4 @@
-# 新規購入M1 Mac時 セットアップ (執筆環境)
+# 新規購入M1 Mac時 セットアップ (筆
 
 ## OpenSSH
 
@@ -116,4 +116,15 @@
     git clone git@github.com:daichigoto/misc.git
     
     echo 'export PATH="${HOME}/Documents/misc/bin:${PATH}";' >> ~/.zprofile
+    source ~/.zprofile
+
+## fish
+
+    brew install fish
+    echo 'fish' >> ~/.zprofile
+
+    cd ~/Documents/ 
+    cd config
+    ./tools/install-fish.sh
+
     source ~/.zprofile
