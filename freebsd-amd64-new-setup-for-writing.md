@@ -1,8 +1,7 @@
-# FreeBSD新規インストール時 セットアップ (執筆環境)
+# FreeBSD新規インストール時(amd64) セットアップ (執筆環境)
 
 ## PATH
 
-    ~/bin を追加
     ~/Documents/tttcmds/bin を追加
     ~/Documents/misc/bin を追加
 
