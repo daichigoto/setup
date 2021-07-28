@@ -15,6 +15,8 @@
 
 ## tttcmds
 
+    sudo pkg install kyua
+
     mkdir -p ~/Documents
     cd ~/Documents/
     git clone git@github.com:daichigoto/tttcmds.git
