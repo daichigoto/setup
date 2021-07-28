@@ -49,20 +49,18 @@
     git config --global user.email "メールアドレス"
     git config --global user.name "ユーザ名"
 
-###### neovim
-
-
-
-    mkdir ~/Documents
-		cd ~/Documents
-    git clone https://github.com/daichigoto/config
-    ./config/tools/install-vim.sh
+###### vim
 
     mkdir -p ~/.cache/vim/dein
     cd ~/.cache/vim/dein/
     curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
     sh ./installer.sh .
     rm ./installer.sh
+
+    mkdir ~/Documents
+    cd ~/Documents
+    git clone https://github.com/daichigoto/config
+    ./config/tools/install-vim.sh
 
     vim  ← 処理が完了するまで待機
 

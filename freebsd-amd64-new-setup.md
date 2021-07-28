@@ -57,16 +57,16 @@
 
 ###### neovim
 
-    mkdir ~/Documents
-		cd ~/Documents
-    git clone https://github.com/daichigoto/config
-    ./config/tools/install-nvim.sh
-
     mkdir -p ~/.cache/nvim/dein
     cd ~/.cache/nvim/dein/
     curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
     sh ./installer.sh .
     rm ./installer.sh
+
+    mkdir ~/Documents
+		cd ~/Documents
+    git clone https://github.com/daichigoto/config
+    ./config/tools/install-nvim.sh
 
     nvim ← 処理が完了するまで待機
 
