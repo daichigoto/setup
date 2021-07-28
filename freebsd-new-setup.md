@@ -57,6 +57,8 @@
 
 ###### neovim
 
+    mkdir ~/Documents
+		cd ~/Documents
     git clone https://github.com/daichigoto/config
     ./config/tools/install-nvim.sh
 
