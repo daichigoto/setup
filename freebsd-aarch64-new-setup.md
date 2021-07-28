@@ -5,16 +5,10 @@
     # server
     hostname="virt.ongs.co.jp"
     ifconfig_vtnet0="DHCP"
-    #defaultrouter="192.168.185.1"
-    #ifconfig_vtnet0="inet 192.168.185.50 netmask 255.255.255.0"
 
     # sshd
     sshd_enable="YES"
     sshd_flags="-oUseDNS=no -oUsePAM=no -oPermitRootLogin=no -oChallengeResponseAuthentication=no -oPasswordAuthentication=no"
-
-## /etc/recolv.conf
-
-    nameserver 8.8.8.8
 
 ## 時刻調整
 
