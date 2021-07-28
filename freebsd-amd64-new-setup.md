@@ -4,9 +4,9 @@
 
     # server
     hostname="virt.ongs.co.jp"
-    ifconfig_hn0="DHCP"
+    ifconfig_vtnet0="DHCP"
     #defaultrouter="192.168.185.1"
-    #ifconfig_hn0="inet 192.168.185.50 netmask 255.255.255.0"
+    #ifconfig_vtnet0="inet 192.168.185.50 netmask 255.255.255.0"
 
     # sshd
     sshd_enable="YES"
@@ -32,7 +32,7 @@
 
     pkg install -y sudo
     pkg install -y git
-    pkg install -y neovim
+    pkg install -y vim
     pkg install -y fish
     pkg install -y tree
     pkg install -y bat
