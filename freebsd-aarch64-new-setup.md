@@ -67,5 +67,5 @@
 ###### fish
 
     sudo pw usermod daichi -s /usr/local/bin/fish
-		cd ~/Documents/
+    cd ~/Documents/
     ./config/tools/install-fish.sh
