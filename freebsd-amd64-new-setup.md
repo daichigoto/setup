@@ -64,8 +64,8 @@
     rm ./installer.sh
 
     mkdir -p ~/Documents
-		cd ~/Documents
-    git clone https://github.com/daichigoto/config
+		cd ~/Documents/
+    git clone git@github.com:daichigoto/config.git
     ./config/tools/install-nvim.sh
 
     nvim ← 処理が完了するまで待機
@@ -73,5 +73,5 @@
 ###### fish
 
     sudo pw usermod daichi -s /usr/local/bin/fish
-    git clone https://github.com/daichigoto/config
+		cd ~/Documents/
     ./config/tools/install-fish.sh
