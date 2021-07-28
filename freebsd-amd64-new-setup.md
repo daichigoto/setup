@@ -75,3 +75,4 @@
     sudo pw usermod daichi -s /usr/local/bin/fish
     cd ~/Documents/
     ./config/tools/install-fish.sh
+    ./config/tools/install-aliases.sh
