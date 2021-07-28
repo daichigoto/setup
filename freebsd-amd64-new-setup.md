@@ -68,7 +68,7 @@
     sh ./installer.sh .
     rm ./installer.sh
 
-    nvim
+    nvim ← 処理が完了するまで待機
 
 ###### fish
 
