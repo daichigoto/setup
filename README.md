@@ -49,6 +49,10 @@
 ［　］[新規インストール時(aarch64) セットアップ](freebsd-aarch64-new-setup.md)  
 ［　］[新規インストール時(aarch64) セットアップ (執筆環境)](freebsd-aarch64-new-setup-for-writing.md)  
 
+## 日本語入力
+
+［　］[Google 日本語入力](japanese-input-google.md)  
+
 ## 仮想環境 -  Hyper-V
 
 ［　］[セットアップ](hyperv-setup.md)  

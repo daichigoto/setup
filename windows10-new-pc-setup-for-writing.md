@@ -72,7 +72,25 @@
 |設定|タスクを停止するまでの時間|チェックを外して無効化|
 
 ※ miscをインストールしてから作業すること。  
-※ wincmdserverが動作していれば、ssh経由でWindows 10にログインしていても~/.wincmdserver_cmdにコマンドを書き込むことでGUIアプリケーションなども実行することができる。
+※ wincmdserverが動作していれば、ssh経由でWindows 10にログインしていても~/.wincmdserver_cmdにコマンドを書き込むことでGUIアプリケーションなども実行することができる。  
+
+## Google日本語入力
+
+###### インストール
+
+    winget install Google.JapaneseIME
+
+- 「プロパティ」→「一般」→キー設定の選択「MS-IME」→「編集」→エントリーを追加→「OK」→「OK」
+
+|モード|入力キー|コマンド|
+|:---|:---|:---|
+|変換前入力中|Ctrl Space|IMEを無効化|
+|変換中|Ctrl Space|IMEを無効化|
+|直接入力|Ctrl Space|IMEを有効化|
+|入力文字なし|Ctrl Space|IMEを無効化|
+
+- 「辞書ツール」→「管理」→「Microsoft IMEの日本語辞書をインポート」
+- 「辞書ツール」→辞書を編集
 
 ## OneDrive
 
