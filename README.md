@@ -2,11 +2,11 @@
 
 ## Windows 11
 
-［✓］※[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)
+［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
 
 ［？］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
 
-［✓］[WSL2 セットアップ](windows11-setup-wsl2.md)
+［✓］[WSL2 セットアップ](windows11-setup-wsl2.md)  
 
 ## Windows 10
 
@@ -64,3 +64,4 @@
 ## 仮想環境 - Parallels Desktop (M1 Mac)
 
 ［　］[FreeBSDゲスト セットアップ](parallels-setup-freebsd.md)  
+
