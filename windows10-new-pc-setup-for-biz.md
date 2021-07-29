@@ -13,7 +13,7 @@
 
 1. [https://www.office.com/](https://www.office.com/)でサインイン
 2. 「Officeのインストール」をクリックしてインストール
-3. ンストールしたアプリケーションのどれかひとつを起動し、Microsoft Officeが利用できるMicrosoftアカウントでサインイン
+3. インストールしたアプリケーションのどれかひとつを起動し、Microsoft Officeが利用できるMicrosoftアカウントでサインイン
 
 ## Outlook / Windowsメール
 
