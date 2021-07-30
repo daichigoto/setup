@@ -43,6 +43,11 @@
 
     brew install onedrive
 
+## Mac Terminal
+
+1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)インストール
+2. ターミナル：「環境設定」→「プロファイル」→「Basic」→「テキスト」→「変更…」→「すべてのフォント」→「Cascadia Mono PL」→書体「エクストラ・ライト」→サイズ「14」
+
 ## Google Chrome
 
 ###### インストール方法
