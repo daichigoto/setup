@@ -93,6 +93,14 @@
 |GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;||
 |Title|{{text.s("&amp;","&amp;amp;")}}||
 
+## Thunderbird
+
+###### インストール方法
+
+    brew install thunderbird
+
+- 既存のメールアドレスのセットアップ：送信に使うメールアカウントを追加→「統合をスキップ」
+
 ## Neovim
 
 ###### インストール方法
