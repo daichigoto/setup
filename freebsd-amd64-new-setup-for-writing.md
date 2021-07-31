@@ -33,10 +33,12 @@
 
 ## ユーティリティ
 
-    sudo pkg install zip
-    sudo pkg install gsed
-    sudo pkg install GraphicsMagick
-    sudo pkg install nginx
+    sudo pkg install -y zip
+    sudo pkg install -y gsed
+    sudo pkg install -y GraphicsMagick
+    sudo pkg install -y nginx
+    sudo pkg install -y neovim
+    sudo pkg install -y fzf
 
 ###### /usr/local/etc/nginx/nginx.conf
 
@@ -98,3 +100,18 @@
 
     # nginx
     nginx_enable="YES"
+
+###### neovim
+
+    mkdir -p ~/.cache/nvim/dein
+    cd ~/.cache/nvim/dein/
+    curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+    sh ./installer.sh .
+    rm ./installer.sh
+
+    mkdir -p ~/Documents
+		cd ~/Documents/
+    git clone git@github.com:daichigoto/config.git
+    ./config/tools/install-nvim.sh
+
+    nvim ← 処理が完了するまで待機

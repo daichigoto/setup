@@ -37,6 +37,8 @@
     sudo pkg install gsed
     sudo pkg install GraphicsMagick
     sudo pkg install nginx
+    sudo pkg install vim
+    sudo pkg install fzf
 
 ###### /usr/local/etc/nginx/nginx.conf
 
@@ -98,3 +100,18 @@
 
     # nginx
     nginx_enable="YES"
+
+###### vim
+
+    mkdir -p ~/.cache/vim/dein
+    cd ~/.cache/vim/dein/
+    curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+    sh ./installer.sh .
+    rm ./installer.sh
+
+    mkdir -p ~/Documents
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/config.git
+    ./config/tools/install-vim.sh
+
+    vim  ← 処理が完了するまで待機

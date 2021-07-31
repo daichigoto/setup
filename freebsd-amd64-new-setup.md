@@ -33,6 +33,7 @@
     pkg install -y sudo
     pkg install -y git
     pkg install -y neovim
+    pkg install -y fzf
     pkg install -y fish
     pkg install -y tree
     pkg install -y bat
