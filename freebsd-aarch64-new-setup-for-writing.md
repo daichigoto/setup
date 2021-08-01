@@ -33,12 +33,13 @@
 
 ## ユーティリティ
 
-    sudo pkg install zip
-    sudo pkg install gsed
-    sudo pkg install GraphicsMagick
-    sudo pkg install nginx
-    sudo pkg install vim
-    sudo pkg install fzf
+    sudo pkg install -y zip
+    sudo pkg install -y zgsed
+    sudo pkg install -y zgawk
+    sudo pkg install -y zGraphicsMagick
+    sudo pkg install -y znginx
+    sudo pkg install -y zvim
+    sudo pkg install -y zfzf
 
 ###### /usr/local/etc/nginx/nginx.conf
 

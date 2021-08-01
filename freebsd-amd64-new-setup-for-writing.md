@@ -35,6 +35,7 @@
 
     sudo pkg install -y zip
     sudo pkg install -y gsed
+    sudo pkg install -y gawk
     sudo pkg install -y GraphicsMagick
     sudo pkg install -y nginx
     sudo pkg install -y neovim
