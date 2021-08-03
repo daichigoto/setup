@@ -21,8 +21,24 @@
 
 ## Microsoft Edge / Google Chrome
 
+###### インストール方法
+
+    winget install Microsoft.Edge
+
 - アカウント設定
 
 ## Slack
+
+###### インストール方法
+
+    winget install Slack
+
+- アカウント設定
+
+## LINE
+
+###### インストール方法
+
+    winget install LINE.LINE
 
 - アカウント設定

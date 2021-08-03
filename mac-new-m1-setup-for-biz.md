@@ -20,8 +20,19 @@
 
 ## Google Chrome
 
+###### インストール方法
+
+    brew install google-chrome
+
 - アカウント設定
 
 ## Slack
 
+###### インストール方法
+
+    brew install slack
+
+## LINE
+
+- App Store：「LINE」→「入手」
 - アカウント設定

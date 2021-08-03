@@ -17,3 +17,13 @@
 ## ショートカットキー
 
 - システム環境設定：「キーボード」→「音声入力」→「ショートカット」→「オフ」
+
+## Homebrew
+
+###### インストール方法
+
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile  
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
+※ [Homebrew](https://brew.sh/)に掲載されている最新のインストール方法を参照すること。
