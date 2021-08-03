@@ -117,6 +117,7 @@
 |:---|:---|:---|
 |GSML|&lt;access ref="%url%"&gt;%title%&lt;/access&gt;|s/&amp;/&amp;amp;/g|
 |Title|%title%|s/&amp;/&amp;amp;/g|
+|Markdown|[%text_md%](%url%)||
 
 ###### chrome-ext
 
