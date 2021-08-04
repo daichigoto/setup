@@ -9,11 +9,18 @@
 1. コントロールパネル：「ネットワークとインターネット」→「ネットワーク接続」→作成したVPNを選択→「プロパティ」
 2. 作成したVPNのプロパティ：「セキュリティ」→「次のプロトコルを許可する」→チェック対象を変えながら接続テストを繰り返す
 
+## Winget
+
+1. Microsoft Store：「アプリインストーラー」をインストール
+2. [Winget](https://github.com/microsoft/winget-cli/releases)をインストール
+
 ## Microsoft Office
 
-1. [https://www.office.com/](https://www.office.com/)でサインイン
-2. 「Officeのインストール」をクリックしてインストール
-3. インストールしたアプリケーションのどれかひとつを起動し、Microsoft Officeが利用できるMicrosoftアカウントでサインイン
+###### インストール方法
+
+    winget install Microsoft.Office
+
+- インストールしたアプリケーションのどれかひとつを起動し、Microsoft Officeが利用できるMicrosoftアカウントでサインイン
 
 ## Outlook / Windowsメール
 
