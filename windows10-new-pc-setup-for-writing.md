@@ -149,6 +149,8 @@
 |GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;||
 |Title|{{text.s("&amp;","&amp;amp;")}}||
 
+- Firefox：「設定」→「一般」→「配色設定」→「背景」→「白」→「OK」→「常に上書き」→「OK」
+
 ## Thunderbird
 
 ###### インストール
