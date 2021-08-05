@@ -99,6 +99,8 @@
 |GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;||
 |Title|{{text.s("&amp;","&amp;amp;")}}||
 
+- Firefox：「設定」→「一般」→「カラー設定」→「背景」→「白」→「常に上書き」→「OK」
+
 ## Thunderbird
 
 ###### インストール方法
@@ -126,6 +128,10 @@
     ./tools/install-nvim.sh
     
     nvim  ← プラグインインストールが完了するまでしばらく待つ
+
+## スクリーンショット
+
+- スクリーンショット：「オプション」→保存先「デスクトップ」を選択→「フローティングサムネールを表示」のチェックを外す
 
 ## misc
 
