@@ -40,6 +40,7 @@
     sudo pkg install -y nginx
     sudo pkg install -y vim
     sudo pkg install -y fzf
+    sudo pkg install -y bat
 
 ###### /usr/local/etc/nginx/nginx.conf
 

@@ -1,4 +1,4 @@
-# 新規購入M1 Mac時 セットアップ (筆
+# 新規購入M1 Mac時 セットアップ (執筆環境)
 
 ## OpenSSH
 
@@ -151,3 +151,7 @@
     ./tools/install-fish.sh
 
     source ~/.zprofile
+
+## ユーティリティ
+
+    brew install bat

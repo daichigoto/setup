@@ -27,3 +27,7 @@
     eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ※ [Homebrew](https://brew.sh/)に掲載されている最新のインストール方法を参照すること。
+
+## ユーティリティ
+
+    brew install bat

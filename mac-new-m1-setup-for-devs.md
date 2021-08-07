@@ -67,6 +67,10 @@
     
     nvim  ← プラグインインストールが完了するまでしばらく待つ
 
+## ユーティリティ
+
+    brew install bat
+
 ## Display Menu
 
 1. App Store：「Display Menu」→「入手」
