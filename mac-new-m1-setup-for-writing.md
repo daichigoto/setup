@@ -54,6 +54,7 @@
 
     brew install google-chrome
 
+Finder：ydファイルを選択→「情報を見る」→このアプリケーションで開く「その他…」→「Google Chrome」→「追加」→「すべてを変更…」
 - 「その他のツール」→「拡張機能」→「Chrome ウェブストアを開きます」→「Create Link」→「Chrome に追加」 
 
 ###### Create Link設定
