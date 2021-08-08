@@ -13,6 +13,14 @@
 
     set -x PATH ~/Documents/tttcmds/bin ~/Documents/misc/bin $PATH
 
+## misc
+
+    mkdir -p ~/Documents
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/misc.git
+    cd misc
+    make
+
 ## tttcmds
 
     sudo pkg install kyua
@@ -21,14 +29,6 @@
     cd ~/Documents/
     git clone git@github.com:daichigoto/tttcmds.git
     cd tttcmds
-    make
-
-## misc
-
-    mkdir -p ~/Documents
-    cd ~/Documents/
-    git clone git@github.com:daichigoto/misc.git
-    cd misc
     make
 
 ## ユーティリティ
@@ -112,7 +112,7 @@
     rm ./installer.sh
 
     mkdir -p ~/Documents
-		cd ~/Documents/
+    cd ~/Documents/
     git clone git@github.com:daichigoto/config.git
     ./config/tools/install-nvim.sh
 

@@ -155,4 +155,11 @@ Finder：ydファイルを選択→「情報を見る」→このアプリケー
 
 ## ユーティリティ
 
+    brew install zip
+    brew install gsed
+    brew install gawk
+    brew install GraphicsMagick
+    brew install nginx
+    brew install neovim
+    brew install fzf
     brew install bat
