@@ -108,12 +108,53 @@ Finder：ydファイルを選択→「情報を見る」→このアプリケー
 
 - 既存のメールアドレスのセットアップ：送信に使うメールアカウントを追加→「起動時にThunderbirdがデフォルトクライアントとして設定されているか確認する」からチェックを外す→「統合をスキップ」
 
-## Neovim
+## スクリーンショット
 
-###### インストール方法
+- スクリーンショット：「オプション」→保存先「デスクトップ」を選択→「フローティングサムネールを表示」のチェックを外す
 
-    brew install neovim
+## misc
+
+    mkdir -p ~/Documents
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/misc.git
     
+    echo 'export PATH="${HOME}/Documents/misc/bin:${PATH}";' >> ~/.zprofile
+    source ~/.zprofile
+
+## tttcmds
+
+    sudo pkg install kyua
+
+    mkdir -p ~/Documents
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/tttcmds.git
+    cd tttcmds
+    make
+
+    source ~/.zprofile
+
+## ユーティリティ
+
+    brew install fish
+    brew install neovim
+    brew install gsed
+    brew install gawk
+    brew install fzf
+    brew install bat
+
+###### fish
+
+    echo 'fish' >> ~/.zprofile
+
+    mkdir -p ~/Documents 
+    cd ~/Documents/ 
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    ./tools/install-fish.sh
+    ./tools/install-aliases.sh
+
+###### neovim
+
     mkdir -p ~/.cache/nvim/dein
     cd ~/.cache/nvim/dein/
     curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
@@ -127,39 +168,3 @@ Finder：ydファイルを選択→「情報を見る」→このアプリケー
     ./tools/install-nvim.sh
     
     nvim  ← プラグインインストールが完了するまでしばらく待つ
-
-## スクリーンショット
-
-- スクリーンショット：「オプション」→保存先「デスクトップ」を選択→「フローティングサムネールを表示」のチェックを外す
-
-## misc
-
-    cd ~
-    mkdir Documents
-    cd Documents
-    git clone git@github.com:daichigoto/misc.git
-    
-    echo 'export PATH="${HOME}/Documents/misc/bin:${PATH}";' >> ~/.zprofile
-    source ~/.zprofile
-
-## fish
-
-    brew install fish
-    echo 'fish' >> ~/.zprofile
-
-    cd ~/Documents/ 
-    cd config
-    ./tools/install-fish.sh
-
-    source ~/.zprofile
-
-## ユーティリティ
-
-    brew install zip
-    brew install gsed
-    brew install gawk
-    brew install GraphicsMagick
-    brew install nginx
-    brew install neovim
-    brew install fzf
-    brew install bat
