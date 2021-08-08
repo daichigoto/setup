@@ -74,6 +74,8 @@
 ###### fish
 
     sudo pw usermod daichi -s /usr/local/bin/fish
-    cd ~/Documents/
+    mkdir -p ~/Documents
+		cd ~/Documents/
+    git clone git@github.com:daichigoto/config.git
     ./config/tools/install-fish.sh
     ./config/tools/install-aliases.sh
