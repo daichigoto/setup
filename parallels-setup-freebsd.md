@@ -16,3 +16,13 @@
 5. Parallels Desktop：「FreeBSD Virtの構成」→「CD/DVD」→ソース「切断済み」
 
 ※1 FreeBSD 13.0-RELEASEはプロセッサが1つでないと動作しない。
+
+###### /etc/crontab に追加する設定
+
+    */13    *   *   *   *   root    service ntpdate onestart
+
+###### cron(8) を再起動
+
+    service cron restart
+
+※ 仮想環境が停止から再開すると時刻がずれるため、ntpdate(8)で強制的に時刻を補正する。
