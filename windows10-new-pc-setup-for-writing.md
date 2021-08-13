@@ -162,9 +162,11 @@
 - [Sizer](http://www.brianapps.net/sizer/)
 - [PhotoScape X](http://x.photoscape.org/)
 - grep
+- make
 
 ###### インストール
 
     winget install GnuWin32.Grep
+    winget install GnuWin32.Make
 
 - PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin 

@@ -60,7 +60,7 @@
 ## Commands
 
     winget install GnuWin32.Grep
-     
+    winget install GnuWin32.Make
     PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin
 
 ## Windowsサンドボックス
