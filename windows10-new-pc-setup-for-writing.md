@@ -1,8 +1,8 @@
 # 新規購入PC時 セットアップ (執筆環境)
 
-# ビルドシステム・セットアップ
+## ビルドシステム・セットアップ
 
-## Visual Studio Build Tools 2019
+### Visual Studio Build Tools 2019
 
 ###### インストール方法
 
@@ -18,7 +18,7 @@
 - Windows SDK AddOn
 - Windows Software Development Kit - Windows
 
-## LLVM
+### LLVM
 
 ###### インストール方法
 
@@ -26,7 +26,7 @@
 
 - 環境変数PATHへ「C:\Program Files\LLVM\bin\」を追加。ただし、「${HOME}/Documents/misc/bin」の後へ追加すること。
 
-## GNU Makeとコマンド (MSYS2を使用)
+### GNU Makeとコマンド (MSYS2を使用)
 
 ###### インストール方法
 
@@ -40,9 +40,9 @@
     pacman -Su
     pacman -S make
 
-# 執筆システム・セットアップ
+## 執筆システム・セットアップ
 
-## misc
+### misc
 
     cd ~
     mkdir Documents
@@ -53,7 +53,7 @@
 
 - 環境変数PATHへ「${HOME}/Documents/misc/bin」を追加。${HOME}/Documents/misc/binは優先順位最上位で追加すること。
 
-## tttcmds
+### tttcmds
 
     cd ~
     mkdir Documents
@@ -64,7 +64,7 @@
 
 - 環境変数PATHへ「${HOME}/Documents/tttcmds/bin」を追加
 
-## Google日本語入力
+### Google日本語入力
 
 ###### インストール
 
@@ -84,7 +84,7 @@
 - 「辞書ツール」→「管理」→「Microsoft IMEの日本語辞書をインポート」
 - 「辞書ツール」→辞書を編集
 
-## OneDrive
+### OneDrive
 
 ###### タスクバー：「OneDrive」→「設定」→「アカウント」→「フォルダーの選択」
 
@@ -97,7 +97,7 @@
 
 「OneDrive/画像/スクリーンショット」以外の同期を停止する。
 
-## Microsoft Edge
+### Microsoft Edge
 
 - 「拡張機能」→「Chrome ウェブストア」→「Create Link」→「Chrome に追加」
 
@@ -122,7 +122,7 @@
 - アドレスバー右横：「mncms」→「メニューへ移動」
 - アドレスバー右横：「iscms」→「メニューへ移動」
 
-## Firefox
+### Firefox
 
 ###### インストール
 
@@ -139,7 +139,7 @@
 |GSML|&lt;access ref="{{url}}"&gt;{{text.s("&amp;","&amp;amp;")}}&lt;/access&gt;||
 |Title|{{text.s("&amp;","&amp;amp;")}}||
 
-## Thunderbird
+### Thunderbird
 
 ###### インストール
 
@@ -147,14 +147,14 @@
 
 - Thunderbird：送信用アカウント追加
 
-## ユーティリティ
+### ユーティリティ
 
 - [PhotoScape X](http://x.photoscape.org/)
 
 
-# リモートログインシステム・セットアップ
+## リモートログインシステム・セットアップ
 
-## OpenSSHサーバ
+### OpenSSHサーバ
 
 - 設定アプリケーション：「アプリ」→「オプション機能」→「機能の追加」→「OpenSSHサーバー」にチェック→「インストール」
 
@@ -193,7 +193,7 @@
 - リモートアクセスしてくるホストの公開鍵を$HOME/.ssh/authorized_keysへ追加
 - 仮想環境の公開鍵を$HOME/.ssh/authorized_keysへ追加
 
-## wincmdserver
+### wincmdserver
 
 - タスクスケジューラ：「タスクスケジューラ（ローカル）」→「基本タスクの作成」
 
