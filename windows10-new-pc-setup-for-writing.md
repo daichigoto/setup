@@ -47,6 +47,18 @@
 
 - 環境変数PATHへ「C:\Program Files\LLVM\bin\」を追加
 
+## コマンドとGNU Make (MSYS2を使用)
+
+###### インストール
+
+    winget install MSYS2
+    C:\msys64\mingw64.exe
+        pacman -Syu
+	pacman -Su
+	pacman -S make
+
+- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」の後へ追加すること。
+
 ## misc
 
     cd ~
@@ -171,12 +183,3 @@
 
 - [Sizer](http://www.brianapps.net/sizer/)
 - [PhotoScape X](http://x.photoscape.org/)
-- grep
-- make
-
-###### インストール
-
-    winget install GnuWin32.Grep
-    winget install GnuWin32.Make
-
-- PATHへ「C:\Program Files (x86)\GnuWin32\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後に追加すること

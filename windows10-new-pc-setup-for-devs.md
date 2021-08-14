@@ -57,11 +57,15 @@
     
     vim  ← プラグインインストールが完了するまでしばらく待つ
 
-## Commands
+## Commands (MSYS2を使用)
 
-    winget install GnuWin32.Grep
-    winget install GnuWin32.Make
-    PATHへ追加 - C:\Program Files (x86)\GnuWin32\bin
+    winget install MSYS2
+    C:\msys64\mingw64.exe
+        pacman -Syu
+	pacman -Su
+	pacman -S make
+
+- 環境変数PATHへ「C:\msys64\usr\bin」を追加
 
 ## Windowsサンドボックス
 
