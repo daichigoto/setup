@@ -39,6 +39,14 @@
 - リモートアクセスしてくるホストの公開鍵を$HOME/.ssh/authorized_keysへ追加
 - 仮想環境の公開鍵を$HOME/.ssh/authorized_keysへ追加
 
+## Visual Studio Build Tools 2019
+
+###### インストール方法
+
+    winget install Microsoft.VisualStudio.2019.BuildTools
+
+- 設定アプリケーション：「アプリ」→「アプリと機能」→「Visual Studio Build Tools 2019」→「変更」→「C++によるデスクトップ環境」にチェックを入れ→「変更」→システムを再起動
+
 ## LLVM
 
 ###### インストール方法
