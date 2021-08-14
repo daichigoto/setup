@@ -14,6 +14,14 @@
 3. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
 3. Visual Studio Code：「Extensions」→「clangd」→「Install」
 
+※ Visual Studio Build Tools 2019 (Microsoft.VisualStudio.2019.BuildTools)をインストールすることで、依存関係で次のソフトウェアがインストールされる。
+
+- Microsoft Visual C++ 2015-2019 Redistributable (x64)
+- Microsoft Visual C++ 2-15-2019 Redistributable (x86)
+- Microsoft Visual Studio Installer
+- Windows SDK AddOn
+- Windows Software Development Kit - Windows
+
 ###### tasks.json
 
     {
