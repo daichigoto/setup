@@ -24,7 +24,7 @@
 
     winget install LLVM
 
-- 環境変数PATHへ「C:\Program Files\LLVM\bin\」を追加。ただし、「${HOME}/Documents/misc/bin」の後へ追加すること。
+- 環境変数PATHへ「C:\Program Files\LLVM\bin\」を追加。
 
 ### GNU Makeとコマンド (MSYS2を使用)
 
@@ -32,7 +32,7 @@
 
     winget install MSYS2
 
-- 環境変数PATHへ「C:\msys64\usr\bin」を追加
+- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。
 
 ###### 初回アップデートとGNU makeインストール
 
