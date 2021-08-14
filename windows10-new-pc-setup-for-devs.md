@@ -57,15 +57,19 @@
     
     vim  ← プラグインインストールが完了するまでしばらく待つ
 
-## Commands (MSYS2を使用)
+## コマンド (MSYS2を使用)
+
+###### インストール方法
 
     winget install MSYS2
-    C:\msys64\mingw64.exe
-        pacman -Syu
-	pacman -Su
-	pacman -S make
 
 - 環境変数PATHへ「C:\msys64\usr\bin」を追加
+
+###### 初回アップデートとGNU makeインストール
+
+    pacman -Syu
+    pacman -Su
+    pacman -S make
 
 ## Windowsサンドボックス
 

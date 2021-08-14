@@ -45,19 +45,21 @@
 
     winget install LLVM
 
-- 環境変数PATHへ「C:\Program Files\LLVM\bin\」を追加
+- 環境変数PATHへ「C:\Program Files\LLVM\bin\」を追加。ただし、「${HOME}/Documents/misc/bin」の後へ追加すること。
 
 ## コマンドとGNU Make (MSYS2を使用)
 
-###### インストール
+###### インストール方法
 
     winget install MSYS2
-    C:\msys64\mingw64.exe
-        pacman -Syu
-	pacman -Su
-	pacman -S make
 
-- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」の後へ追加すること。
+- 環境変数PATHへ「C:\msys64\usr\bin」を追加
+
+###### 初回アップデートとGNU makeインストール
+
+    pacman -Syu
+    pacman -Su
+    pacman -S make
 
 ## misc
 
@@ -181,5 +183,4 @@
 
 ## ユーティリティ
 
-- [Sizer](http://www.brianapps.net/sizer/)
 - [PhotoScape X](http://x.photoscape.org/)

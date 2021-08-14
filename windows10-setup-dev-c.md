@@ -1,11 +1,11 @@
 # C言語開発環境(LLVM) セットアップ
 
-    winget install "Windows Terminal"
-    winget install PowerShell
-    winget install "Visual Studio Build Tools 2019"
+    winget install Microsoft.WindowsTerminalPreview
+    winget install Microsoft.PowerShell
+    winget install Microsoft.VisualStudio.2019.BuildTools
     winget install Python.Python.3
-    winget install LLVM
-    winget install "Visual Studio Code"
+    winget install LLVM.LLVM
+    winget install Microsoft.VisualStudioCode
     winget install Git.Git
     winget install GnuWin32.Make
 
