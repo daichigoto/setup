@@ -8,7 +8,7 @@
 
     winget install MSYS2
 
-- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。misc/bin/make.ps1がmake.exeよりも優先して実行される必要がある。
+- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\msys64\usr\bin\make.exeよりも優先して実行される必要がある。
 
 ## 執筆システム・セットアップ
 
