@@ -17,7 +17,7 @@
 2. [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel)から「x64マシン用WSL2 Linuxカーネル更新プログラムパッケージ」をダウンロードおよびインストール
 3. wsl --set-default-version 2
 
-## Ubuntu
+###### Ubuntuインストール
 
 1. Microsoft Store：「Ubuntu 20.04 LTS」→「インストール」→「起動」
 
