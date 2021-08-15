@@ -35,3 +35,7 @@
 1. Ctrl2Capは優先度が高い
 2. PowerToysは優先度が低い
 3. PowerToysの「キーの再マップ」は仮想環境ゲストと相性が悪い
+
+# 参考
+
+- [Windows 10で「CapsLock」と「Ctrl」を入れ替える方法【PowerToys編】 \| TECH\+](https://news.mynavi.jp/article/20210609-1900755/)
