@@ -11,3 +11,7 @@
 
 1. Microsoft Store：「アプリインストーラー」をインストール
 2. [Winget](https://github.com/microsoft/winget-cli/releases)をインストール
+
+# 参考
+
+- [Windows 10搭載PCを買ったら最初にやっておきたいこと【基本編】 \| TECH\+](https://news.mynavi.jp/article/20210615-1903397/)
