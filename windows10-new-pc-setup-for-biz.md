@@ -49,3 +49,7 @@
     winget install LINE.LINE
 
 - アカウント設定
+
+# 参考
+
+- [Windows 10搭載PCを買ったら最初にやっておきたいこと【ビジネス編】 \| TECH\+](https://news.mynavi.jp/article/20210618-1904682/)
