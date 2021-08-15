@@ -55,7 +55,7 @@
 
 ## 仮想環境 -  Hyper-V
 
-［　］[セットアップ](hyperv-setup.md)  
+［✓］[セットアップ](hyperv-setup.md)  
 
 ［　］[Windows11 拡張セッション セットアップ](hyperv-setup-win11-extsession.md)  
 ［　］[Windows10 拡張セッション セットアップ](hyperv-setup-win10-extsession.md)  
