@@ -1,4 +1,32 @@
-# C言語開発環境(LLVM) セットアップ
+# C言語開発環境(LLVM in MSYS2) セットアップ
+
+###### インストール方法
+
+    winget install Microsoft.VisualStudioCode
+    winget install Microsoft.WindowsTerminalPreview
+    winget install Microsoft.PowerShell
+    winget install Git.Git
+    winget install MSYS2
+
+1. 環境変数PATHに「C:\msys64\usr\bin」と「C:\Program Files\Git\bin」を追加。
+2. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
+3. Visual Studio Code：「Extensions」→「clangd」→「Install」
+
+###### 開発ツールインストール方法
+
+    pacman -Syu
+    pacman -S make
+    pacman -S clang
+    pacman -S msys2-runtime-devel
+
+###### tasks.json
+
+###### launch.json
+
+
+# C言語開発環境(LLVM + Visual Studio Build Tools) セットアップ
+
+###### インストール方法
 
     winget install Microsoft.WindowsTerminalPreview
     winget install Microsoft.PowerShell
@@ -12,13 +40,14 @@
 1. 環境変数PATHに「C:\Program Files\LLVM\bin」と「C:\Program Files\Git\bin」を追加。
 2. 設定アプリケーション：「アプリ」→「アプリと機能」→「Visual Studio Build Tools 2019」→「変更」→「C++によるデスクトップ環境」にチェックを入れ→「変更」→システムを再起動
 3. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
-3. Visual Studio Code：「Extensions」→「clangd」→「Install」
+4. Visual Studio Code：「Extensions」→「clangd」→「Install」
 
 ※ Visual Studio Build Tools 2019 (Microsoft.VisualStudio.2019.BuildTools)をインストールすることで、依存関係で次のソフトウェアがインストールされる。
 
 - Microsoft Visual C++ 2015-2019 Redistributable (x64)
 - Microsoft Visual C++ 2-15-2019 Redistributable (x86)
 - Microsoft Visual Studio Installer
+- Microsoft Windows Dekstop Runtime (x64)
 - Windows SDK AddOn
 - Windows Software Development Kit - Windows
 

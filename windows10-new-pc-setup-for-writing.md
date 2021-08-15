@@ -2,43 +2,13 @@
 
 ## ビルドシステム・セットアップ
 
-### Visual Studio Build Tools 2019
-
-###### インストール方法
-
-    winget install Microsoft.VisualStudio.2019.BuildTools
-
-- 設定アプリケーション：「アプリ」→「アプリと機能」→「Visual Studio Build Tools 2019」→「変更」→「C++によるデスクトップ環境」にチェックを入れ→「変更」→システムを再起動
-
-※ Visual Studio Build Tools 2019 (Microsoft.VisualStudio.2019.BuildTools)をインストールすることで、依存関係で次のソフトウェアがインストールされる。
-
-- Microsoft Visual C++ 2015-2019 Redistributable (x64)
-- Microsoft Visual C++ 2-15-2019 Redistributable (x86)
-- Microsoft Visual Studio Installer
-- Windows SDK AddOn
-- Windows Software Development Kit - Windows
-
-### LLVM
-
-###### インストール方法
-
-    winget install LLVM
-
-- 環境変数PATHへ「C:\Program Files\LLVM\bin\」を追加。
-
-### GNU Makeとコマンド (MSYS2を使用)
+## MSYS2
 
 ###### インストール方法
 
     winget install MSYS2
 
 - 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。
-
-###### 初回アップデートとGNU makeインストール
-
-    pacman -Syu
-    pacman -Su
-    pacman -S make
 
 ## 執筆システム・セットアップ
 

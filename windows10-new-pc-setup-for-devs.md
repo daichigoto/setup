@@ -65,11 +65,9 @@
 
 - 環境変数PATHへ「C:\msys64\usr\bin」を追加
 
-###### 初回アップデートとGNU makeインストール
+###### 初回アップデート
 
     pacman -Syu
-    pacman -Su
-    pacman -S make
 
 ## Windowsサンドボックス
 
