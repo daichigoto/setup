@@ -13,3 +13,7 @@
 1. App Storeから「Microsoft Remote Desktop」をインストール。
 2. Microsoft Remote Desktop：「Add PC」メモした名前でPCを追加。
 3. Microsoftアカウントを使っているなら、アクセス時にMicrosoftアカウントでサインイン。
+
+# 参考
+
+- [MacからWindowsにリモートアクセスする方法 \| TECH\+](https://news.mynavi.jp/article/20210809-1930656/)
