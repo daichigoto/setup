@@ -42,7 +42,7 @@
 
     winget install vim.vim
 
-- 環境変数PATHへ「C:\Program Files\Vim\vim82\」を追加。C:\Program Files\Vim\vim82\install.exeがC:\msys64\usr\bin\install.exeと衝突するため、C:\Program Files\Vim\vim82\よりもC:\msys64\usr\bin\のパスを優先等に登録すること。
+- 環境変数PATHへ「C:\Program Files\Vim\vim82\」を追加。C:\Program Files\Vim\vim82\install.exeがC:\cygwin64\usr\bin\install.exeと衝突するため、C:\Program Files\Vim\vim82\よりもC:\cygwin64\usr\bin\のパスを優先等に登録すること。
 
 ### Google日本語入力
 
