@@ -82,7 +82,7 @@
 |:---|:---|
 |追加するパッケージ|make, clang|
 
-1. 環境変数PATHに「C:\msys64\usr\bin」と「C:\Program Files\Git\bin」を追加。
+1. 環境変数PATHに「C:\cygwin64\bin」と「C:\Program Files\Git\bin」を追加。
 2. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
 3. Visual Studio Code：「Extensions」→「clangd」→「Install」
 

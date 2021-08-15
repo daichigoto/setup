@@ -10,7 +10,7 @@
 |:---|:---|
 |追加するパッケージ|make, clang, libexpat-devel, libjpeg-devel, GraphicsMagick, zip|
 
-- 環境変数PATHへ「C:\cygwin64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\cygwin64\bin\make.exeよりも優先して実行される必要がある。
+- 環境変数PATHへ「C:\cygwin64\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\cygwin64\bin\make.exeよりも優先して実行される必要がある。
 
 ## 執筆システム・セットアップ
 
@@ -42,7 +42,7 @@
 
     winget install vim.vim
 
-- 環境変数PATHへ「C:\Program Files\Vim\vim82\」を追加。C:\Program Files\Vim\vim82\install.exeがC:\cygwin64\usr\bin\install.exeと衝突するため、C:\Program Files\Vim\vim82\よりもC:\cygwin64\usr\bin\のパスを優先等に登録すること。
+- 環境変数PATHへ「C:\Program Files\Vim\vim82\」を追加。C:\Program Files\Vim\vim82\install.exeがC:\cygwin64\bin\install.exeと衝突するため、C:\Program Files\Vim\vim82\よりもC:\cygwin64\bin\のパスを優先等に登録すること。
 
 ### Google日本語入力
 
