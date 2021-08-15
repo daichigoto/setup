@@ -8,7 +8,7 @@
 
     winget install MSYS2
 
-- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。
+- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。misc/bin/make.ps1がmake.exeよりも優先して実行される必要がある。
 
 ## 執筆システム・セットアップ
 
@@ -33,6 +33,14 @@
     make
 
 - 環境変数PATHへ「${HOME}/Documents/tttcmds/bin」を追加
+
+### Vim
+
+###### インストール
+
+    winget install vim.vim
+
+- 環境変数PATHへ「C:\Program Files\Vim\vim82\」を追加。C:\Program Files\Vim\vim82\install.exeがC:\msys64\usr\bin\install.exeと衝突するため、C:\Program Files\Vim\vim82\よりもC:\msys64\usr\bin\のパスを優先等に登録すること。
 
 ### Google日本語入力
 
