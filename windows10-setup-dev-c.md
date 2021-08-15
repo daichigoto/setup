@@ -1,30 +1,6 @@
-# C言語開発環境(LLVM in MSYS2) セットアップ
+# C言語開発環境セットアップ
 
-###### インストール方法
-
-    winget install Microsoft.VisualStudioCode
-    winget install Microsoft.WindowsTerminalPreview
-    winget install Microsoft.PowerShell
-    winget install Git.Git
-    winget install MSYS2
-
-1. 環境変数PATHに「C:\msys64\usr\bin」と「C:\Program Files\Git\bin」を追加。
-2. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
-3. Visual Studio Code：「Extensions」→「clangd」→「Install」
-
-###### 開発ツールインストール方法
-
-    pacman -Syu
-    pacman -S make
-    pacman -S clang
-    pacman -S msys2-runtime-devel
-
-###### tasks.json
-
-###### launch.json
-
-
-# C言語開発環境(LLVM + Visual Studio Build Tools) セットアップ
+## LLVM Clang + Visual Studio Build Toolsセットアップ
 
 ###### インストール方法
 
@@ -90,6 +66,53 @@
             }
         ]
     }
+
+## LLVM Clang in Cygwinセットアップ
+
+###### インストール方法
+
+    winget install Microsoft.VisualStudioCode
+    winget install Microsoft.WindowsTerminalPreview
+    winget install Microsoft.PowerShell
+    winget install Git.Git
+
+###### [Cygwin](https://www.cygwin.com/)インストール
+
+- make
+- clang
+
+1. 環境変数PATHに「C:\msys64\usr\bin」と「C:\Program Files\Git\bin」を追加。
+2. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
+3. Visual Studio Code：「Extensions」→「clangd」→「Install」
+
+###### tasks.json
+
+###### launch.json
+
+## LLVM Clang in MSYS2セットアップ
+
+###### インストール方法
+
+    winget install Microsoft.VisualStudioCode
+    winget install Microsoft.WindowsTerminalPreview
+    winget install Microsoft.PowerShell
+    winget install Git.Git
+    winget install MSYS2
+
+1. 環境変数PATHに「C:\msys64\usr\bin」と「C:\Program Files\Git\bin」を追加。
+2. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
+3. Visual Studio Code：「Extensions」→「clangd」→「Install」
+
+###### 開発ツールインストール方法
+
+    pacman -Syu
+    pacman -S make
+    pacman -S clang
+    pacman -S msys2-runtime-devel
+
+###### tasks.json
+
+###### launch.json
 
 # 参考
 

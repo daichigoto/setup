@@ -2,13 +2,18 @@
 
 ## ビルドシステム・セットアップ
 
-## MSYS2
+## Cygwin
 
-###### インストール方法
+###### [Cygwin](https://www.cygwin.com/)インストール
 
-    winget install MSYS2
+- make
+- clang
+- libexpat-devel
+- libjpeg-devel
+- GraphicsMagick
+- zip
 
-- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\msys64\usr\bin\make.exeよりも優先して実行される必要がある。
+- 環境変数PATHへ「C:\cygwin64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\cygwin64\bin\make.exeよりも優先して実行される必要がある。
 
 ## 執筆システム・セットアップ
 
