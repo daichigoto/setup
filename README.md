@@ -36,8 +36,8 @@
 ［✓］[新規購入M1 Mac時 セットアップ (ビジネスマン向け)](mac-new-m1-setup-for-biz.md)  
 ［✓］[新規購入M1 Mac時 セットアップ (開発者向け)](mac-new-m1-setup-for-devs.md)  
 ［✓］[新規購入M1 Mac時 セットアップ (Windowsユーザ向け)](mac-new-m1-setup-for-win.md)  
-［　］[新規購入M1 Mac時 セットアップ (執筆環境)](mac-new-m1-setup-for-writing.md)  
 ［✓］[新規購入M1 Mac時 セットアップ (日本語入力)](mac-new-m1-setup-for-ime.md)  
+［　］[新規購入M1 Mac時 セットアップ (執筆環境)](mac-new-m1-setup-for-writing.md)  
 
 ［？］[Windowsへリモートアクセス セットアップ (Remote Desktop)](mac-setup-access-to-win.md)  
 
