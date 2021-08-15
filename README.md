@@ -39,7 +39,7 @@
 ［✓］[新規購入M1 Mac時 セットアップ (日本語入力)](mac-new-m1-setup-for-ime.md)  
 ［　］[新規購入M1 Mac時 セットアップ (執筆環境)](mac-new-m1-setup-for-writing.md)  
 
-［？］[Windowsへリモートアクセス セットアップ (Remote Desktop)](mac-setup-access-to-win.md)  
+［✓］[Windowsへリモートアクセス セットアップ (Remote Desktop)](mac-setup-access-to-win.md)  
 
 ## FreeBSD
 
