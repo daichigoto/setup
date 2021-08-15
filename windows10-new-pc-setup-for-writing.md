@@ -6,12 +6,9 @@
 
 ###### [Cygwin](https://www.cygwin.com/)インストール
 
-- make
-- clang
-- libexpat-devel
-- libjpeg-devel
-- GraphicsMagick
-- zip
+|操作|内容|
+|:---|:---|
+|追加するパッケージ|make, clang, libexpat-devel, libjpeg-devel, GraphicsMagick, zip|
 
 - 環境変数PATHへ「C:\cygwin64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\cygwin64\bin\make.exeよりも優先して実行される必要がある。
 
