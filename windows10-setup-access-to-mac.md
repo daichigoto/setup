@@ -15,3 +15,7 @@
 1. Microsoft Storeから「Splashtop Personal - Remote Desktop」をインストール。
 2. 起動後、作成したアカウントでログイン。
 3. Macへアクセス。
+
+# 参考
+
+- [WindowsからMacにリモートアクセスする方法 \| TECH\+](https://news.mynavi.jp/article/20210805-1930657/)
