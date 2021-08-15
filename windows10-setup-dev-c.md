@@ -90,3 +90,7 @@
             }
         ]
     }
+
+# 参考
+
+- [【連載】Windows 10で始めるC言語開発 \| TECH\+](https://news.mynavi.jp/series/c-for-windows/)
