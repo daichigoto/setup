@@ -80,3 +80,6 @@
 
 - [AppCleaner](https://freemacsoft.net/appcleaner/)インストール
 
+# 参考
+
+- [M1 Macを買ったら最初にやっておきたいこと【開発者編】 \| TECH\+](https://news.mynavi.jp/article/20210709-1910971/)
