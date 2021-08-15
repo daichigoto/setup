@@ -36,3 +36,7 @@
 
 - App Store：「LINE」→「入手」
 - アカウント設定
+
+# 参考
+
+- [M1 Macを買ったら最初にやっておきたいこと【ビジネス編】 \| TECH\+](https://news.mynavi.jp/article/20210705-1909661/)
