@@ -16,7 +16,7 @@
 
 ## Windows Terminal
 
-    winget install "Windows Terminal"
+    winget install Microsoft.WindowsTerminalPreview
 
 1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
 2. Windows Terminalのフォントを「Cascadia Mono PL」へ変更
@@ -38,7 +38,7 @@
 
 ## Visual Studio Code
 
-    winget install "Microsoft Visual Studio Code"
+    winget install Microsoft.VisualStudioCode
 
 ## Vim
 
@@ -108,3 +108,7 @@
     sudo apt upgrde
     sudo apt install language-pack-ja
     echo 'export LANG=ja_JP.UTF-8' >> ~/.bashrc
+
+# 参考
+
+- [Windows 10搭載PCを買ったら最初にやっておきたいこと【開発者編】 \| TECH\+](https://news.mynavi.jp/article/20210622-1904714/)
