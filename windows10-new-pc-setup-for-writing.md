@@ -12,6 +12,19 @@
 
 - 環境変数PATHへ「C:\cygwin64\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\cygwin64\bin\make.exeよりも優先して実行される必要がある。
 
+## MSYS2
+
+###### インストール方法
+
+    winget install MSYS2
+
+- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\msys64\usr\bin\make.exeよりも優先して実行される必要がある。
+
+###### ユーティリティインストール
+
+    pacman -Syu
+    pacman -S bc
+
 ## 執筆システム・セットアップ
 
 ### misc
