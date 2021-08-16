@@ -11,7 +11,7 @@
 
 ## Winget
 
-1. Microsoft Store：「アプリインストーラー」をインストール
+1. Microsoft Store：「App Installer」をインストール
 2. [Winget](https://github.com/microsoft/winget-cli/releases)をインストール
 
 ## Microsoft Office
