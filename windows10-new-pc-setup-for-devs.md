@@ -22,7 +22,7 @@
     pacman -Syu
 
 - 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\clang64\bin」を追加。
-- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定いないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。
+- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。
 - 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとvimなどが適切に日本語を使うことができない。
 
 ※ Wingetが対応していないソフトウェアについてはMSYS2を使用。
