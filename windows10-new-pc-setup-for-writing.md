@@ -2,28 +2,23 @@
 
 ## ビルドシステム・セットアップ
 
-## Cygwin
+## Winget
 
-###### [Cygwin](https://www.cygwin.com/)インストール
+1. Microsoft Store：「App Installer」をインストール
+2. [Winget](https://github.com/microsoft/winget-cli/releases)をインストール
 
-|操作|内容|
-|:---|:---|
-|追加するパッケージ|make, clang, libexpat-devel, libjpeg-devel, GraphicsMagick, zip|
-
-- 環境変数PATHへ「C:\cygwin64\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\cygwin64\bin\make.exeよりも優先して実行される必要がある。
+※ パッケージ管理システムとしてWingetを使用。 
 
 ## MSYS2
 
-###### インストール方法
-
     winget install MSYS2
-
-- 環境変数PATHへ「C:\msys64\usr\bin」を追加。ただし、「${HOME}/Documents/misc/bin」よりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\msys64\usr\bin\make.exeよりも優先して実行される必要がある。
-
-###### ユーティリティインストール
-
     pacman -Syu
-    pacman -S bc
+
+- 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\clang64\bin」を追加。ただし、${HOME}/Documents/misc/binよりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\msys64\usr\bin\make.exeよりも先に実行される必要がある。
+- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定いないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。
+- 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとvimなどが適切に日本語を使うことができない。
+
+※ Wingetが対応していないソフトウェアについてはMSYS2を使用。
 
 ## 執筆システム・セットアップ
 
@@ -47,15 +42,13 @@
     cd tttcmds
     make
 
-- 環境変数PATHへ「${HOME}/Documents/tttcmds/bin」を追加
+- 環境変数PATHへ「${HOME}/Documents/tttcmds/bin」を追加。
 
 ### Vim
 
 ###### インストール
 
-    winget install vim.vim
-
-- 環境変数PATHへ「C:\Program Files\Vim\vim82\」を追加。C:\Program Files\Vim\vim82\install.exeがC:\cygwin64\bin\install.exeと衝突するため、C:\Program Files\Vim\vim82\よりもC:\cygwin64\bin\のパスを優先等に登録すること。
+    pacman -S vim
 
 ### Google日本語入力
 

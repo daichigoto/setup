@@ -14,6 +14,19 @@
 1. Microsoft Store：「App Installer」をインストール
 2. [Winget](https://github.com/microsoft/winget-cli/releases)をインストール
 
+※ パッケージ管理システムとしてWingetを使用。 
+
+## MSYS2
+
+    winget install MSYS2
+    pacman -Syu
+
+- 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\clang64\bin」を追加。
+- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定いないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。
+- 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとvimなどが適切に日本語を使うことができない。
+
+※ Wingetが対応していないソフトウェアについてはMSYS2を使用。
+
 ## Windows Terminal
 
     winget install Microsoft.WindowsTerminalPreview
@@ -31,18 +44,14 @@
 
 ## Git
 
-    winget install Git.Git
+    pacman -S git
     
     git config --global user.email "メールアドレス"
     git config --global user.name "ユーザ名"
 
-## Visual Studio Code
-
-    winget install Microsoft.VisualStudioCode
-
 ## Vim
 
-    winget install vim
+    pacman -S vim
     
     mkdir ~\.cache\vim\dein
     cd ~\.cache\vim\dein\
@@ -57,17 +66,9 @@
     
     vim  ← プラグインインストールが完了するまでしばらく待つ
 
-## コマンド (MSYS2を使用)
+## Visual Studio Code
 
-###### インストール方法
-
-    winget install MSYS2
-
-- 環境変数PATHへ「C:\msys64\usr\bin」を追加
-
-###### 初回アップデート
-
-    pacman -Syu
+    winget install Microsoft.VisualStudioCode
 
 ## Windowsサンドボックス
 
@@ -93,14 +94,8 @@
 
 ## WSL2
 
-1. 設定アプリケーション：「アプリ」→「アプリと機能」→「オプション機能」→「Windowsのそのほかの機能」→「Linux用Windowsサブシステム」と「仮想マシンプラットフォーム」にチェック→「OK」→システム再起動
-2. [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel)から「x64マシン用WSL2 Linuxカーネル更新プログラムパッケージ」をダウンロードおよびインストール
-3. wsl --set-default-version 2
-
-## Ubuntu
-
-1. Microsoft Store：「Ubuntu 20.04 LTS」→「インストール」→「起動」
-
+    wsl --install -d Ubuntu
+    システム再起動
 
 ###### Ubuntu初期セットアップ
 
