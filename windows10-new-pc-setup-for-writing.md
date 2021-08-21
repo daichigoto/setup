@@ -1,5 +1,58 @@
 # 新規購入PC時 セットアップ (執筆環境)
 
+<!-- ---------------------------------------------------------------------
+ リモートシステム・セットアップ
+ --------------------------------------------------------------------- -->
+## リモートログインシステム・セットアップ
+
+### OpenSSHサーバ
+
+- 設定アプリケーション：「アプリ」→「オプション機能」→「機能の追加」→「OpenSSHサーバー」にチェック→「インストール」
+
+###### C:\ProgramData\ssh\sshd_config
+
+    C:\ProgramData\ssh>fc /n C:\Windows\System32\OpenSSH\sshd_config_default C:\ProgramData\ssh\sshd_config
+    Comparing files C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default and C:\PROGRAMDATA\SSH\SSHD_CONFIG
+    ***** C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default
+       86:
+       87:  Match Group administrators
+       88:         AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
+    ***** C:\PROGRAMDATA\SSH\SSHD_CONFIG
+       86:
+       87:  #Match Group administrators
+       88:  #       AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
+    *****
+
+※ 上記設定が有効になっている場合、C:\ProgramData\ssh\administrators_authorized_keysが存在し、かつ、適切なアクセス許可が設定されていないと、C:\ProgramData\ssh\administrators_authorized_keysをチェックしに行った後で公開鍵認証そのものが無効になる。$HOME/.ssh/authorized_keysよりもC:\ProgramData\ssh\administrators_authorized_keysが優先されるため、C:\ProgramData\ssh\administrators_authorized_keysのアクセス許可が不適切だと$HOME/.ssh/authorized_keysに公開鍵を配置しておいても使われない。これを回避し$HOME/.ssh/authorized_keysの公開鍵を使った公開鍵認証が有効になるようにするには、C:\ProgramData\ssh\administrators_authorized_keysを作成して適切なアクセス許可を設定するか、C:\ProgramData\ssh\administrators_authorized_keysを使わないように設定を変更する必要がある。ここでは$HOME/.ssh/authorized_keysによる公開鍵認証が使われるように、上記のように該当する行をコメントアウトする方法で設定する。
+
+###### sshd起動および自動起動設定
+
+    Start-Service sshd # sshdを起動
+    Set-Service -Name sshd -StartupType 'Automatic' # Windows起動時に自動的に起動
+
+###### シェルをpwshへ変更
+
+    New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force 
+
+###### $HOME/.ssh/authorized_keys
+
+- リモートアクセスしてくるホストの公開鍵を$HOME/.ssh/authorized_keysへ追加。
+- 仮想環境の公開鍵を$HOME/.ssh/authorized_keysへ追加。
+
+### OpenSSHクライアント
+
+- 設定アプリケーション：「アプリ」→「アプリと機能」→「オプション機能」→「機能の追加」→「OpenSSHクライアント」→「インストール」
+
+###### 認証鍵の生成
+
+    ssh-keygen
+
+- ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録して回る
+
+
+<!-- ---------------------------------------------------------------------
+ ビルドシステム・セットアップ
+ --------------------------------------------------------------------- -->
 ## ビルドシステム・セットアップ
 
 ## Winget
@@ -20,18 +73,19 @@
 
 ※ Wingetが対応していないソフトウェアについてはMSYS2を使用。
 
-## 執筆システム・セットアップ
-
 ### misc
 
     cd ~
     mkdir Documents
     cd Documents
     git clone git@github.com:daichigoto/misc.git
-    cd misc
-    make
 
 - 環境変数PATHへ「${HOME}/Documents/misc/bin」を追加。${HOME}/Documents/misc/binは優先順位最上位で追加すること。
+
+###### ビルドおよびインストール方法
+
+    cd misc
+    make
 
 ### tttcmds
 
@@ -44,11 +98,29 @@
 
 - 環境変数PATHへ「${HOME}/Documents/tttcmds/bin」を追加。
 
+<!-- ---------------------------------------------------------------------
+ 執筆ツール・セットアップ
+ --------------------------------------------------------------------- -->
+## 執筆ツール・セットアップ
+
 ### Vim
 
 ###### インストール
 
     pacman -S vim
+     
+    mkdir ~\.cache\vim\dein
+    cd ~\.cache\vim\dein\
+    Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
+    ./installer.ps1 .
+    del ./installer.ps1
+     
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    ./tools/install-vim.ps1
+    
+    vim  ← プラグインインストールが完了するまでしばらく待つ
 
 ### Google日本語入力
 
@@ -133,51 +205,15 @@
 
 - Thunderbird：送信用アカウント追加
 
-### ユーティリティ
+### PhotoScape X
 
 - [PhotoScape X](http://x.photoscape.org/)
 
 
-## リモートログインシステム・セットアップ
-
-### OpenSSHサーバ
-
-- 設定アプリケーション：「アプリ」→「オプション機能」→「機能の追加」→「OpenSSHサーバー」にチェック→「インストール」
-
-###### C:\ProgramData\ssh\sshd_config
-
-    C:\ProgramData\ssh>fc /n C:\Windows\System32\OpenSSH\sshd_config_default C:\ProgramData\ssh\sshd_config
-    Comparing files C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default and C:\PROGRAMDATA\SSH\SSHD_CONFIG
-    ***** C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default
-       86:
-       87:  Match Group administrators
-       88:         AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
-    ***** C:\PROGRAMDATA\SSH\SSHD_CONFIG
-       86:
-       87:  #Match Group administrators
-       88:  #       AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
-    *****
-
-※ 上記設定が有効になっている場合、C:\ProgramData\ssh\administrators_authorized_keysが存在し、かつ、適切なアクセス許可が設定されていないと、C:\ProgramData\ssh\administrators_authorized_keysをチェックしに行った後で公開鍵認証そのものが無効になる。$HOME/.ssh/authorized_keysよりもC:\ProgramData\ssh\administrators_authorized_keysが優先されるため、C:\ProgramData\ssh\administrators_authorized_keysのアクセス許可が不適切だと$HOME/.ssh/authorized_keysに公開鍵を配置しておいても使われない。これを回避し$HOME/.ssh/authorized_keysの公開鍵を使った公開鍵認証が有効になるようにするには、C:\ProgramData\ssh\administrators_authorized_keysを作成して適切なアクセス許可を設定するか、C:\ProgramData\ssh\administrators_authorized_keysを使わないように設定を変更する必要がある。ここでは$HOME/.ssh/authorized_keysによる公開鍵認証が使われるように、上記のように該当する行をコメントアウトする方法で設定する。
-
-###### sshd起動および自動起動設定
-
-    Start-Service sshd # sshdを起動
-    Set-Service -Name sshd -StartupType 'Automatic' # Windows起動時に自動的に起動
-
-###### シェルをpwshへ変更
-
-    New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force 
-
-###### 認証鍵生成
-
-    ssh-keygen
-
-###### $HOME/.ssh/authorized_keys
-
-- ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録
-- リモートアクセスしてくるホストの公開鍵を$HOME/.ssh/authorized_keysへ追加
-- 仮想環境の公開鍵を$HOME/.ssh/authorized_keysへ追加
+<!-- ---------------------------------------------------------------------
+ 仮想環境-To-Windows 連携システム・セットアップ
+ --------------------------------------------------------------------- -->
+## 仮想環境-To-Windows 連携システム・セットアップ
 
 ### wincmdserver
 
