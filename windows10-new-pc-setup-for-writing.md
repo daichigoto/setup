@@ -47,8 +47,8 @@
 
     ssh-keygen
 
-- ~/.ssh/id_rsa.pub をログイン先ホストの ~/.ssh/authorized_keys に登録して回る
-
+- ~/.ssh/id_rsa.pubをログイン先ホストの~/.ssh/authorized_keysに登録して回る。
+- ~/.ssh/id_rsa.pubをGitHub.comへ登録。
 
 <!-- ---------------------------------------------------------------------
  ビルドシステム・セットアップ
@@ -72,6 +72,12 @@
 - 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとvimなどが適切に日本語を使うことができない。
 
 ※ Wingetが対応していないソフトウェアについてはMSYS2を使用。
+
+### git
+
+    pacman -S git
+    git config --global user.email "メールアドレス"
+    git config --global user.name "ユーザ名"
 
 ### misc
 
