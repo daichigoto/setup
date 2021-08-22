@@ -61,12 +61,16 @@
 
 ## Winget
 
+###### インストール方法
+
 1. Microsoft Store：「App Installer」をインストール
 2. [Winget](https://github.com/microsoft/winget-cli/releases)をインストール
 
 ※ パッケージ管理システムとしてWingetを使用。 
 
 ## MSYS2
+
+###### インストール方法
 
     winget install MSYS2
     pacman -Syu
@@ -79,7 +83,12 @@
 
 ### git
 
+###### インストール方法
+
     pacman -S git
+
+###### Github.comを使うための設定
+
     git config --global user.email "メールアドレス"
     git config --global user.name "ユーザ名"
 
@@ -99,6 +108,8 @@
 
 ### tttcmds
 
+###### ビルドおよびインストール
+
     cd ${HOME}
     mkdir Documents
     cd Documents
@@ -115,7 +126,7 @@
 
 ### Vim
 
-###### インストール
+###### インストールとセットアップ
 
     pacman -S vim
      
@@ -134,7 +145,7 @@
 
 ### Google日本語入力
 
-###### インストール
+###### インストール方法
 
     winget install Google.JapaneseIME
 
@@ -192,7 +203,7 @@
 
 ### Firefox
 
-###### インストール
+###### インストール方法
 
     winget install Mozilla.Firefox
 
@@ -209,7 +220,7 @@
 
 ### Thunderbird
 
-###### インストール
+###### インストール方法
 
     winget install Mozilla.Thunderbird
 
@@ -224,6 +235,15 @@
  仮想環境-To-Windows 連携システム・セットアップ
  --------------------------------------------------------------------- -->
 ## 仮想環境-To-Windows 連携システム・セットアップ
+
+### misc
+
+    cd ${HOME}
+    mkdir Documents
+    cd Documents
+    git clone git@github.com:daichigoto/misc.git
+
+- 環境変数PATHへ「${HOME}/Documents/misc/bin」を追加。${HOME}/Documents/misc/binは優先順位最上位で追加すること。
 
 ### wincmdserver
 
