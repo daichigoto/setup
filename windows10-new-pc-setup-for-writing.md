@@ -7,6 +7,8 @@
 
 ### OpenSSHサーバ
 
+###### インストール方法
+
 - 設定アプリケーション：「アプリ」→「オプション機能」→「機能の追加」→「OpenSSHサーバー」にチェック→「インストール」
 
 ###### C:\ProgramData\ssh\sshd_config
@@ -41,14 +43,16 @@
 
 ### OpenSSHクライアント
 
+###### インストール方法
+
 - 設定アプリケーション：「アプリ」→「アプリと機能」→「オプション機能」→「機能の追加」→「OpenSSHクライアント」→「インストール」
 
 ###### 認証鍵の生成
 
     ssh-keygen
 
-- ~/.ssh/id_rsa.pubをログイン先ホストの~/.ssh/authorized_keysに登録して回る。
-- ~/.ssh/id_rsa.pubをGitHub.comへ登録。
+- ${HOME}/.ssh/id_rsa.pubをログイン先ホストの${HOME}/.ssh/authorized_keysに登録して回る。
+- ${HOME}/.ssh/id_rsa.pubをGitHub.comへ登録。
 
 <!-- ---------------------------------------------------------------------
  ビルドシステム・セットアップ
@@ -81,21 +85,21 @@
 
 ### misc
 
-    cd ~
+    cd ${HOME}
     mkdir Documents
     cd Documents
     git clone git@github.com:daichigoto/misc.git
 
 - 環境変数PATHへ「${HOME}/Documents/misc/bin」を追加。${HOME}/Documents/misc/binは優先順位最上位で追加すること。
 
-###### ビルドおよびインストール方法
+###### ビルドおよびインストール
 
     cd misc
     make
 
 ### tttcmds
 
-    cd ~
+    cd ${HOME}
     mkdir Documents
     cd Documents
     git clone git@github.com:daichigoto/tttcmds.git
@@ -115,13 +119,13 @@
 
     pacman -S vim
      
-    mkdir ~\.cache\vim\dein
-    cd ~\.cache\vim\dein\
+    mkdir ${HOME}\.cache\vim\dein
+    cd ${HOME}\.cache\vim\dein\
     Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
     ./installer.ps1 .
     del ./installer.ps1
      
-    cd ~/Documents/
+    cd ${HOME}/Documents/
     git clone git@github.com:daichigoto/config.git
     cd config
     ./tools/install-vim.ps1
@@ -175,7 +179,7 @@
 
 ###### chrome-ext
 
-    cd ~/Documents/
+    cd ${HOME}/Documents/
     git clone git@github.com:daichigoto/chrome-ext.git
 
 - 「拡張機能」→「開発者モード」→「ON」
@@ -247,4 +251,4 @@
 |設定|タスクを停止するまでの時間|チェックを外して無効化|
 
 ※ miscをインストールしてから作業すること。  
-※ wincmdserverが動作していれば、ssh経由でWindows 10にログインしていても~/.wincmdserver_cmdにコマンドを書き込むことでGUIアプリケーションなども実行することができる。  
+※ wincmdserverが動作していれば、ssh経由でWindows 10にログインしていても${HOME}/.wincmdserver_cmdにコマンドを書き込むことでGUIアプリケーションなども実行することができる。  
