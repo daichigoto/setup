@@ -75,7 +75,7 @@
     winget install MSYS2
     pacman -Syu
 
-- 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\clang64\bin」を追加。ただし、${HOME}/Documents/misc/binよりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\msys64\usr\bin\make.exeよりも先に実行される必要がある。
+- 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\mingw64\bin」を追加。ただし、${HOME}/Documents/misc/binよりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\msys64\usr\bin\make.exeよりも先に実行される必要がある。
 - 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。
 - 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとvimなどが適切に日本語を使うことができない。
 
