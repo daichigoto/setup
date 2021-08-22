@@ -230,6 +230,12 @@
 
 - [PhotoScape X](http://x.photoscape.org/)
 
+### ユーティリティ・コマンド
+
+###### インストール方法
+
+    pacman -S --noconfirm tree
+    pacman -S --noconfirm bc
 
 <!-- ---------------------------------------------------------------------
  仮想環境-To-Windows 連携システム・セットアップ
