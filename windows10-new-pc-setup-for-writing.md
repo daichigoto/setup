@@ -238,6 +238,7 @@
 
     pacman -S --noconfirm tree
     pacman -S --noconfirm bc
+    pacman -S --noconfirm diffutils
 
 <!-- ---------------------------------------------------------------------
  仮想環境-To-Windows 連携システム・セットアップ
