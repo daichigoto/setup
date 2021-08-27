@@ -110,6 +110,8 @@
 
 ###### ビルドおよびインストール
 
+※ tttcmdsは現在移植中。ビルド可能になるのはもうちょっと先。
+
     cd ${HOME}
     mkdir Documents
     cd Documents
