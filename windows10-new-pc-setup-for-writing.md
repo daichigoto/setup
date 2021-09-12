@@ -59,6 +59,25 @@
  --------------------------------------------------------------------- -->
 ## ビルドシステム・セットアップ
 
+## 環境変数PATH
+
+次の優先順位で環境変数PATHへディレクトリを追加する。
+
+1. ${HOME}/Documents/misc/bin/ 
+2. ${HOME}/Documents/tttcmds/bin/ 
+3. C:\msys64\usr\bin
+4. C:\msys64\mingw64\bin
+
+環境変数PATHの編集は「PATH」を検索し「システムのプロパティ」を起動し「環境変数…」をクリックすることで編集用ダイアログを起動することができる。
+
+## 環境変数HOME
+
+- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとMSYS2のホームディレクトリがC:\msys64\home\daichiなどになり使いにくい。
+
+## 環境変数LC_CTYPE
+ 
+- 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとMSYS2のvimなどが適切に日本語を使うことができない。
+
 ## Winget
 
 ###### インストール方法
@@ -73,19 +92,15 @@
 ###### インストール方法
 
     winget install MSYS2
-    pacman -Syu
+    pacman -Syu --noconfirm
 
-- 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\mingw64\bin」を追加。ただし、${HOME}/Documents/misc/binよりも後のパスとして追加すること。${HOME}/Documents/misc/bin/make.ps1がC:\msys64\usr\bin\make.exeよりも先に実行される必要がある。
-- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。
-- 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとvimなどが適切に日本語を使うことができない。
-
-※ Wingetが対応していないソフトウェアについてはMSYS2を使用。
+※ Wingetが対応していないソフトウェアやライブラリ、開発ツールにMSYS2を使用。
 
 ### git
 
 ###### インストール方法
 
-    pacman -S git
+    pacman -S --noconfirm git
 
 ###### Github.comを使うための設定
 
@@ -97,9 +112,7 @@
     cd ${HOME}
     mkdir Documents
     cd Documents
-    git clone git@github.com:daichigoto/misc.git
-
-- 環境変数PATHへ「${HOME}/Documents/misc/bin」を追加。${HOME}/Documents/misc/binは優先順位最上位で追加すること。
+    git clone https://github.com/daichigoto/misc.git
 
 ###### ビルドおよびインストール
 
@@ -110,16 +123,12 @@
 
 ###### ビルドおよびインストール
 
-※ tttcmdsは現在移植中。ビルド可能になるのはもうちょっと先。
-
     cd ${HOME}
     mkdir Documents
     cd Documents
-    git clone git@github.com:daichigoto/tttcmds.git
+    git clone https://github.com/daichigoto/tttcmds.git
     cd tttcmds
-    make
-
-- 環境変数PATHへ「${HOME}/Documents/tttcmds/bin」を追加。
+    make 
 
 <!-- ---------------------------------------------------------------------
  執筆ツール・セットアップ
@@ -130,7 +139,7 @@
 
 ###### インストールとセットアップ
 
-    pacman -S vim
+    pacman -S --noconfirm vim
      
     mkdir ${HOME}\.cache\vim\dein
     cd ${HOME}\.cache\vim\dein\
@@ -139,7 +148,7 @@
     del ./installer.ps1
      
     cd ${HOME}/Documents/
-    git clone git@github.com:daichigoto/config.git
+    git clone https://github.com/daichigoto/config.git
     cd config
     ./tools/install-vim.ps1
     
@@ -193,7 +202,7 @@
 ###### chrome-ext
 
     cd ${HOME}/Documents/
-    git clone git@github.com:daichigoto/chrome-ext.git
+    git clone https://github.com/daichigoto/chrome-ext.git
 
 - 「拡張機能」→「開発者モード」→「ON」
 - 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択」
@@ -250,7 +259,7 @@
     cd ${HOME}
     mkdir Documents
     cd Documents
-    git clone git@github.com:daichigoto/misc.git
+    git clone https://github.com/daichigoto/misc.git
 
 - 環境変数PATHへ「${HOME}/Documents/misc/bin」を追加。${HOME}/Documents/misc/binは優先順位最上位で追加すること。
 
