@@ -109,13 +109,12 @@
 
 ### misc
 
+###### ビルドおよびインストール
+
     cd ${HOME}
     mkdir Documents
     cd Documents
     git clone https://github.com/daichigoto/misc.git
-
-###### ビルドおよびインストール
-
     cd misc
     make
 
