@@ -201,7 +201,9 @@
 
 ###### chrome-ext
 
-    cd ${HOME}/Documents/
+    cd ${HOME}
+    mkdir Documents
+    cd Documents
     git clone https://github.com/daichigoto/chrome-ext.git
 
 - 「拡張機能」→「開発者モード」→「ON」
@@ -254,14 +256,18 @@
  --------------------------------------------------------------------- -->
 ## 仮想環境-To-Windows 連携システム・セットアップ
 
+## 環境変数PATH
+
+次の優先順位で環境変数PATHへディレクトリを追加する。
+
+1. ${HOME}/Documents/misc/bin/ 
+
 ### misc
 
     cd ${HOME}
     mkdir Documents
     cd Documents
     git clone https://github.com/daichigoto/misc.git
-
-- 環境変数PATHへ「${HOME}/Documents/misc/bin」を追加。${HOME}/Documents/misc/binは優先順位最上位で追加すること。
 
 ### wincmdserver
 
