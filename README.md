@@ -57,6 +57,8 @@
 
 ［✓］[セットアップ](hyperv-setup.md)  
 
+［　］[Windows11 仮想マシン](hyperv-vm-windows11.md)  
+
 ［✓］[Windows11 拡張セッション セットアップ](hyperv-setup-win11-extsession.md)  
 ［✓］[Windows10 拡張セッション セットアップ](hyperv-setup-win10-extsession.md)  
 
