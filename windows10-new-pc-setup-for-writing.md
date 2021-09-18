@@ -63,8 +63,8 @@
 
 次の優先順位で環境変数PATHへディレクトリを追加する。
 
-1. ${HOME}/Documents/misc/bin/ 
-2. ${HOME}/Documents/tttcmds/bin/ 
+1. ${HOME}\Documents\misc\bin 
+2. ${HOME}\Documents\tttcmds\bin 
 3. C:\msys64\usr\bin
 4. C:\msys64\mingw64\bin
 
@@ -259,7 +259,7 @@
 
 次の優先順位で環境変数PATHへディレクトリを追加する。
 
-1. ${HOME}/Documents/misc/bin/ 
+1. ${HOME}\Documents\misc\bin 
 
 ### misc
 
