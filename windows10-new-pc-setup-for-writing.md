@@ -68,6 +68,8 @@
 3. C:\msys64\usr\bin
 4. C:\msys64\mingw64\bin
 
+{HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME}\Documents\misc\binがもっとも高い優先度で追加されている必要がある。
+
 環境変数の編集は「PATH」を検索し「システムのプロパティ」を起動し「環境変数…」をクリックすることで編集用ダイアログを起動することができる。
 
 ## 環境変数HOME
@@ -77,6 +79,8 @@
 ## 環境変数LC_CTYPE
  
 - 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとMSYS2のvimなどが適切に日本語を使うことができない。
+
+環境変数を追加したら、一旦Windows Terminalをすべて終了し、改めてWindows Terminalを起動する。Windows Terminalは一旦すべて終了しないとPowerShellにPATHの変更が反映されない。
 
 ## Winget
 
@@ -91,10 +95,12 @@
 
 ###### インストール方法
 
+Wingetが対応していないソフトウェアやライブラリ、開発ツールにMSYS2を使用する。
+
     winget install MSYS2
     pacman -Syu --noconfirm
 
-※ Wingetが対応していないソフトウェアやライブラリ、開発ツールにMSYS2を使用。
+※ pacmanが実行できない場合、環境変数PATHにC:\msys64\usr\binが追加されていないか、環境変数PATHへの追加がPowerShellに反映されていない可能性がある。Windows Terminalを一旦すべて終了し、新しく起動してから再度試すこと。
 
 ### git
 
@@ -111,9 +117,7 @@
 
 ###### ビルドおよびインストール
 
-    cd ${HOME}
-    mkdir Documents
-    cd Documents
+    cd ${HOME}\Documents
     git clone https://github.com/daichigoto/misc.git
     cd misc
     make
@@ -122,9 +126,7 @@
 
 ###### ビルドおよびインストール
 
-    cd ${HOME}
-    mkdir Documents
-    cd Documents
+    cd ${HOME}\Documents
     git clone https://github.com/daichigoto/tttcmds.git
     cd tttcmds
     make 
