@@ -63,30 +63,30 @@
 
 ### PATH
 
-次の優先順位で環境変数PATHへディレクトリを追加する。
+- 次の優先順位で環境変数PATHへディレクトリを追加する。
 
 1. ${HOME}\Documents\misc\bin 
 2. ${HOME}\Documents\tttcmds\bin 
 3. C:\msys64\usr\bin
 4. C:\msys64\mingw64\bin
 
-${HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME}\Documents\misc\bin\make.ps1がほかのmakeコマンドよりも優先して実行されるように、${HOME}\Documents\misc\binを高い優先度で追加しておく必要がある。
+※ ${HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME}\Documents\misc\bin\make.ps1がほかのmakeコマンドよりも優先して実行されるように、${HOME}\Documents\misc\binを高い優先度で追加しておく必要がある。
 
 ### LC_CTYPE
  
-環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとMSYS2のvimなどが適切に日本語を使うことができない。
+- 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとMSYS2のvimなどが適切に日本語を使うことができない。
 
 ### HOME
 
-任意。環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとMSYS2のホームディレクトリがC:\msys64\home\daichiなどになり使いにくい。WindowsのホームディレクトリとMSYS2のホームディレクトリが異なっていても構わない場合には環境変数HOMEは設定しなくてよい。
+- 任意。環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとMSYS2のホームディレクトリがC:\msys64\home\daichiなどになり使いにくい。WindowsのホームディレクトリとMSYS2のホームディレクトリが異なっていても構わない場合には環境変数HOMEは設定しなくてよい。
 
 ### LANG
 
-任意。値は「ja_JP.UTF-8」。この環境変数を指定しないとdateなどは日本語で日付を出力しない。Windowsではなく、PowerShellの設定ファイルなどでの設定を推奨。
+- 任意。値は「ja_JP.UTF-8」。この環境変数を指定しないとdateなどは日本語で日付を出力しない。Windowsではなく、PowerShellの設定ファイルなどでの設定を推奨。
 
 ### TZ
 
-任意。値は「Asia/Tokyo」。この環境変数を指定しないとdateなどがタイムゾーンを出力しない。Windowsではなく、PowerShellの設定ファイルなどでの設定を推奨。
+- 任意。値は「Asia/Tokyo」。この環境変数を指定しないとdateなどがタイムゾーンを出力しない。Windowsではなく、PowerShellの設定ファイルなどでの設定を推奨。
 
 |環境変数|値|必須|
 |:---|:---|:---|
