@@ -70,7 +70,7 @@
 3. C:\msys64\usr\bin
 4. C:\msys64\mingw64\bin
 
-${HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME}\Documents\misc\binがもっとも高い優先度で追加されている必要がある。
+${HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME}\Documents\misc\bin\make.ps1がほかのmakeコマンドよりも優先して実行されるように、${HOME}\Documents\misc\binを高い優先度で追加しておく必要がある。
 
 環境変数の編集は「PATH」を検索し「システムのプロパティ」を起動し「環境変数…」をクリックすることで編集用ダイアログを起動することができる。
 
