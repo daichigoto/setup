@@ -72,8 +72,6 @@
 
 ${HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME}\Documents\misc\bin\make.ps1がほかのmakeコマンドよりも優先して実行されるように、${HOME}\Documents\misc\binを高い優先度で追加しておく必要がある。
 
-環境変数の編集は「PATH」を検索し「システムのプロパティ」を起動し「環境変数…」をクリックすることで編集用ダイアログを起動することができる。
-
 ### LC_CTYPE
  
 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとMSYS2のvimなどが適切に日本語を使うことができない。
@@ -100,6 +98,8 @@ ${HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME
 |HOME|C:\Users\daichi||
 |LANG|ja_JP.UTF-8||
 |TZ|Asia/Tokyo||
+
+環境変数の編集は「PATH」を検索し「システムのプロパティ」を起動し「環境変数…」をクリックすることで編集用ダイアログを起動することができる。環境変数PATH、LC_CTYPE、HOMEはこのダイアログで追加する。環境変数LANGとTZはPowerShellのプロファイルなどに設定してシェルレベルで使う程度でよい。
 
 環境変数を追加したら、一旦Windows Terminalをすべて終了し、改めてWindows Terminalを起動する。Windows Terminalは一旦すべて終了しないとPowerShellにPATHの変更が反映されない。
 
