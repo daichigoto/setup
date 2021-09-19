@@ -59,7 +59,9 @@
  --------------------------------------------------------------------- -->
 ## ビルドシステム・セットアップ
 
-## 環境変数PATH
+## 環境変数
+
+#### PATH
 
 次の優先順位で環境変数PATHへディレクトリを追加する。
 
@@ -68,17 +70,36 @@
 3. C:\msys64\usr\bin
 4. C:\msys64\mingw64\bin
 
-{HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME}\Documents\misc\binがもっとも高い優先度で追加されている必要がある。
+${HOME}\Documents\misc\bin\make.ps1がビルドの起点となるため、${HOME}\Documents\misc\binがもっとも高い優先度で追加されている必要がある。
 
 環境変数の編集は「PATH」を検索し「システムのプロパティ」を起動し「環境変数…」をクリックすることで編集用ダイアログを起動することができる。
 
-## 環境変数HOME
-
-- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとMSYS2のホームディレクトリがC:\msys64\home\daichiなどになり使いにくい。WindowsのホームディレクトリとMSYS2のホームディレクトリが異なっていても構わない場合には環境変数HOMEは設定しなくてよい。
-
-## 環境変数LC_CTYPE
+#### LC_CTYPE
  
-- 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとMSYS2のvimなどが適切に日本語を使うことができない。
+環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとMSYS2のvimなどが適切に日本語を使うことができない。
+
+#### HOME
+
+任意。環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとMSYS2のホームディレクトリがC:\msys64\home\daichiなどになり使いにくい。WindowsのホームディレクトリとMSYS2のホームディレクトリが異なっていても構わない場合には環境変数HOMEは設定しなくてよい。
+
+#### LANG
+
+任意。値は「ja_JP.UTF-8」。この環境変数を指定しないとdateなどは日本語で日付を出力しない。Windowsではなく、PowerShellの設定ファイルなどでの設定を推奨。
+
+#### TZ
+
+任意。値は「Asia/Tokyo」。この環境変数を指定しないとdateなどがタイムゾーンを出力しない。Windowsではなく、PowerShellの設定ファイルなどでの設定を推奨。
+
+|環境変数|値|必須|
+|:---|:---|:---|
+|PATH|${HOME}\Documents\misc\bin|必須|
+||${HOME}\Documents\tttcmds\bin|必須|
+||C:\msys64\usr\bin|必須|
+||C:\msys64\mingw64\bin|必須|
+|LC_CTYPE|ja_JP.UTF-8|必須|
+|HOME|C:\Users\daichi||
+|LANG|ja_JP.UTF-8||
+|TZ|Asia/Tokyo||
 
 環境変数を追加したら、一旦Windows Terminalをすべて終了し、改めてWindows Terminalを起動する。Windows Terminalは一旦すべて終了しないとPowerShellにPATHの変更が反映されない。
 
