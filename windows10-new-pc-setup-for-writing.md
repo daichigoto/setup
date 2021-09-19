@@ -82,22 +82,22 @@
 
 ### LANG
 
-- 任意。値は「ja_JP.UTF-8」。この環境変数を指定しないとdateなどは日本語で日付を出力しない。Windowsではなく、PowerShellの設定ファイルなどでの設定を推奨。
+- 任意。値は「ja_JP.UTF-8」。この環境変数を指定しないとdateなどは日本語で日付を出力しない。Windowsではなく、PowerShellのプロファイルなど利用するシェルの設定ファイルでの設定を推奨。
 
 ### TZ
 
-- 任意。値は「Asia/Tokyo」。この環境変数を指定しないとdateなどがタイムゾーンを出力しない。Windowsではなく、PowerShellの設定ファイルなどでの設定を推奨。
+- 任意。値は「Asia/Tokyo」。この環境変数を指定しないとdateなどがタイムゾーンを出力しない。Windowsではなく、PowerShellのプロファイルなど利用するシェルの設定ファイルでの設定を推奨。
 
-|環境変数|値|必須|
-|:---|:---|:---|
-|PATH|${HOME}\Documents\misc\bin|必須|
-||${HOME}\Documents\tttcmds\bin|必須|
-||C:\msys64\usr\bin|必須|
-||C:\msys64\mingw64\bin|必須|
-|LC_CTYPE|ja_JP.UTF-8|必須|
-|HOME|C:\Users\daichi||
-|LANG|ja_JP.UTF-8||
-|TZ|Asia/Tokyo||
+|環境変数|値|||
+|:---|:---|:---|:---|
+|PATH|${HOME}\Documents\misc\bin|必須|システムのプロパティ|
+||${HOME}\Documents\tttcmds\bin|必須|システムのプロパティ|
+||C:\msys64\usr\bin|必須|システムのプロパティ|
+||C:\msys64\mingw64\bin|必須|システムのプロパティ|
+|LC_CTYPE|ja_JP.UTF-8|必須|システムのプロパティ|
+|HOME|C:\Users\daichi||システムのプロパティ|
+|LANG|ja_JP.UTF-8||シェルの設定ファイル|
+|TZ|Asia/Tokyo||シェルの設定ファイル|
 
 環境変数の編集は「PATH」を検索し「システムのプロパティ」を起動し「環境変数…」をクリックすることで編集用ダイアログを起動することができる。環境変数PATH、LC_CTYPE、HOMEはこのダイアログで追加する。環境変数LANGとTZはPowerShellのプロファイルなどに設定してシェルレベルで使う程度でよい。
 
