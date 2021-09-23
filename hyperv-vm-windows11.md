@@ -7,4 +7,4 @@
 
 # 参考
 
-- []()
+- [Windows 11をインストールする方法【Hyper-V編】| TECH+](https://news.mynavi.jp/article/20210923-1975310/)
