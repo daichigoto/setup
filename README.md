@@ -77,5 +77,5 @@
 
 ［✓］[3押し高速オープン設定【Chrome】](browser-quickopen-chrome.md)  
 ［✓］[3押し高速オープン設定【Edge】](browser-quickopen-edge.md)  
-［✓］[3押し高速オープン設定【Safari】](browser-quickopen-safari.md)  
-［✓］[3押し高速オープン設定【Firefox】](browser-quickopen-firefox.md)  
+［　］[3押し高速オープン設定【Firefox】](browser-quickopen-firefox.md)  
+［　］[4押し高速オープン設定【Safari】](browser-quickopen-safari.md)  
