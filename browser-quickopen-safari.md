@@ -16,4 +16,4 @@
 
 # 参考
 
-- []()
+- [Webサイトを『4押し』で高速オープンする方法【Safari編】| TECH+](https://news.mynavi.jp/article/20210925-1972351/)
