@@ -16,4 +16,4 @@
 
 # 参考
 
-- []()
+- [Webサイトを『3押し』で高速オープンする方法【Firefox編】 | TECH+](https://news.mynavi.jp/article/20210926-1981874/)
