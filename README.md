@@ -2,11 +2,21 @@
 
 ## Windows 11
 
-［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
-
+［ー］[新規購入PC時 セットアップ](windows11-new-pc-setup.md)  
+［ー］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
+［ー］[新規購入PC時 セットアップ (執筆環境)](windows11-new-pc-setup-for-writing.md)  
+
+［ー］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
+
+［ー］[英語キーボードを使うセットアップ](windows11-keyboard-us.md)  
+［ー］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-capslock-ctrl.md)  
 
 ［✓］[WSL2 セットアップ](windows11-setup-wsl2.md)  
+
+［ー］[OpenSSHサーバ セットアップ](windows11-setup-sshd.md)  
+
+［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
 
 ## Windows 10
 
@@ -18,17 +28,17 @@
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows10-new-pc-setup-for-home.md)  
 ［　］[新規購入PC時 セットアップ (執筆環境)](windows10-new-pc-setup-for-writing.md)  
 
-［✓］[Macへリモートアクセス セットアップ (Splashtop)](windows10-setup-access-to-mac.md)  
-
-［　］[OpenSSHサーバ セットアップ](windows10-setup-sshd.md)  
-
-［✓］[WSL2 セットアップ](windows10-setup-wsl2.md)  
-［✓］[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
+［　］[クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
 
 ［✓］[英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)  
 
-［　］[クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
+［✓］[WSL2 セットアップ](windows10-setup-wsl2.md)  
+［✓］[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
+
+［　］[OpenSSHサーバ セットアップ](windows10-setup-sshd.md)  
+
+［✓］[Macへリモートアクセス セットアップ (Splashtop)](windows10-setup-access-to-mac.md)  
 
 ## M1 Mac
 
