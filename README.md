@@ -57,7 +57,7 @@
 
 ［✓］[セットアップ](hyperv-setup.md)  
 
-［　］[Windows11 仮想マシン](hyperv-vm-windows11.md)  
+［✓］[Windows11 仮想マシン](hyperv-vm-windows11.md)  
 
 ［✓］[Windows11 拡張セッション セットアップ](hyperv-setup-win11-extsession.md)  
 ［✓］[Windows10 拡張セッション セットアップ](hyperv-setup-win10-extsession.md)  
@@ -77,5 +77,5 @@
 
 ［✓］[3押し高速オープン設定【Chrome】](browser-quickopen-chrome.md)  
 ［✓］[3押し高速オープン設定【Edge】](browser-quickopen-edge.md)  
-［　］[3押し高速オープン設定【Firefox】](browser-quickopen-firefox.md)  
-［　］[4押し高速オープン設定【Safari】](browser-quickopen-safari.md)  
+［✓］[3押し高速オープン設定【Firefox】](browser-quickopen-firefox.md)  
+［✓］[4押し高速オープン設定【Safari】](browser-quickopen-safari.md)  
