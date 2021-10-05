@@ -15,7 +15,7 @@
 
 5. Parallels Desktop：「FreeBSD Virtの構成」→「CD/DVD」→ソース「切断済み」
 
-※1 FreeBSD 13.0-RELEASEはプロセッサが1つでないと動作しない。
+※1 FreeBSD 13.0-RELEASEはプロセッサを1つに設定しておかないと動作しない。
 
 ###### /etc/crontab に追加する設定
 
