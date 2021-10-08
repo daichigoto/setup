@@ -1,23 +1,33 @@
 # 新規購入PC時 セットアップ (開発者向け)
 
-## MSYS2
-
-    winget install --id msys2.msys2
-    pacman -Syu
-
-- 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\mingw64\bin」を追加。
-- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。
-- 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとvimなどが適切に日本語を使うことができない。
-
-※ Wingetが対応していないソフトウェアについてはMSYS2を使用。
-
 ## PowerShell
 
-    winget install Microsoft.PowerShell
+    winget install --id Microsoft.PowerShell
     
     git clone git@github.com:daichigoto/config.git
     cd config
     ./tools/install-powershell.ps1
+
+## Windows Terminal
+
+1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
+2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
+3. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
+
+## MSYS2
+
+Linux系コマンドをMSYS2経由でインストールして使用する。
+
+###### 事前に環境変数を設定
+
+- 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\mingw64\bin」を追加。Windows Terminalで「echo $env:Path」と実行し、環境変数Pathに反映されていることを確認。反映されていない場合にはシステムを再起動してから、もう一度確認する。
+- 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。
+- 環境変数LC_CTYPEを追加。値は「ja_JP.UTF-8」。この環境変数を指定しないとvimなどが適切に日本語を使うことができない。
+
+###### インストール方法
+
+    winget install --id msys2.msys2
+    pacman -Syu
 
 ## Git
 
@@ -46,11 +56,6 @@
 ## Visual Studio Code
 
     winget install Microsoft.VisualStudioCode
-
-## Windows Terminal
-
-1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
-2. Windows Terminalのフォントを「Cascadia Mono PL」へ変更
 
 ## OpenSSHサーバ
 
