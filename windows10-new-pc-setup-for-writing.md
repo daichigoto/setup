@@ -139,7 +139,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 ###### ビルドおよびインストール
 
     cd ${HOME}\Documents
-    git clone https://github.com/daichigoto/misc.git
+    git clone git@github.com:daichigoto/misc.git
     cd misc
     make
 
@@ -148,7 +148,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 ###### ビルドおよびインストール
 
     cd ${HOME}\Documents
-    git clone https://github.com/daichigoto/tttcmds.git
+    git clone git@github.com:daichigoto/tttcmds.git
     cd tttcmds
     make 
 
@@ -170,7 +170,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
     del ./installer.ps1
      
     cd ${HOME}/Documents/
-    git clone https://github.com/daichigoto/config.git
+    git clone git@github.com:daichigoto/config.git
     cd config
     ./tools/install-vim.ps1
     
@@ -226,7 +226,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
     cd ${HOME}
     mkdir Documents
     cd Documents
-    git clone https://github.com/daichigoto/chrome-ext.git
+    git clone git@github.com:daichigoto/chrome-ext.git
 
 - 「拡張機能」→「開発者モード」→「ON」
 - 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択」
@@ -289,7 +289,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
     cd ${HOME}
     mkdir Documents
     cd Documents
-    git clone https://github.com/daichigoto/misc.git
+    git clone git@github.com:daichigoto/misc.git
 
 ### wincmdserver
 
