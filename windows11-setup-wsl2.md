@@ -1,5 +1,7 @@
 # WSL2 セットアップ
 
+###### インストール方法(管理者権限のWindows Terminalで実行)
+
     wsl --install -d Ubuntu
 
 ###### Ubuntu初期セットアップ
