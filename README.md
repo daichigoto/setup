@@ -13,11 +13,11 @@
 ［ー］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
 
 ［ー］[英語キーボードを使うセットアップ](windows11-keyboard-us.md)  
-［ー］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-capslock-ctrl.md)  
+［　］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-capslock-ctrl.md)  
 
 ［✓］[WSL2 セットアップ](windows11-setup-wsl2.md)  
 
-［ー］[OpenSSHサーバ セットアップ](windows11-setup-sshd.md)  
+［　］[OpenSSHサーバ セットアップ](windows11-setup-sshd.md)  
 
 ［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
 
