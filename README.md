@@ -4,15 +4,15 @@
 
 ［　］[新規購入PC時 セットアップ](windows11-new-pc-setup.md)  
 ［　］[新規購入PC時 セットアップ (ビジネスマン向け)](windows11-new-pc-setup-for-biz.md)  
-［ー］[新規購入PC時 セットアップ (開発者向け)](windows11-new-pc-setup-for-devs.md)  
-［ー］[新規購入PC時 セットアップ (Macユーザ向け)](windows11-new-pc-setup-for-mac.md)  
-［ー］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
+［　］[新規購入PC時 セットアップ (開発者向け)](windows11-new-pc-setup-for-devs.md)  
+［　］[新規購入PC時 セットアップ (Macユーザ向け)](windows11-new-pc-setup-for-mac.md)  
+［　］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
 ［ー］[新規購入PC時 セットアップ (執筆環境)](windows11-new-pc-setup-for-writing.md)  
 
-［ー］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
+［　］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
 
-［ー］[英語キーボードを使うセットアップ](windows11-keyboard-us.md)  
+［　］[英語キーボードを使うセットアップ](windows11-keyboard-us.md)  
 ［　］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-capslock-ctrl.md)  
 
 ［✓］[WSL2 セットアップ](windows11-setup-wsl2.md)  
