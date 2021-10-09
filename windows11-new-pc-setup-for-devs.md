@@ -1,5 +1,47 @@
 # 新規購入PC時 セットアップ (開発者向け)
 
+## Visual Studio Code
+
+    winget install --id Microsoft.VisualStudioCode
+
+## Windowsサンドボックス
+
+1. 設定アプリケーション：「アプリ」→「オプション機能」→「Windowsのその他の機能」→「Windowsサンドボックス」→「OK」
+2. システムを再起動
+
+## Hyper-V
+
+1. 設定アプリケーション：「アプリ」→「オプション機能」→「Windowsのその他の機能」→「Hyper-V」→「OK」
+2. システムを再起動
+
+※ Hyper-Vの使用にはWindows 11 Pro、Enterprise、Educationが必要。
+
+## Windows 10 開発環境
+
+1. Hyper-Vマネージャー：「クイック作成…」→「Windows 10 開発環境」→「仮想マシンの作成」→「接続」→「起動」
+2. 管理者権限：slmgr -rearm
+3. 設定アプリケーション：「Time & Language」→「Language」→「Add a language」→「Japan」「日本語」→「Next」→「Set as my Windows desktop language」→「Install」
+4. システムを再起動
+5. 設定アプリケーション：「時刻と言語」→「言語」→「日本語」→「オプション」→「使用しているキーボードのレイアウト」→「OK」
+6. 設定アプリケーション：「時刻と言語」→「地域」→「国または地域」→「日本」
+7. 設定アプリケーション：「時刻と言語」→「日付と時刻」→「タイムゾーン」→「(UTC +09:00) 大阪、札幌、東京」
+
+※ 仮想環境の削除後は「C:\Users\Public\Documents\Hyper-V\Virtual hard disks\」に残るディスクイメージも削除する。削除しないとディスクが消費されたままになる。
+
+## WSL2
+
+###### インストール方法 (管理者権限のWindows Terminalで実行)
+
+    wsl --install -d Ubuntu
+    システム再起動
+
+###### Ubuntu初期セットアップ
+
+    sudo apt update
+    sudo apt upgrde
+    sudo apt install language-pack-ja
+    echo 'export LANG=ja_JP.UTF-8' >> ~/.bashrc
+
 ## MSYS2
 
 Linux系コマンドをMSYS2経由でインストールして使用する。
@@ -76,12 +118,54 @@ Linux系コマンドをMSYS2経由でインストールして使用する。
 2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
 3. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
 
-## Visual Studio Code
+## OpenSSHサーバ セットアップ
 
-    winget install --id Microsoft.VisualStudioCode
+1. 設定アプリケーション：「アプリ」→「オプション機能」→「機能を表示」→「OpenSSHサーバー」にチェック→「インストール」
+2. システムを再起動
+3. 設定ファイルを編集する。以降の操作を管理者権限のWindows Terminalで実行する。
 
-## OpenSSHサーバ
+###### 設定ファイルを編集
 
+    copy C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default C:\ProgramData\ssh\sshd_config
+    notepad C:\ProgramData\ssh\sshd_config
+
+###### 変更内容
+
+    C:\ProgramData\ssh>fc /n C:\Windows\System32\OpenSSH\sshd_config_default C:\ProgramData\ssh\sshd_config
+    Comparing files C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default and C:\PROGRAMDATA\SSH\SSHD_CONFIG
+    ***** C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default
+       86:
+       87:  Match Group administrators
+       88:         AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
+    ***** C:\PROGRAMDATA\SSH\SSHD_CONFIG
+       86:
+       87:  #Match Group administrators
+       88:  #       AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
+    *****
+
+※ 上記設定が有効になっている場合、C:\ProgramData\ssh\administrators_authorized_keysが存在し、かつ、適切なアクセス許可が設定されていないと、C:\ProgramData\ssh\administrators_authorized_keysをチェックしに行った後で公開鍵認証そのものが無効になる。$HOME/.ssh/authorized_keysよりもC:\ProgramData\ssh\administrators_authorized_keysが優先されるため、C:\ProgramData\ssh\administrators_authorized_keysのアクセス許可が不適切だと$HOME/.ssh/authorized_keysに公開鍵を配置しておいても使われない。これを回避し$HOME/.ssh/authorized_keysの公開鍵を使った公開鍵認証が有効になるようにするには、C:\ProgramData\ssh\administrators_authorized_keysを作成して適切なアクセス許可を設定するか、C:\ProgramData\ssh\administrators_authorized_keysを使わないように設定を変更する必要がある。ここでは$HOME/.ssh/authorized_keysによる公開鍵認証が使われるように、上記のように該当する行をコメントアウトする方法で設定する。
+
+###### sshdの起動と自動起動を設定
+
+    Start-Service sshd # sshdを起動
+    Set-Service -Name sshd -StartupType 'Automatic' # Windows起動時に自動的に起動
+
+###### 外部からのアクセス許可を確認する
+
+    Get-NetFirewallRule -Name *ssh* # ファイウォールルールを確認
+
+    外部からのアクセス許可ルールが存在しない、または、ブロックされているなら次のようにルールを作成する
+    New-NetFirewallRule -Name  -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22 # 外部からsshdへのアクセスを許可
+
+※ Hyper-Vのゲストからホストのsshdにアクセスする場合には上記のようなファイアウォールルールは不要。
+
+###### (sshd起動後に設定を変更した場合: sshdを再起動する)
+
+    Restart-Service sshd # sshdを再起動
+
+###### OpenSSHのデフォルトシェルをPowerShell 7へ変更
+
+    New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force
 
 ## OpenSSHクライアント
 
@@ -91,40 +175,6 @@ Linux系コマンドをMSYS2経由でインストールして使用する。
 
     ssh-keygen
     ~/.ssh/id_rsa.pub をログインするホストの~/.ssh/authorized_keysに登録して回る
-
-## Windowsサンドボックス
-
-1. 設定アプリケーション：「アプリ」→「オプション機能」→「Windowsのその他の機能」→「Windowsサンドボックス」→「OK」
-2. システムを再起動
-
-## Hyper-V
-
-1. 設定アプリケーション：「アプリ」→「オプション機能」→「Windowsのその他の機能」→「Hyper-V」→「OK」
-2. システムを再起動
-
-## Windows 10 開発環境
-
-1. Hyper-Vマネージャー：「クイック作成…」→「Windows 10 開発環境」→「仮想マシンの作成」→「接続」→「起動」
-2. 管理者権限：slmgr -rearm
-3. 設定アプリケーション：「Time & Language」→「Language」→「Add a language」→「Japan」「日本語」→「Next」→「Set as my Windows desktop language」→「Install」
-4. システムを再起動
-5. 設定アプリケーション：「時刻と言語」→「言語」→「日本語」→「オプション」→「使用しているキーボードのレイアウト」→「OK」
-6. 設定アプリケーション：「時刻と言語」→「地域」→「国または地域」→「日本」
-7. 設定アプリケーション：「時刻と言語」→「日付と時刻」→「タイムゾーン」→「(UTC +09:00) 大阪、札幌、東京」
-
-仮想環境削除後、「C:\Users\Public\Documents\Hyper-V\Virtual hard disks\」に残るディスクイメージも削除。
-
-## WSL2
-
-    wsl --install -d Ubuntu
-    システム再起動
-
-###### Ubuntu初期セットアップ
-
-    sudo apt update
-    sudo apt upgrde
-    sudo apt install language-pack-ja
-    echo 'export LANG=ja_JP.UTF-8' >> ~/.bashrc
 
 # 参考
 
