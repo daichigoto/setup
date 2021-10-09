@@ -90,4 +90,4 @@
 
 # 参考
 
-- []()
+- [Windows 10搭載PCを買ったら最初にやっておきたいこと【Macユーザー編】 \| TECH\+](https://news.mynavi.jp/article/20210712-1907494/)
