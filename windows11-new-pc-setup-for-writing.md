@@ -212,7 +212,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 
 ###### インストール方法
 
-    winget install Google.JapaneseIME
+    winget install --id Google.JapaneseIME
 
 - 「プロパティ」→「一般」→キー設定の選択「MS-IME」→「編集」→エントリーを追加→「OK」→「OK」
 
@@ -264,15 +264,15 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 - 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択」
 - 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\mncms」→「フォルダーの選択」
 - 「拡張機能」→「展開して読み込み」→「C:\Documents\chrome-ext\iscms」→「フォルダーの選択」
-- アドレスバー右横：「glsdtool」→「メニューへ移動」
-- アドレスバー右横：「mncms」→「メニューへ移動」
-- アドレスバー右横：「iscms」→「メニューへ移動」
+- アドレスバー右横：「GLSD Tool」→「ツールバーから非表示にする」
+- アドレスバー右横：「Mynavi IT」→「ツールバーから非表示にする」
+- アドレスバー右横：「Mynavi Event」→「ツールバーから非表示にする」
 
 ### Firefox
 
 ###### インストール方法
 
-    winget install Mozilla.Firefox
+    winget install --id Mozilla.Firefox
 
 - Firefox：「設定」→「一般」→次のフォルダーに保存する「参照」→「デスクトップ」→「フォルダーの選択」
 - Firefox：「ツールバー」→「ツールバーをカスタマイズ」→「スクリーンショット」追加→「完了」
@@ -289,13 +289,13 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 
 ###### インストール方法
 
-    winget install Mozilla.Thunderbird
+    winget install --id Mozilla.Thunderbird
 
 - Thunderbird：送信用アカウント追加
 
 ### PhotoScape X
 
-- [PhotoScape X](http://x.photoscape.org/)
+    winget install --id 9NBLGGH4TWWG
 
 ### ユーティリティ・コマンド
 
