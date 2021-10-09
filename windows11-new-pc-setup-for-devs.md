@@ -1,19 +1,5 @@
 # 新規購入PC時 セットアップ (開発者向け)
 
-## PowerShell
-
-    winget install --id Microsoft.PowerShell
-    
-    git clone git@github.com:daichigoto/config.git
-    cd config
-    ./tools/install-powershell.ps1
-
-## Windows Terminal
-
-1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
-2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
-3. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
-
 ## MSYS2
 
 Linux系コマンドをMSYS2経由でインストールして使用する。
@@ -53,13 +39,58 @@ Linux系コマンドをMSYS2経由でインストールして使用する。
     
     vim  ← プラグインインストールが完了するまでしばらく待つ
 
+## NeoVim
+
+###### インストール方法
+
+1. [Home - Neovim](http://neovim.io/)からNeovimをインストール。zipファイルを展開し、C:\Users\daichi\Documents\neovim\へデプロイする。
+2. C:\Users\daichi\Documents\neovim\binを環境変数Pathへ追加する。
+3. Windows Terminalの再起動またはシステムを再起動し、「echo $env:Path」を実行して環境変数PathにC:\Users\daichi\Documents\neovim\binが追加されていることを確認する。
+
+###### セットアップ方法
+
+    mkdir ~\.cache\nvim\dein
+    cd ~\.cache\nvim\dein\
+    Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
+    ./installer.ps1 .
+    del ./installer.ps1
+   
+    cd ~/Documents/
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    ./tools/install-nvim.ps1
+    
+    nvim  ← プラグインインストールが完了するまでしばらく待つ
+
+## PowerShell
+
+    winget install --id Microsoft.PowerShell
+    
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    ./tools/install-powershell.ps1
+
+## Windows Terminal
+
+1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
+2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
+3. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
+
 ## Visual Studio Code
 
-    winget install Microsoft.VisualStudioCode
+    winget install --id Microsoft.VisualStudioCode
 
 ## OpenSSHサーバ
 
-- 設定アプリケーション：「アプリ」→「アプリと機能」→「オプション機能」→「機能の追加」→「OpenSSHクライアント」→「インストール」
+
+## OpenSSHクライアント
+
+- 設定アプリケーション：「アプリ」→「アプリと機能」→「オプション機能」→「機能を表示」→「OpenSSHクライアント」にチェック→「インストール」
+
+###### 認証鍵の生成
+
+    ssh-keygen
+    ~/.ssh/id_rsa.pub をログインするホストの~/.ssh/authorized_keysに登録して回る
 
 ## Windowsサンドボックス
 
