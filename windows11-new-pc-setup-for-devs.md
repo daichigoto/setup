@@ -4,7 +4,7 @@
 
     winget install --id Microsoft.VisualStudioCode
 
-## Windowsサンドボックス
+## Windows Sandbox
 
 1. 設定アプリケーション：「アプリ」→「オプション機能」→「Windowsのその他の機能」→「Windowsサンドボックス」→「OK」
 2. システムを再起動
