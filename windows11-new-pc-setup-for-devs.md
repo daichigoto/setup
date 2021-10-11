@@ -9,6 +9,8 @@
 1. 設定アプリケーション：「アプリ」→「オプション機能」→「Windowsのその他の機能」→「Windowsサンドボックス」→「OK」
 2. システムを再起動
 
+※ Hyper-Vの使用にはWindows 11 Pro、Enterprise、Educationが必要。
+
 ## Hyper-V
 
 1. 設定アプリケーション：「アプリ」→「オプション機能」→「Windowsのその他の機能」→「Hyper-V」→「OK」
