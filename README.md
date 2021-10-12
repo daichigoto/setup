@@ -14,6 +14,7 @@
 
 ［✓］[英語キーボードを使うセットアップ](windows11-keyboard-us.md)  
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-capslock-ctrl.md)  
+［✓］[パスワードなしで自動ログインするセットアップ](windows11-setup-autosignin.md)  
 
 ［✓］[WSL2 セットアップ](windows11-setup-wsl2.md)  
 
@@ -40,6 +41,7 @@
 
 ［✓］[英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)  
+［　］[パスワードなしで自動ログインするセットアップ](windows10-setup-autosignin.md)  
 
 ［✓］[WSL2 セットアップ](windows10-setup-wsl2.md)  
 ［✓］[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
