@@ -61,6 +61,8 @@
 
 ［✓］[Windowsへリモートアクセス セットアップ (Remote Desktop)](mac-setup-access-to-win.md)  
 
+［　］[工場出荷時へ戻す方法](mac-factory-reset.md)  
+
 ## Intel Mac
 
 ［　］[工場出荷時へ戻す方法](mac-intel-factory-reset.md)  
