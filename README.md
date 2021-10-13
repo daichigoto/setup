@@ -61,6 +61,10 @@
 
 ［✓］[Windowsへリモートアクセス セットアップ (Remote Desktop)](mac-setup-access-to-win.md)  
 
+## Intel Mac
+
+［　］[工場出荷時へ戻す方法](mac-intel-factory-reset.md)  
+
 ## FreeBSD
 
 ［　］[新規インストール時(amd64) セットアップ](freebsd-amd64-new-setup.md)  
