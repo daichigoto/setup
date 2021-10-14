@@ -82,7 +82,7 @@
 ## 仮想環境 -  Hyper-V
 
 ［✓］[セットアップ](hyperv-setup.md)  
-［✓］[エクスポートとインポート](hyperv-export-and-import.md)  
+［　］[エクスポートとインポート](hyperv-export-and-import.md)  
 
 ［✓］[Windows11 仮想マシン](hyperv-vm-windows11.md)  
 
