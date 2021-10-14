@@ -10,6 +10,12 @@
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
 ［　］[新規購入PC時 セットアップ (執筆環境)](windows11-new-pc-setup-for-writing.md)  
 
+［✓］[Windows 11へアップグレードする方法 (Windows Update)](windows11-from-10-windowsupdate.md)  
+［✓］[Windows 11へアップグレードする方法 (Install Assistant)](windows11-from-10-assistant.md)  
+［ー］[Windows 11をインストールする方法 (USB memory stick)](windows11-installation.md)  
+［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
+［✓］[Windows 11をWindows 10へ戻す方法](windows11-backto-10.md)  
+
 ［　］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
 
 ［✓］[英語キーボードを使うセットアップ](windows11-keyboard-us.md)  
@@ -19,13 +25,6 @@
 ［✓］[WSL2 セットアップ](windows11-setup-wsl2.md)  
 
 ［　］[OpenSSHサーバ セットアップ](windows11-setup-sshd.md)  
-
-［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
-
-［✓］[Windows 11へアップグレードする方法 (Windows Update)](windows11-from-10-windowsupdate.md)  
-［✓］[Windows 11へアップグレードする方法 (Install Assistant)](windows11-from-10-assistant.md)  
-［ー］[Windows 11をインストールする方法 (USB memory stick)](windows11-installation.md)  
-［✓］[Windows 11をWindows 10へ戻す方法](windows11-backto-10.md)  
 
 ## Windows 10
 
@@ -44,8 +43,8 @@
 ［　］[パスワードなしで自動ログインするセットアップ](windows10-setup-autosignin.md)  
 
 ［✓］[WSL2 セットアップ](windows10-setup-wsl2.md)  
-［✓］[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
 
+［✓］[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
 ［　］[OpenSSHサーバ セットアップ](windows10-setup-sshd.md)  
 
 ［✓］[Macへリモートアクセス セットアップ (Splashtop)](windows10-setup-access-to-mac.md)  
