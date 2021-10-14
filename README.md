@@ -82,17 +82,17 @@
 ## 仮想環境 -  Hyper-V
 
 ［✓］[セットアップ](hyperv-setup.md)  
+［✓］[エクスポートとインポート](hyperv-export-and-import.md)  
 
 ［✓］[Windows11 仮想マシン](hyperv-vm-windows11.md)  
 
 ［✓］[Windows11 拡張セッション セットアップ](hyperv-setup-win11-extsession.md)  
 ［✓］[Windows10 拡張セッション セットアップ](hyperv-setup-win10-extsession.md)  
 
-［　］[仮想スイッチ ネットワーク固定IP使用 セットアップ](hyperv-setup-fixed-ip.md)  
-
 ［✓］[ネスト仮想化 セットアップ](hyperv-setup-nested.md)  
 ［✓］[ゲストWSL2 セットアップ](hyperv-setup-wsl2.md)  
 
+［　］[仮想スイッチ ネットワーク固定IP使用 セットアップ](hyperv-setup-fixed-ip.md)  
 ［　］[FreeBSDゲスト セットアップ](hyperv-setup-freebsd.md)  
 
 ## 仮想環境 - Parallels Desktop (M1 Mac)
