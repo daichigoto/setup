@@ -5,6 +5,7 @@
 
 ###### 設定ファイルを編集
 
+    copy C:\WINDOWS\SYSTEM32\OPENSSH\sshd_config_default C:\ProgramData\ssh\sshd_config
     notepad C:\ProgramData\ssh\sshd_config
 
 ###### 変更内容
