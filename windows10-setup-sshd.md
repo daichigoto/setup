@@ -47,3 +47,7 @@
 ###### OpenSSHのデフォルトシェルをpwshへ変更
 
     New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\PowerShell\7\pwsh.exe" -PropertyType String -Force
+
+# 参考
+
+- [Windows 11搭載PCを買ったら最初にやっておきたいこと【アプリ編】 OpenSSHサーバ](https://news.mynavi.jp/article/20211020-2097210/4)

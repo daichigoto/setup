@@ -11,4 +11,4 @@
 
 # 参考
 
-- []()
+- [Macを工場出荷時へ戻す方法【macOS Big Surの場合】 | TECH+](https://news.mynavi.jp/article/20211015-2153106/)

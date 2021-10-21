@@ -13,4 +13,4 @@
 
 # 参考
 
-- []()
+- [Windows 11搭載PCを買ったら最初にやっておきたいこと【基本編】 | TECH+](https://news.mynavi.jp/article/20211014-2083192/)

@@ -2,9 +2,9 @@
 
 ## Windows 11
 
-［　］[新規購入PC時 セットアップ](windows11-new-pc-setup.md)  
-［　］[新規購入PC時 セットアップ (ビジネスマン向け)](windows11-new-pc-setup-for-biz.md)  
-［　］[新規購入PC時 セットアップ (開発者向け)](windows11-new-pc-setup-for-devs.md)  
+［✓］[新規購入PC時 セットアップ](windows11-new-pc-setup.md)  
+［✓］[新規購入PC時 セットアップ (ビジネスマン向け)](windows11-new-pc-setup-for-biz.md)  
+［✓］[新規購入PC時 セットアップ (開発者向け)](windows11-new-pc-setup-for-devs.md)  
 ［✓］[新規購入PC時 セットアップ (Macユーザ向け)](windows11-new-pc-setup-for-mac.md)  
 ［　］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
@@ -12,7 +12,7 @@
 
 ［✓］[Windows 11へアップグレードする方法 (Windows Update)](windows11-from-10-windowsupdate.md)  
 ［✓］[Windows 11へアップグレードする方法 (Install Assistant)](windows11-from-10-assistant.md)  
-［ー］[Windows 11をインストールする方法 (USBメモリ)](windows11-installation.md)  
+［　］[Windows 11をインストールする方法 (USBメモリ)](windows11-installation.md)  
 ［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
 ［✓］[Windows 11をWindows 10へ戻す方法](windows11-backto-10.md)  
 
@@ -24,7 +24,7 @@
 
 ［✓］[WSL2 セットアップ](windows11-setup-wsl2.md)  
 
-［　］[OpenSSHサーバ セットアップ](windows11-setup-sshd.md)  
+［✓］[OpenSSHサーバ セットアップ](windows11-setup-sshd.md)  
 
 ## Windows 10
 
@@ -45,7 +45,7 @@
 ［✓］[WSL2 セットアップ](windows10-setup-wsl2.md)  
 
 ［✓］[C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
-［　］[OpenSSHサーバ セットアップ](windows10-setup-sshd.md)  
+［✓］[OpenSSHサーバ セットアップ](windows10-setup-sshd.md)  
 
 ［✓］[Macへリモートアクセス セットアップ (Splashtop)](windows10-setup-access-to-mac.md)  
 
@@ -60,11 +60,11 @@
 
 ［✓］[Windowsへリモートアクセス セットアップ (Remote Desktop)](mac-setup-access-to-win.md)  
 
-［　］[工場出荷時へ戻す方法](mac-factory-reset.md)  
+［✓］[工場出荷時へ戻す方法](mac-factory-reset.md)  
 
 ## Intel Mac
 
-［　］[工場出荷時へ戻す方法](mac-intel-factory-reset.md)  
+［✓］[工場出荷時へ戻す方法](mac-intel-factory-reset.md)  
 
 ## FreeBSD
 
