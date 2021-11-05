@@ -7,4 +7,4 @@
 
 # 参考
 
-- []()
+- [Windows 11をインストールする方法【USBメモリ編】 | TECH+](https://news.mynavi.jp/article/20211018-2161746/)

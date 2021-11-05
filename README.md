@@ -12,7 +12,7 @@
 
 ［✓］[Windows 11へアップグレードする方法 (Windows Update)](windows11-from-10-windowsupdate.md)  
 ［✓］[Windows 11へアップグレードする方法 (Install Assistant)](windows11-from-10-assistant.md)  
-［　］[Windows 11をインストールする方法 (USBメモリ)](windows11-installation.md)  
+［✓］[Windows 11をインストールする方法 (USBメモリ)](windows11-installation.md)  
 ［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
 ［✓］[Windows 11をWindows 10へ戻す方法](windows11-backto-10.md)  
 
@@ -65,6 +65,7 @@
 ## Intel Mac
 
 ［✓］[工場出荷時へ戻す方法](mac-intel-factory-reset.md)  
+［　］[macOS Monterey インストール方法 (OpenCore Legacy Patcher)](mac-intel-oclp-monterey.md)  
 
 ## FreeBSD
 
