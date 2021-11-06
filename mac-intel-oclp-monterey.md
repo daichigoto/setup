@@ -22,7 +22,7 @@
     「macOS Montereyインストール」を「/Applications」へコピー
     sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume	← 途中でYを入力
 
-[Releases · dortania/OpenCore\-Legacy\-Patcher](https://github.com/dortania/Opencore-Legacy-Patcher/releases)から「OpenCore Legacy Patcher」のTUI(オフライン)版をダウンロードし、展開して実行する。
+[Releases · dortania/OpenCore\-Legacy\-Patcher](https://github.com/dortania/Opencore-Legacy-Patcher/releases)から「OpenCore Legacy Patcher」のTUI版をダウンロードし、展開して実行する。
 
 1. 「Build OpenCore」を選択→「Enter」
 2. 「Install OpenCore to USB/internal drive」を選択→USBメモリを選択→EFIパーティションを選択(210MBほどのEFIのパーティション)→「Enter」→「Q」で終了
