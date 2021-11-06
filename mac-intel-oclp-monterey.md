@@ -24,8 +24,8 @@
 
 [Releases · dortania/OpenCore\-Legacy\-Patcher](https://github.com/dortania/Opencore-Legacy-Patcher/releases)から「OpenCore Legacy Patcher」のTUI版をダウンロードし、展開して実行する。
 
-1. 「Build OpenCore」を選択→「Enter」
-2. 「Install OpenCore to USB/internal drive」を選択→USBメモリを選択→EFIパーティションを選択(210MBほどのEFIのパーティション)→「Enter」→「Q」で終了
+1. 「Build OpenCore」を選択(1を入力)→「Enter」
+2. 「Install OpenCore to USB/internal drive」を選択(2を入力)→USBメモリを選択→EFIパーティションを選択(210MBほどのEFIのパーティション)→「Enter」→「Q」で終了
 
 ## macOS Monterey インストール
 
@@ -45,8 +45,8 @@
 
 [Releases · dortania/OpenCore\-Legacy\-Patcher](https://github.com/dortania/Opencore-Legacy-Patcher/releases)から「OpenCore Legacy Patcher」のTUI版をダウンロードし、展開して実行する。
 
-1. 「Build OpenCore」を選択→「Enter」
-2. 「Install OpenCore to USB/internal drive」を選択→macOS Montereyをインストールしたディスクを選択→EFIパーティションを選択(210MBほどのEFIのパーティション)→「Enter」→「Q」で終了
+1. 「Build OpenCore」を選択(1を入力)→「Enter」
+2. 「Install OpenCore to USB/internal drive」を選択(2を入力)→macOS Montereyをインストールしたディスクを選択→EFIパーティションを選択(210MBほどのEFIのパーティション)→「Enter」→「Q」で終了
 3. USBメモリを抜いた状態でシステムを再起動し、macOS Montereyが起動することを確認
 
 ## 参考
