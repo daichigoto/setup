@@ -6,7 +6,7 @@
 ［✓］[新規購入PC時 セットアップ (ビジネスマン向け)](windows11-new-pc-setup-for-biz.md)  
 ［✓］[新規購入PC時 セットアップ (開発者向け)](windows11-new-pc-setup-for-devs.md)  
 ［✓］[新規購入PC時 セットアップ (Macユーザ向け)](windows11-new-pc-setup-for-mac.md)  
-［　］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
+［✓］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
 ［　］[新規購入PC時 セットアップ (執筆環境)](windows11-new-pc-setup-for-writing.md)  
 

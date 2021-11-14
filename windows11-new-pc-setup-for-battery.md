@@ -12,4 +12,5 @@
 
 # 参考
 
+- [Windows 11搭載ノートPCを買ったら最初にやっておきたいこと【バッテリー編】 \| TECH\+](https://news.mynavi.jp/article/20211112-2118670/)
 - [Windows搭載ノートPCのバッテリー寿命を延ばす方法 \| TECH\+](https://news.mynavi.jp/article/20210725-1916420/)
