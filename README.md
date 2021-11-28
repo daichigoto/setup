@@ -16,7 +16,7 @@
 ［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
 ［✓］[Windows 11をWindows 10へ戻す方法](windows11-backto-10.md)  
 
-［　］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
+［✓］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
 
 ［✓］[英語キーボードを使うセットアップ](windows11-keyboard-us.md)  
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-capslock-ctrl.md)  
@@ -36,7 +36,7 @@
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows10-new-pc-setup-for-home.md)  
 ［　］[新規購入PC時 セットアップ (執筆環境)](windows10-new-pc-setup-for-writing.md)  
 
-［　］[クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
+［✓］[クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
 
 ［✓］[英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)  
@@ -65,7 +65,7 @@
 ## Intel Mac
 
 ［✓］[工場出荷時へ戻す方法](mac-intel-factory-reset.md)  
-［　］[macOS Monterey インストール方法 (OpenCore Legacy Patcher)](mac-intel-oclp-monterey.md)  
+［✓］[macOS Monterey インストール方法 (OpenCore Legacy Patcher)](mac-intel-oclp-monterey.md)  
 
 ## FreeBSD
 

@@ -52,4 +52,4 @@
 ## 参考
 
 - [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/) 
-- []()
+- [サポート対象外MacにmacOS Montereyをインストールする方法 \| TECH\+](https://news.mynavi.jp/article/20211125-2179923/)
