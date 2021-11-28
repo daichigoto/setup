@@ -46,7 +46,7 @@
 ## Mac Terminal
 
 1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)インストール
-2. ターミナル：「環境設定」→「プロファイル」→「Basic」→「テキスト」→「変更…」→「すべてのフォント」→「Cascadia Mono PL」→書体「エクストラ・ライト」→サイズ「14」
+2. ターミナル：「環境設定」→「プロファイル」→「Basic」→「テキスト」→「変更…」→「すべてのフォント」→「Cascadia Mono PL」→書体「ライト」→サイズ「16」
 
 ## Google Chrome
 
@@ -54,7 +54,7 @@
 
     brew install google-chrome
 
-Finder：ydファイルを選択→「情報を見る」→このアプリケーションで開く「その他…」→「Google Chrome」→「追加」→「すべてを変更…」
+Finder：ydファイルを選択→「情報を見る」→このアプリケーションで開く「その他…」→「Google Chrome」→「追加」→「すべてを変更…」→「続ける」
 - 「その他のツール」→「拡張機能」→「Chrome ウェブストアを開きます」→「Create Link」→「Chrome に追加」 
 
 ###### Create Link設定
@@ -131,6 +131,7 @@ Finder：ydファイルを選択→「情報を見る」→このアプリケー
     cd tttcmds
     make
 
+    echo 'export PATH="${HOME}/Documents/tttcmds/bin:${PATH}";' >> ~/.zprofile
     source ~/.zprofile
 
 ## ユーティリティ
