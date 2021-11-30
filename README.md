@@ -77,7 +77,7 @@
 
 ## 日本語入力
 
-［　］[Google 日本語入力](japanese-input-google.md)  
+［✓］[Google 日本語入力](japanese-input-google.md)  
 
 ## 仮想環境 -  Hyper-V
 
