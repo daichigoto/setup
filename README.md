@@ -59,7 +59,7 @@
 
 ## 開発環境
 
-［✓］[Windows C言語開発環境(LLVM) セットアップ](windows10-setup-dev-c.md)  
+［✓］[Windows C/C++言語開発環境 セットアップ](windows10-setup-dev-c.md)  
 
 ［✓］[Windows 11 WSL2 セットアップ](windows11-setup-wsl2.md)  
 ［✓］[Windows 10 WSL2 セットアップ](windows10-setup-wsl2.md)  
