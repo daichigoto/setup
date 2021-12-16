@@ -6,4 +6,4 @@
 
 # 参考
 
-- []()
+- [Windows 11でパスワードなしで自動サインインする方法 | TECH+](https://news.mynavi.jp/article/20210928-1984112/)
