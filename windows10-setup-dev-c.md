@@ -6,7 +6,7 @@
 
     winget install --id Microsoft.VisualStudio.2022.BuildTools
 
-1. Visual Studio Installer：「Visual Studio Build Tools 2022」→「変更」→「C++によるデスクトップ環境」にチェックを入れる→「変更」→システムを再起動
+1. Visual Studio Installer：「Visual Studio Build Tools 2022」→「変更」→「C++によるデスクトップ環境」にチェックを入れる→「変更」
 
 ※ Visual Studio Build Tools 2022をインストールすることで、依存関係で次のソフトウェアがインストールされる。
 
