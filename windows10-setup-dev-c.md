@@ -1,5 +1,26 @@
 # C言語開発環境セットアップ
 
+## Visual Studio Build Tools 2022 + Visual Studio Code セットアップ
+
+###### インストール方法
+
+    winget install --id Microsoft.VisualStudio.2022.BuildTools
+
+1. 設定アプリケーション：「アプリ」→「アプリと機能」→「Visual Studio Build Tools 2022」→「変更」→「C++によるデスクトップ環境」にチェックを入れ→「変更」→システムを再起動
+
+※ Visual Studio Build Tools 2022をインストールすることで、依存関係で次のソフトウェアがインストールされる。
+
+- Microsoft Visual Studio Installer
+
+※ Microsoft Visual Studio Installerから「C++によるデスクトップ環境」をインストールすることで、依存関係で次のソフトウェアがインストールされる。
+
+- Microsoft Edge WebView2 Runtime
+- Microsoft Visual C++ 2015-2022 Redistributable (x64)
+- Microsoft Visual C++ 2015-2022 Redistributable (x86)
+- Windows SDK AddOn
+- Windows Software Development Kit - Windows
+
+
 ## LLVM Clang + Visual Studio Build Toolsセットアップ
 
 ###### インストール方法
@@ -67,29 +88,6 @@
         ]
     }
 
-## LLVM Clang in Cygwinセットアップ
-
-###### インストール方法
-
-    winget install Microsoft.VisualStudioCode
-    winget install Microsoft.WindowsTerminalPreview
-    winget install Microsoft.PowerShell
-    winget install Git.Git
-
-###### [Cygwin](https://www.cygwin.com/)インストール
-
-|操作|内容|
-|:---|:---|
-|追加するパッケージ|make, clang|
-
-1. 環境変数PATHに「C:\cygwin64\bin」と「C:\Program Files\Git\bin」を追加。
-2. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
-3. Visual Studio Code：「Extensions」→「clangd」→「Install」
-
-###### tasks.json
-
-###### launch.json
-
 ## LLVM Clang in MSYS2セットアップ
 
 ###### インストール方法
@@ -110,6 +108,29 @@
     pacman -S make
     pacman -S clang
     pacman -S msys2-runtime-devel
+
+###### tasks.json
+
+###### launch.json
+
+## LLVM Clang in Cygwinセットアップ
+
+###### インストール方法
+
+    winget install Microsoft.VisualStudioCode
+    winget install Microsoft.WindowsTerminalPreview
+    winget install Microsoft.PowerShell
+    winget install Git.Git
+
+###### [Cygwin](https://www.cygwin.com/)インストール
+
+|操作|内容|
+|:---|:---|
+|追加するパッケージ|make, clang|
+
+1. 環境変数PATHに「C:\cygwin64\bin」と「C:\Program Files\Git\bin」を追加。
+2. Visual Studio Code：「Extensions」→「CodeLLDB」→「Install」
+3. Visual Studio Code：「Extensions」→「clangd」→「Install」
 
 ###### tasks.json
 
