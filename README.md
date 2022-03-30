@@ -21,6 +21,9 @@
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-setup-capslock-ctrl.md)  
 ［✓］[パスワードなしで自動ログインするセットアップ](windows11-setup-autosignin.md)  
 
+［　］[HHKB Pro HYBRIDセットアップ](windows11-setup-hhkbprohybrid.md)  
+［　］[Magic Trackpadセットアップ](windows11-setup-magictrackpad.md)  
+
 ## Windows 10
 
 ［✓］[新規購入PC時 セットアップ](windows10-new-pc-setup.md)  
