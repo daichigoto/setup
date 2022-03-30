@@ -12,13 +12,13 @@
 ［✓］[Windows 11へアップグレードする方法 (Windows Update)](windows11-from-10-windowsupdate.md)  
 ［✓］[Windows 11へアップグレードする方法 (Install Assistant)](windows11-from-10-assistant.md)  
 ［✓］[Windows 11をインストールする方法 (USBメモリ)](windows11-installation.md)  
-［✓］[Windows 11 Insider Preview セットアップ](windows11-insider-preview-setup.md)  
+［✓］[Windows 11 Insider Preview セットアップ](windows11-setup-insider-preview.md)  
 ［✓］[Windows 11をWindows 10へ戻す方法](windows11-backto-10.md)  
 
 ［✓］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
 
-［✓］[英語キーボードを使うセットアップ](windows11-keyboard-us.md)  
-［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-capslock-ctrl.md)  
+［✓］[英語キーボードを使うセットアップ](windows11-setup-keyboard-us.md)  
+［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-setup-capslock-ctrl.md)  
 ［✓］[パスワードなしで自動ログインするセットアップ](windows11-setup-autosignin.md)  
 
 ## Windows 10
@@ -32,8 +32,8 @@
 
 ［✓］[クラムシェルモード セットアップ](windows10-setup-clamshell.md)  
 
-［✓］[英語キーボードを使うセットアップ](windows10-keyboard-us.md)  
-［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-capslock-ctrl.md)  
+［✓］[英語キーボードを使うセットアップ](windows10-setup-keyboard-us.md)  
+［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows10-setup-capslock-ctrl.md)  
 ［✓］[パスワードなしで自動ログインするセットアップ](windows10-setup-autosignin.md)  
 
 ## M1 Mac
