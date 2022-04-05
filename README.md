@@ -9,20 +9,20 @@
 ［✓］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
 
-［✓］[Windows 11へアップグレードする方法 (Windows Update)](windows11-from-10-windowsupdate.md)  
-［✓］[Windows 11へアップグレードする方法 (Install Assistant)](windows11-from-10-assistant.md)  
-［✓］[Windows 11をインストールする方法 (USBメモリ)](windows11-installation.md)  
-［✓］[Windows 11 Insider Preview セットアップ](windows11-setup-insider-preview.md)  
-［✓］[Windows 11をWindows 10へ戻す方法](windows11-backto-10.md)  
-
-［✓］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
+［　］[HHKB Pro HYBRIDセットアップ](windows11-setup-hhkbprohybrid.md)  
+［　］[Magic Trackpadセットアップ](windows11-setup-magictrackpad.md)  
 
 ［✓］[英語キーボードを使うセットアップ](windows11-setup-keyboard-us.md)  
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-setup-capslock-ctrl.md)  
 ［✓］[パスワードなしで自動ログインするセットアップ](windows11-setup-autosignin.md)  
 
-［　］[HHKB Pro HYBRIDセットアップ](windows11-setup-hhkbprohybrid.md)  
-［　］[Magic Trackpadセットアップ](windows11-setup-magictrackpad.md)  
+［✓］[クラムシェルモード セットアップ](windows11-setup-clamshell.md)  
+
+［✓］[Windows 11へアップグレードする方法 (Windows Update)](windows11-from-10-windowsupdate.md)  
+［✓］[Windows 11へアップグレードする方法 (Install Assistant)](windows11-from-10-assistant.md)  
+［✓］[Windows 11をインストールする方法 (USBメモリ)](windows11-installation.md)  
+［✓］[Windows 11 Insider Preview セットアップ](windows11-setup-insider-preview.md)  
+［✓］[Windows 11をWindows 10へ戻す方法](windows11-backto-10.md)  
 
 ## Windows 10
 
