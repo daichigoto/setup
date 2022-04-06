@@ -34,11 +34,13 @@
 
     winget install --id Microsoft.Office
 
+- 上記方法でインストールできない場合は[https://www.office.com/](https://www.office.com/)にサインインしダウンロードしてきてインストールする
 - インストールしたアプリケーションのどれかひとつを起動し、Microsoft Officeが利用できるMicrosoftアカウントでサインイン
 
-## Outlook / Windowsメール
+## Windowsメール
 
 - アカウント設定
+- iCloudアカウントを設定する場合、先にiCloud.comにサインインしてアプリ用パスワードを生成し、そのパスワードを使う必要がある。
 
 ## Microsoft Edge
 
@@ -50,7 +52,7 @@
 
     winget install --id SlackTechnologies.Slack
 
-- アカウント設定
+- アカウント設定。使うアカウントの分だけサインインを行う。
 
 ## LINE
 
