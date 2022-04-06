@@ -80,8 +80,9 @@ Windows TerminalでインストールしたPowerShellを起動して、次の作
 ## Windows Terminal
 
 1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
-2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
-3. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
+2. 「設定」→「規定のターミナルアプリケーション」→「Windows Terminal」→「保存」
+3. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
+4. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
 
 ## Vim
 

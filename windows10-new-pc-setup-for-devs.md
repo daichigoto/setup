@@ -45,8 +45,9 @@ Windows TerminalでインストールしたPowerShellを起動して、次の作
 ## Windows Terminalの設定
 
 1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
-2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
-3. Windows Terminalのフォントを「Cascadia Mono PL」へ変更
+2. 「設定」→「規定のターミナルアプリケーション」→「Windows Terminal」→「保存」
+3. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
+4. Windows Terminalのフォントを「Cascadia Mono PL」へ変更
 
 ## Git
 
