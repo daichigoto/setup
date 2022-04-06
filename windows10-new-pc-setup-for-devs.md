@@ -29,19 +29,24 @@
 
 ## Windows Terminal
 
-    winget install Microsoft.WindowsTerminalPreview
-
-1. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
-2. Windows Terminalのフォントを「Cascadia Mono PL」へ変更
+    winget install Microsoft.WindowsTerminal
 
 ## PowerShell
 
     winget install Microsoft.PowerShell
+
+Windows TerminalでインストールしたPowerShellを起動して、次の作業を実施する。
     
     git clone git@github.com:daichigoto/config.git
     cd config
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
     ./tools/install-powershell.ps1
+
+## Windows Terminalの設定
+
+1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
+2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
+3. Windows Terminalのフォントを「Cascadia Mono PL」へ変更
 
 ## Git
 

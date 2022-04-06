@@ -66,6 +66,23 @@ Linux系コマンドをMSYS2経由でインストールして使用する。
     git config --global user.email "メールアドレス"
     git config --global user.name "ユーザ名"
 
+## PowerShell
+
+    winget install --id Microsoft.PowerShell
+
+Windows TerminalでインストールしたPowerShellを起動して、次の作業を実施する。
+
+    git clone git@github.com:daichigoto/config.git
+    cd config
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+    ./tools/install-powershell.ps1
+
+## Windows Terminal
+
+1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
+2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
+3. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
+
 ## Vim
 
     pacman -S vim
@@ -107,21 +124,6 @@ Linux系コマンドをMSYS2経由でインストールして使用する。
     ./tools/install-nvim.ps1
     
     nvim  ← プラグインインストールが完了するまでしばらく待つ
-
-## PowerShell
-
-    winget install --id Microsoft.PowerShell
-    
-    git clone git@github.com:daichigoto/config.git
-    cd config
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-    ./tools/install-powershell.ps1
-
-## Windows Terminal
-
-1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
-2. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
-3. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
 
 ## OpenSSHサーバ セットアップ
 
