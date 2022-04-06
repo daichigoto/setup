@@ -40,6 +40,7 @@
     
     git clone git@github.com:daichigoto/config.git
     cd config
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
     ./tools/install-powershell.ps1
 
 ## Git
@@ -56,6 +57,7 @@
     mkdir ~\.cache\vim\dein
     cd ~\.cache\vim\dein\
     Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
     ./installer.ps1 .
     del ./installer.ps1
    

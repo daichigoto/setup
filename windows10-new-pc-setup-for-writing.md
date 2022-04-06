@@ -166,6 +166,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
     mkdir ${HOME}\.cache\vim\dein
     cd ${HOME}\.cache\vim\dein\
     Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
     ./installer.ps1 .
     del ./installer.ps1
      
