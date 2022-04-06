@@ -9,8 +9,8 @@
 ［✓］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
 
-［　］[HHKB Pro HYBRIDセットアップ](windows11-setup-hhkbprohybrid.md)  
-［　］[Magic Trackpadセットアップ](windows11-setup-magictrackpad.md)  
+［　］[HHKB Pro HYBRIDセットアップ](windows11-setup-hhkb.md)  
+［✓］[Magic Trackpadセットアップ](windows11-setup-magictrackpad.md)  
 
 ［✓］[英語キーボードを使うセットアップ](windows11-setup-keyboard-us.md)  
 ［✓］[「Caps Lock」を「Ctrl」へ入れ替えるセットアップ](windows11-setup-capslock-ctrl.md)  

@@ -23,4 +23,4 @@
 
 # 参考
 
-- []()
+- [WindowsでMacのマジックトラックパッドを使う方法](https://news.mynavi.jp/techplus/article/20220330-2307385/)
