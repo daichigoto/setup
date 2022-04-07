@@ -337,7 +337,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 |トリガー|ログオン時|
 |操作|プログラムの開始|
 |プログラム/スクリプト|"C:\Program Files\PowerShell\7\pwsh.exe"|
-|引数の追加(オプション)|-WindowStyle Hidden -Command "C:\Users\daichi\Documents\misc\bin\wincmdserver.ps1"|
+|引数の追加(オプション)|-Command "C:\Users\daichi\Documents\misc\bin\wincmdserver.ps1"|
 |開始(オプション)|C:\Users\daichi|
 
 - タスクスケジューラ：「タスクスケジューラ(ローカル)」→「タスクスケジューラライブラリ」→「wincmdserver」→「プロパティ」
