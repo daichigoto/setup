@@ -104,7 +104,7 @@
 
 ###### 開発ツールインストール方法
 
-    pacman -Syu
+    pacman -Syu --noconfirm
     pacman -S make
     pacman -S clang
     pacman -S msys2-runtime-devel

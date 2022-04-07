@@ -19,7 +19,7 @@
 ## MSYS2
 
     winget install MSYS2
-    pacman -Syu
+    pacman -Syu --noconfirm
 
 - 環境変数PATHへ「C:\msys64\usr\bin」および「C:\msys64\mingw64\bin」を追加。
 - 環境変数HOMEを追加。値は「C:\Users\daichi」といったようにユーザのホームディレクトリを指定。この環境変数を指定しないとC:\msys64\home\daichiなどがホームディレクトリになり使いにくい。

@@ -57,7 +57,7 @@ Linux系コマンドをMSYS2経由でインストールして使用する。
 ###### インストール方法
 
     winget install --id msys2.msys2
-    pacman -Syu
+    pacman -Syu --noconfirm
 
 ## Git
 
