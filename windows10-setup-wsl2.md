@@ -21,7 +21,12 @@
 
 1. Microsoft Store：「Ubuntu 20.04 LTS」→「インストール」→「起動」
 
-###### Ubuntu初期セットアップ
+###### Ubuntu初期セットアップ (Ubuntu 22.04 LTSおよびこれ以降のバージョン)
+
+    sudo apt update
+    sudo apt upgrde
+
+###### Ubuntu初期セットアップ (Ubuntu 22.04 LTSよりも前のバージョン)
 
     sudo apt update
     sudo apt upgrde

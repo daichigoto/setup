@@ -106,7 +106,12 @@ Windows TerminalでインストールしたPowerShellを起動して、次の作
     wsl --install -d Ubuntu
     システム再起動
 
-###### Ubuntu初期セットアップ
+###### Ubuntu初期セットアップ (Ubuntu 22.04 LTSおよびこれ以降のバージョン)
+
+    sudo apt update
+    sudo apt upgrde
+
+###### Ubuntu初期セットアップ (Ubuntu 22.04 LTSよりも前のバージョン)
 
     sudo apt update
     sudo apt upgrde
