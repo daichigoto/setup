@@ -94,4 +94,5 @@
 # 参考
 
 - [WindowsでHHKB「ハッピーハッキングキーボード」を使いこなす方法](https://news.mynavi.jp/techplus/article/20220403-2309924/)
-- []()
+- [MacでHHKB「ハッピーハッキングキーボード」を使いこなす方法](https://news.mynavi.jp/techplus/article/20220410-2311718/)
+- [ノートパソコンのキーボードに別のキーボードを乗せるとこんなに便利](https://news.mynavi.jp/techplus/article/20220412-2312222/)
