@@ -9,7 +9,7 @@
 ［✓］[新規購入PC時 セットアップ (バッテリー寿命延ばす)](windows11-new-pc-setup-for-battery.md)  
 ［✓］[新規購入PC時 セットアップ (ホームディレクトリ名変更)](windows11-new-pc-setup-for-home.md)  
 
-［　］[HHKB HYBRIDセットアップ](windows11-setup-hhkb.md)  
+［✓］[HHKB HYBRIDセットアップ](windows11-setup-hhkb.md)  
 ［✓］[Magic Trackpadセットアップ](windows11-setup-magictrackpad.md)  
 
 ［✓］[英語キーボードを使うセットアップ](windows11-setup-keyboard-us.md)  
