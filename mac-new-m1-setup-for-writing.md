@@ -127,7 +127,7 @@ Finder：ydファイルを選択→「情報を見る」→このアプリケー
 
 ## tttcmds
 
-    sudo pkg install kyua
+    brew install kyua
 
     mkdir -p ~/Documents
     cd ~/Documents/
