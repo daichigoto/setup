@@ -125,6 +125,9 @@ Finder：ydファイルを選択→「情報を見る」→このアプリケー
     echo 'export PATH="${HOME}/Documents/misc/bin:${PATH}";' >> ~/.zprofile
     source ~/.zprofile
 
+    cd ~/Documents/misc/
+    make install
+
 ## tttcmds
 
     brew install kyua
