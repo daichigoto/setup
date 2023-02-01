@@ -64,6 +64,7 @@ Finder：ydファイルを選択→「情報を見る」→このアプリケー
 |GSML|&lt;access ref="%url%"&gt;%title%&lt;/access&gt;|s/&amp;/&amp;amp;/g|
 |Title|%title%|s/&amp;/&amp;amp;/g|
 |Markdown|&#091;%text_md%&#093;(%url%)||
+|LINK|[LINK:%url%][%title%]|s/&amp;/&amp;amp;/g|
 
 ###### chrome-ext
 
