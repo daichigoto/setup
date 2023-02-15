@@ -315,13 +315,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 
     winget install --id OpenJS.NodeJS.LTS
 
-※ Node.jsは「C:\Program Files\nodejs\」にインストールされる。
-
-### 環境変数PATH
-
-次のパスを環境変数PATHへ追加する。
-
-1. C:\Program Files\nodejs
+※ Node.jsは「C:\Program Files\nodejs\」にインストールされる。npmコマンドによるインストール物は「C:\Users\daichi\AppData\Roaming\npm」にインストールされることになる。
 
 <!-- ---------------------------------------------------------------------
  仮想環境-To-Windows 連携システム・セットアップ
