@@ -83,6 +83,8 @@
 ［✓］[Windows→Mac リモートアクセス セットアップ (Splashtop)](windows10-setup-access-to-mac.md)  
 ［✓］[Mac→Windows リモートアクセス セットアップ (Remote Desktop)](mac-setup-access-to-win.md)  
 
+［　］[VPN セットアップ](vpn-setup.md)  
+
 ## 日本語入力
 
 ［✓］[Google 日本語入力](japanese-input-google.md)  
