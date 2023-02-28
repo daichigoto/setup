@@ -322,9 +322,17 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 
 ### Node.js
 
+VSCode拡張機能開発にはNode.jsが必要。Node.jsをインストールする。
+
     winget install --id OpenJS.NodeJS.LTS
 
 ※ Node.jsは「C:\Program Files\nodejs\」にインストールされる。npmコマンドによるインストール物は「C:\Users\daichi\AppData\Roaming\npm」にインストールされることになる。
+
+### VSCE
+
+VSCode拡張機能のパッケージング、公開、管理を行うコマンドツールVSCE (Visual Studio Code Extensions)をインストールする。
+
+    npm install -g @vscode/vsce
 
 <!-- ---------------------------------------------------------------------
  仮想環境-To-Windows 連携システム・セットアップ
