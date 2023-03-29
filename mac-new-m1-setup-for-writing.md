@@ -54,10 +54,14 @@
 
     brew install google-chrome
 
+###### ファイルの関連付け追加
+
 Finder：ydファイルを選択→「情報を見る」→このアプリケーションで開く「その他…」→「Google Chrome」→「追加」→「すべてを変更…」→「続ける」
-- 「その他のツール」→「拡張機能」→「Chrome ウェブストアを開きます」→「Create Link」→「Chrome に追加」 
+Finder：gptファイルを選択→「情報を見る」→このアプリケーションで開く「その他…」→「Google Chrome」→「追加」→「すべてを変更…」→「続ける」
 
 ###### Create Link設定
+
+- 「その他のツール」→「拡張機能」→「Chrome ウェブストアを開きます」→「Create Link」→「Chrome に追加」 
 
 |Name|Format|Filter|
 |:---|:---|:---|
