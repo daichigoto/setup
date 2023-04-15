@@ -60,7 +60,7 @@
 |「Win」＋「Shift」＋「V」|「Ctrl」＋「Shift」＋「V」|すべてのアプリ|
 |「Win」＋「Shift」＋「[」|「Ctrl」＋「Shift」＋「Tab」|すべてのアプリ|
 |「Win」＋「Shift」＋「]」|「Ctrl」＋「Tab」|すべてのアプリ|
-|「Win」＋「Shift」＋「N」|「Ctrl」＋「Shift」＋「」|P|
+|「Win」＋「Shift」＋「N」|「Ctrl」＋「Shift」＋「P」|firefox|
 |「Win」＋「V」|「Ctrl」＋「Shift」＋「V」|messenger|
 |「Win」＋「V」|「Ctrl」＋「Shift」＋「V」|msedge|
 |「Win」＋「R」|「Ctrl」＋「]」|photoscapex|
