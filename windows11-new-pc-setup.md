@@ -37,6 +37,45 @@
 
 #### ショートカット
 
+|変更前キー|変更後キー|対象アプリ|
+|:---|:---|:---|
+|「Win」＋「Esc」|「Alt」＋「Esc」|すべてのアプリ|
+|「Win」＋「0」|「Ctrl」＋「0」|すべてのアプリ|
+|「Win」＋「A」|「Ctrl」＋「A」|すべてのアプリ|
+|「Win」＋「C」|「Ctrl」＋「C」|すべてのアプリ|
+|「Win」＋「F」|「Ctrl」＋「F」|すべてのアプリ|
+|「Win」＋「N」|「Ctrl」＋「N」|すべてのアプリ|
+|「Win」＋「P」|「Ctrl」＋「P」|すべてのアプリ|
+|「Win」＋「Q」|「Alt」＋「F4」|すべてのアプリ|
+|「Win」＋「R」|「Ctrl」＋「R」|すべてのアプリ|
+|「Win」＋「S」|「Ctrl」＋「S」|すべてのアプリ|
+|「Win」＋「T」|「Ctrl」＋「T」|すべてのアプリ|
+|「Win」＋「V」|「Ctrl」＋「V」|すべてのアプリ|
+|「Win」＋「W」|「Ctrl」＋「W」|すべてのアプリ|
+|「Win」＋「Z」|「Ctrl」＋「Z」|すべてのアプリ|
+|「Win」＋「=」|「Ctrl」＋「=」|すべてのアプリ|
+|「Win」＋「-」|「Ctrl」＋「-」|すべてのアプリ|
+|「Win」＋「Shift」＋「N」|「Ctrl」＋「Shift」＋「N」|すべてのアプリ|
+|「Win」＋「Shift」＋「T」|「Ctrl」＋「Shift」＋「T」|すべてのアプリ|
+|「Win」＋「Shift」＋「V」|「Ctrl」＋「Shift」＋「V」|すべてのアプリ|
+|「Win」＋「Shift」＋「[」|「Ctrl」＋「Shift」＋「Tab」|すべてのアプリ|
+|「Win」＋「Shift」＋「]」|「Ctrl」＋「Tab」|すべてのアプリ|
+|「Win」＋「Shift」＋「N」|「Ctrl」＋「Shift」＋「」|P|
+|「Win」＋「V」|「Ctrl」＋「Shift」＋「V」|messenger|
+|「Win」＋「V」|「Ctrl」＋「Shift」＋「V」|msedge|
+|「Win」＋「R」|「Ctrl」＋「]」|photoscapex|
+|「Win」＋「V」|「Ctrl」＋「Shift」＋「V」|slack|
+|「Win」＋「V」|「Ctrl」＋「Shift」＋「V」|thunderbird|
+|「Ctrl」＋「A」|「Home」|windowsterminal|
+|「Ctrl」＋「D」|「Ctrl」＋「Delete」|windowsterminal|
+|「Ctrl」＋「E」|「End」|windowsterminal|
+|「Ctrl」＋「K」|「Ctrl」＋「End」|windowsterminal|
+|「Win」＋「C」|「Ctrl」＋「Shift」＋「C」|windowsterminal|
+|「Win」＋「N」|「Ctrl」＋「Shift」＋「N」|windowsterminal|
+|「Win」＋「T」|「Ctrl」＋「Shift」＋「T」|windowsterminal|
+|「Win」＋「V」|「Ctrl」＋「Shift」＋「V」|windowsterminal|
+|「Win」＋「W」|「Ctrl」＋「Shift」＋「W」|windowsterminal|
+
 # 参考
 
 - [Windows 11搭載PCを買ったら最初にやっておきたいこと【基本編】 | TECH+](https://news.mynavi.jp/article/20211014-2083192/)
