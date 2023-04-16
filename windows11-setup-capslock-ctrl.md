@@ -24,7 +24,7 @@
 
 ###### インストール方法
 
-    winget install --id Microsoft.PowerToys 
+    winget install --name 'PowerToys (Preview)'
 
 1. 「全般」→「常に管理者として実行する」→「オン」
 2. 「全般」→「起動時に実行する」→「オン」
