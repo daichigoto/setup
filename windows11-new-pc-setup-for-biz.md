@@ -1,6 +1,6 @@
 # 新規購入PC時 セットアップ (ビジネスマン向け)
 
-## VPN
+## VPN (Windows VPN)
 
 - 設定アプリケーション：「ネットワークとインターネット」→「VPN」→「VPNを追加」→「保存」→「接続」
 
@@ -28,11 +28,19 @@
 ||チャレンジハンドシェイク認証プロトコル(CHAP)|有効化|
 ||Microsoft CHAP Version 2 (MS-CHAP v2)|有効化|
 
+## VPN (Tailscale)
+
+###### インストール方法
+
+    winget install Tailscale
+
+1. システムトレイのTailscale→「Log in...」→「Connect」
+
 ## Microsoft Office
 
 ###### インストール方法
 
-    winget install --id Microsoft.Office
+    winget install Microsoft.Office
 
 - 上記方法でインストールできない場合は[https://www.office.com/](https://www.office.com/)にサインインしダウンロードしてきてインストールする
 - インストールしたアプリケーションのどれかひとつを起動し、Microsoft Officeが利用できるMicrosoftアカウントでサインイン
@@ -40,7 +48,13 @@
 ## Windowsメール
 
 - アカウント設定
-- iCloudアカウントを設定する場合、先にiCloud.comにサインインしてアプリ用パスワードを生成し、そのパスワードを使う必要がある。
+- iCloudアカウントを設定する場合、先にiCloud.comにサインインして「iCloud設定」→「Apple IDを管理」→「App用パスワード」→「＋」でアプリ用パスワードを生成し、そのパスワードを使う必要がある。
+
+## eM Client
+
+###### インストール方法
+
+    winget install --id eMClient.eMClient
 
 ## Microsoft Edge
 
@@ -52,7 +66,7 @@
 
     winget install --id SlackTechnologies.Slack
 
-- アカウント設定。使うアカウントの分だけサインインを行う。
+- アカウント設定。登録した電子メールアドレスで使うアカウントの分だけサインインを行う。
 
 ## LINE
 
@@ -69,6 +83,10 @@
     winget install --id 9WZDNCRF0083
 
 - アカウント設定
+
+## スタートアップ整理
+
+- 設定アプリケーション:「アプリ」→「スタートアップ」から不要な起動時自動実行をオフにする。
 
 # 参考
 
