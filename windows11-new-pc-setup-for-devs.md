@@ -77,6 +77,7 @@ Linux系コマンドをMSYS2経由でインストールして使用する。
 
 Windows TerminalでインストールしたPowerShellを起動して、次の作業を実施する。
 
+    cd ~/Documents/
     git clone git@github.com:daichigoto/config.git
     cd config
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
@@ -84,22 +85,16 @@ Windows TerminalでインストールしたPowerShellを起動して、次の作
 
 ## Windows Terminal
 
-1. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
-2. 「設定」→「規定のターミナルアプリケーション」→「Windows Terminal」→「保存」
-3. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
-4. Windows Terminalを再起動
-5. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
+1. Windows Terminalを起動している場合には、再起動
+2. 「設定」→「規定のプロファイル」→「PowerShell」→「保存」
+3. 「設定」→「規定のターミナルアプリケーション」→「Windows Terminal」→「保存」
+4. [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)をインストール
+5. Windows Terminalを再起動
+6. 「設定」→「プロファイル」→「PowerShell」→「外観」→「フォントフェイス」→「Cascadia Mono PL」→「保存」
 
 ## Vim
 
     pacman -S vim
-    
-    mkdir ~\.cache\vim\dein
-    cd ~\.cache\vim\dein\
-    Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-    ./installer.ps1 .
-    del ./installer.ps1
    
     cd ~/Documents/
     git clone git@github.com:daichigoto/config.git
@@ -112,18 +107,12 @@ Windows TerminalでインストールしたPowerShellを起動して、次の作
 
 ###### インストール方法
 
-1. [Home - Neovim](http://neovim.io/)からNeovimをインストール。zipファイルを展開し、C:\Users\daichi\Documents\neovim\へデプロイする。
-2. C:\Users\daichi\Documents\neovim\binを環境変数Pathへ追加する。
-3. Windows Terminalの再起動またはシステムを再起動し、「echo $env:Path」を実行して環境変数PathにC:\Users\daichi\Documents\neovim\binが追加されていることを確認する。
+    winget install Neovim
+
+1. C:\Users\daichi\AppData\Local\Programs\Neovim\binを環境変数Pathへ追加する。
+2. Windows Terminalの再起動またはシステムを再起動し、「echo $env:Path」を実行して環境変数PathにC:\Users\daichi\AppData\Local\Programs\Neovim\binが追加されていることを確認する。
 
 ###### セットアップ方法
-
-    mkdir ~\.cache\nvim\dein
-    cd ~\.cache\nvim\dein\
-    Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-    ./installer.ps1 .
-    del ./installer.ps1
    
     cd ~/Documents/
     git clone git@github.com:daichigoto/config.git
@@ -183,12 +172,12 @@ Windows TerminalでインストールしたPowerShellを起動して、次の作
 
 ## OpenSSHクライアント
 
-- 設定アプリケーション：「アプリ」→「オプション機能」→「機能を表示」→「OpenSSHクライアント」にチェック→「次へ」→「インストール」
+- デフォルトでインストールされるように変わったため、明示的なインストールは不要(設定アプリケーション：「アプリ」→「オプション機能」→「機能を表示」→「OpenSSHクライアント」にチェック→「次へ」→「インストール」)
 
 ###### 認証鍵の生成
 
     ssh-keygen
-    ~/.ssh/id_rsa.pub をログインするホストの~/.ssh/authorized_keysに登録して回る
+    ~/.ssh/id_rsa.pubをログインするホストの~/.ssh/authorized_keysに登録して回る
 
 # 参考
 
