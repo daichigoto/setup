@@ -63,7 +63,7 @@
 
 ###### インストール方法
 
-- 設定アプリケーション：「アプリ」→「オプション機能」→「機能を表示」→「OpenSSHクライアント」→「次へ」→「インストール」
+- デフォルトでインストールされるように変わったため、明示的なインストールは不要(設定アプリケーション：「アプリ」→「オプション機能」→「機能を表示」→「OpenSSHクライアント」→「次へ」→「インストール」)。
 
 ###### 認証鍵の生成
 
@@ -172,13 +172,6 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 
     pacman -S --noconfirm vim
      
-    mkdir ${HOME}\.cache\vim\dein
-    cd ${HOME}\.cache\vim\dein\
-    Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-    ./installer.ps1 .
-    del ./installer.ps1
-     
     cd ${HOME}/Documents/
     git clone git@github.com:daichigoto/config.git
     cd config
@@ -190,18 +183,12 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 
 ###### インストール方法
 
-1. [Home - Neovim](http://neovim.io/)からNeovimをインストール。zipファイルを展開し、C:\Users\daichi\Documents\neovim\へデプロイする。
-2. C:\Users\daichi\Documents\neovim\binを環境変数Pathへ追加する。
-3. Windows Terminalの再起動またはシステムを再起動し、「echo $env:Path」を実行して環境変数PathにC:\Users\daichi\Documents\neovim\binが追加されていることを確認する。
+    winget install Neovim
+
+1. C:\Users\daichi\AppData\Local\Programs\Neovim\binを環境変数Pathへ追加する。
+2. Windows Terminalの再起動またはシステムを再起動し、「echo $env:Path」を実行して環境変数PathにC:\Users\daichi\AppData\Local\Programs\Neovim\binが追加されていることを確認する。
 
 ###### セットアップ方法
-
-    mkdir ~\.cache\nvim\dein
-    cd ~\.cache\nvim\dein\
-    Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-    ./installer.ps1 .
-    del ./installer.ps1
 
     cd ~/Documents/
     git clone git@github.com:daichigoto/config.git
