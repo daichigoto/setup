@@ -234,6 +234,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 
 ### Microsoft Edge
 
+- 「設定」→「ダウンロード」→場所「変更」→「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択」
 - 「拡張機能」→「Chrome ウェブストア」→「Create Link」→「Chrome に追加」
 
 ###### Create Link設定
@@ -262,8 +263,8 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
 
     winget install --id Mozilla.Firefox
 
-- Firefox：「設定」→「一般」→次のフォルダーに保存する「参照」→「デスクトップ」→「フォルダーの選択」
-- Firefox：「ツールバー」→「ツールバーをカスタマイズ」→「スクリーンショット」追加→「完了」
+- 「設定」→「一般」→次のフォルダーに保存する「参照」→「デスクトップ」→「フォルダーの選択」
+- 「ツールバー」→「ツールバーをカスタマイズ」→「スクリーンショット」追加→「完了」
 
 1. 「アドオンとテーマ」→「拡張機能」→「他のアドオンを検索」→「Format Link」→「Firefoxへ追加」
 2. 「アドオンとテーマ」→「拡張機能」→「Format Link」→「オプション」
@@ -301,7 +302,7 @@ Wingetが対応していないソフトウェアやライブラリ、開発ツ�
     winget install --id 9NBLGGH4TWWG
 
 ### ユーティリティ・コマンド
-
+「C:\Documents\chrome-ext\glsdtool」→「フォルダーの選択
 ###### インストール方法
 
     pacman -S --noconfirm tree
@@ -328,13 +329,17 @@ VSCode拡張機能開発にはNode.jsが必要。Node.jsをインストールす
 
     winget install --id OpenJS.NodeJS.LTS
 
-※ Node.jsは「C:\Program Files\nodejs\」にインストールされる。npmコマンドによるインストール物は「C:\Users\daichi\AppData\Roaming\npm」にインストールされることになる。
+※ Node.jsは「C:\Program Files\nodejs\」にインストールされる。
 
 ### VSCE
 
 VSCode拡張機能のパッケージング、公開、管理を行うコマンドツールVSCE (Visual Studio Code Extensions)をインストールする。
 
     npm install -g @vscode/vsce
+
+- 環境変数Pathに「C:\Users\daichi\AppData\Roaming\npm」を追加する。
+
+※ npmコマンドによるインストール物は「C:\Users\daichi\AppData\Roaming\npm」にインストールされることになる。
 
 <!-- ---------------------------------------------------------------------
  仮想環境-To-Windows 連携システム・セットアップ
