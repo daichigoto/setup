@@ -42,6 +42,11 @@
     sudo apt update
     sudo apt upgrde
 
+    cat <<EOF>>/etc/wsl.conf
+    [boot]
+	systemd=true
+    EOF
+
 ###### Ubuntu初期セットアップ (Ubuntu 22.04 LTSよりも前のバージョン)
 
     sudo apt update
