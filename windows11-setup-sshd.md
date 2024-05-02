@@ -25,6 +25,8 @@
 
 ※ ユーザーがAdministratorsグループに所属している場合、上記設定が有効になっているとC:\ProgramData\ssh\administrators_authorized_keysが存在し、かつ、適切なアクセス許可が設定されていないと、C:\ProgramData\ssh\administrators_authorized_keysをチェックしに行った後で公開鍵認証そのものが無効になる。$HOME/.ssh/authorized_keysよりもC:\ProgramData\ssh\administrators_authorized_keysが優先されるため、C:\ProgramData\ssh\administrators_authorized_keysのアクセス許可が不適切だと$HOME/.ssh/authorized_keysに公開鍵を配置しておいても使われない。これを回避し$HOME/.ssh/authorized_keysの公開鍵を使った公開鍵認証が有効になるようにするには、C:\ProgramData\ssh\administrators_authorized_keysを作成して適切なアクセス許可を設定するか、C:\ProgramData\ssh\administrators_authorized_keysを使わないように設定を変更する必要がある。ここでは$HOME/.ssh/authorized_keysによる公開鍵認証が使われるように、上記のように該当する行をコメントアウトする方法で設定する。
 
+※ 2024-05-02現在、上記方法でも公開鍵を使った認証が使えなくなっていることを確認。設定を元に戻して__PROGRAMDATA__/ssh/administrators_authorized_keysを使う方法に設定しても公開鍵を使えないことを確認。公開鍵によるログインを行うにはさらに別の設定が必要になった可能性がある。
+
 ###### sshdの起動と自動起動を設定
 
     Start-Service sshd # sshdを起動
